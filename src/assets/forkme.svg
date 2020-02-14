@@ -1,0 +1,8 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg" width="149" height="149">
+  <path fill="none" d="M0 0h149v149H0z"/>
+  <text transform="rotate(45.001 -5.269 63.664)" fill="#787878" font-family="Roboto-Regular" font-size="14.9">Fork me on GitHub</text>
+  <g fill="#ced0d4">
+    <path d="M48.965 0L149 100.035v-2.107L51.072 0zM149 144.286L4.714 0H2.607L149 146.393z"/>
+  </g>
+</svg>
