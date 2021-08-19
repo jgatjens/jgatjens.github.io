@@ -1,21 +1,15 @@
-# React-Static - TypeScript Template
+# jgatjens.com
 
-To use this template, run `react-static create` and use the `typescript` template.
+Jairo Gätjens Website
 
-## Path Aliases for Absolute Imports
+## Dependencies
 
-`react-static-typescript-plugin` supports path aliases [since v3.1](https://github.com/react-static/react-static/pull/963#issuecomment-455596728). It has been set up in this template.
+In order to work with the template, you will need to follow tools:
+- [*Nodejs*](https://nodejs.org/en/).
+    
+### How to run it
 
-```js
-// tsconfig.json
-{
-  // ...
-    "paths": {
-      "@components/*": ["src/components/*"]
-    },
-  // ...
-}
+To see your project running please run:
 
-// this works in your React app
-import FancyDiv from '@components/FancyDiv'
-```
+    $ yarn install
+    $ yarn start
