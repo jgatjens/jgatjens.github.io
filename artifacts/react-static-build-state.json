@@ -1,0 +1,67 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx",
+    ".ts",
+    ".tsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": true,
+  "silent": false,
+  "entry": "/Users/jairo.gatjens/DEV/react-static-v6/src/index.tsx",
+  "siteRoot": "/",
+  "devBasePath": "/",
+  "plugins": [
+    "react-static-plugin-typescript",
+    "react-static-plugin-styled-components",
+    [
+      "/Users/jairo.gatjens/DEV/react-static-v6/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/jairo.gatjens/DEV/react-static-v6/src/pages"
+      }
+    ],
+    "/Users/jairo.gatjens/DEV/react-static-v6/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/jairo.gatjens/DEV/react-static-v6/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/jairo.gatjens/DEV/react-static-v6"
+  ],
+  "paths": {
+    "ROOT": "/Users/jairo.gatjens/DEV/react-static-v6",
+    "SRC": "/Users/jairo.gatjens/DEV/react-static-v6/src",
+    "DIST": "/Users/jairo.gatjens/DEV/react-static-v6/dist",
+    "ASSETS": "/Users/jairo.gatjens/DEV/react-static-v6/dist",
+    "PLUGINS": "/Users/jairo.gatjens/DEV/react-static-v6/plugins",
+    "TEMP": "/Users/jairo.gatjens/DEV/react-static-v6/tmp",
+    "ARTIFACTS": "/Users/jairo.gatjens/DEV/react-static-v6/artifacts",
+    "PUBLIC": "/Users/jairo.gatjens/DEV/react-static-v6/public",
+    "NODE_MODULES": "/Users/jairo.gatjens/DEV/react-static-v6/node_modules",
+    "EXCLUDE_MODULES": "/Users/jairo.gatjens/DEV/react-static-v6/node_modules",
+    "PACKAGE": "/Users/jairo.gatjens/DEV/react-static-v6/package.json",
+    "HTML_TEMPLATE": "/Users/jairo.gatjens/DEV/react-static-v6/dist/index.html",
+    "STATIC_DATA": "/Users/jairo.gatjens/DEV/react-static-v6/dist/staticData"
+  },
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
