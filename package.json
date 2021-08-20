@@ -1,6 +1,9 @@
 {
-  "name": "react-static-example-typescript",
-  "private": true,
+  "name": "jgatjens-website",
+  "version": "1.0.0",
+  "homepage": "https://jgatjens.com/",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "start": "react-static start",
     "stage": "react-static build --staging",

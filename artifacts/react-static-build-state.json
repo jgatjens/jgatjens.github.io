@@ -16,8 +16,6 @@
   "productionSourceMaps": true,
   "silent": false,
   "entry": "/Users/jairo.gatjens/DEV/react-static-v6/src/index.tsx",
-  "siteRoot": "/",
-  "devBasePath": "/",
   "plugins": [
     "react-static-plugin-typescript",
     "react-static-plugin-styled-components",
@@ -46,6 +44,7 @@
     "HTML_TEMPLATE": "/Users/jairo.gatjens/DEV/react-static-v6/dist/index.html",
     "STATIC_DATA": "/Users/jairo.gatjens/DEV/react-static-v6/dist/staticData"
   },
+  "siteRoot": "/",
   "basePath": "",
   "publicPath": "/",
   "assetsPath": "",

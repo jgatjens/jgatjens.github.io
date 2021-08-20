@@ -791,37 +791,18 @@ var Seo = function Seo(_ref) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-
-// EXTERNAL MODULE: external "@babel/runtime/helpers/taggedTemplateLiteral"
-var taggedTemplateLiteral_ = __webpack_require__(1);
-var taggedTemplateLiteral_default = /*#__PURE__*/__webpack_require__.n(taggedTemplateLiteral_);
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(0);
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: external "react-static"
-var external_react_static_ = __webpack_require__(3);
-
-// EXTERNAL MODULE: external "styled-components"
-var external_styled_components_ = __webpack_require__(2);
-
-// EXTERNAL MODULE: external "@reach/router"
-var router_ = __webpack_require__(4);
-
-// EXTERNAL MODULE: external "styled-normalize"
-var external_styled_normalize_ = __webpack_require__(29);
-var external_styled_normalize_default = /*#__PURE__*/__webpack_require__.n(external_styled_normalize_);
-
-// CONCATENATED MODULE: /Users/jairo.gatjens/DEV/react-static-v6/src/containers/Dynamic.tsx
-
-
-var Dynamic_Dynamic = function Dynamic() {
-  return /*#__PURE__*/external_react_default.a.createElement("div", null, "This is a dynamic page! It will not be statically exported, but is available at runtime");
-};
-
-/* harmony default export */ var containers_Dynamic = (Dynamic_Dynamic);
-// CONCATENATED MODULE: /Users/jairo.gatjens/DEV/react-static-v6/src/App.tsx
+/* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var styled_normalize__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(29);
+/* harmony import */ var styled_normalize__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_normalize__WEBPACK_IMPORTED_MODULE_5__);
 
 
 var _templateObject;
@@ -831,23 +812,17 @@ var _templateObject;
 
 
 
- // import FancyDiv from 'components/FancyDiv'
-// Any routes that start with 'dynamic' will be treated as non-static routes
-
-Object(external_react_static_["addPrefetchExcludes"])(['dynamic']);
-var GlobalStyle = Object(external_styled_components_["createGlobalStyle"])(_templateObject || (_templateObject = taggedTemplateLiteral_default()(["\n  ", "\n  \n  body, html {\n    font-family: 'Poppins', sans-serif;\n    font-size: 16px;\n    margin: 0;\n    padding: 0;\n    height: 100%;\n  }\n\n  #root, \n  #root > div, \n  #root > div > div {\n    height: 100%;\n  }\n"])), external_styled_normalize_default.a);
+var GlobalStyle = Object(styled_components__WEBPACK_IMPORTED_MODULE_3__["createGlobalStyle"])(_templateObject || (_templateObject = _babel_runtime_helpers_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0___default()(["\n  ", "\n  \n  body, html {\n    font-family: 'Poppins', sans-serif;\n    font-size: 16px;\n    margin: 0;\n    padding: 0;\n    height: 100%;\n  }\n\n  #root, \n  #root > div, \n  #root > div > div {\n    height: 100%;\n  }\n"])), styled_normalize__WEBPACK_IMPORTED_MODULE_5___default.a);
 
 function App() {
-  return /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Root"], null, /*#__PURE__*/external_react_default.a.createElement(GlobalStyle, null), /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Suspense, {
-    fallback: /*#__PURE__*/external_react_default.a.createElement("em", null, "Loading...")
-  }, /*#__PURE__*/external_react_default.a.createElement(router_["Router"], null, /*#__PURE__*/external_react_default.a.createElement(containers_Dynamic, {
-    path: "dynamic"
-  }), /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Routes"], {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_static__WEBPACK_IMPORTED_MODULE_2__["Root"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(GlobalStyle, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Suspense, {
+    fallback: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("em", null, "Loading...")
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_reach_router__WEBPACK_IMPORTED_MODULE_4__["Router"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_static__WEBPACK_IMPORTED_MODULE_2__["Routes"], {
     path: "*"
   }))));
 }
 
-/* harmony default export */ var src_App = __webpack_exports__["a"] = (App);
+/* harmony default export */ __webpack_exports__["a"] = (App);
 
 /***/ }),
 /* 13 */
