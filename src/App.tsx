@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Root, Routes } from "react-static";
 import { createGlobalStyle } from "styled-components";
 import { Router } from "@reach/router";
@@ -35,4 +35,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

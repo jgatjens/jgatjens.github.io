@@ -72,10 +72,6 @@ const IconImage = styled.img`
   left: 50%;
   margin-left: -50px;
   bottom: 0;
-
-  @media (max-width: 480px) {
-    padding-bottom: 25px;
-  }
 `;
 
 interface Props {

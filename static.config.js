@@ -2,7 +2,7 @@ import React from "react";
 import path from "path";
 import axios from "axios";
 
-const strapi_url = "http://localhost:1337";
+const strapi_url = "http://localhost:3007";
 
 // Typescript support in static.config.js is not yet supported, but is coming in a future update!
 export default {
