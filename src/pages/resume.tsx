@@ -219,7 +219,6 @@ const Resume = () => {
   const res = useRouteData();
   const data: IResume = res.data;
   const downloadLink = `/static/jgatjens-resume-${data.locale}.pdf`;
-  console.log(res);
 
   return (
     <ResumePage>
