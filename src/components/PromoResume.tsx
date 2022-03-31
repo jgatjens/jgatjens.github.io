@@ -28,7 +28,7 @@ const PromoResumePage = styled.div`
     z-index: 0;
   }
 
-  H1 {
+  h1 {
     margin-bottom: 50px;
   }
 
@@ -50,6 +50,34 @@ const PromoResumePage = styled.div`
   div {
     z-index: 1;
   }
+
+  a svg {
+    color: white;
+  }
+
+  a svg:hover {
+    color: #ff2f4a;
+  }
+
+  @media print {
+    min-height: 200px;
+
+    h1 {
+      margin-top: 80px;
+    }
+
+    a svg {
+      display: none;
+    }
+
+    .bg-left {
+      display: none;
+    }
+
+    .bg-right {
+      display: none;
+    }
+  }
 `;
 
 const Title = styled.h1`
@@ -66,12 +94,21 @@ const Title = styled.h1`
   }
 `;
 
-const IconImage = styled.img`
+const IconImage = styled.div`
   width: 100px;
+  height: 100px;
   position: absolute;
   left: 50%;
   margin-left: -50px;
   bottom: 0;
+  background-image: url(${imageIcon});
+  background-position: center;
+  background-size: cover;
+  -webkit-print-color-adjust: exact;
+
+  @media print {
+    display: none;
+  }
 `;
 
 interface Props {
@@ -79,13 +116,13 @@ interface Props {
 }
 
 const PromoResume: React.FC<Props> = ({ locale }) => (
-  <PromoResumePage>
+  <PromoResumePage className="promo-header">
     <div className="bg-left"></div>
     <div className="bg-right"></div>
 
     <Link to={locale !== "en" ? `/${locale}` : "/"}>
       <svg width="25" height="14">
-        <g stroke="#FFF" strokeWidth="2" fill="currentColor">
+        <g stroke="currentColor" strokeWidth="2" fill="currentColor">
           <path d="M23.02 7H2" strokeLinecap="square" />
           <path d="M5.5 12.5l-4-5.377 4-5.623" />
         </g>
@@ -93,7 +130,7 @@ const PromoResume: React.FC<Props> = ({ locale }) => (
     </Link>
     <Title>Jairo Gatjens</Title>
 
-    <IconImage src={imageIcon} alt="icon" />
+    <IconImage />
   </PromoResumePage>
 );
 
