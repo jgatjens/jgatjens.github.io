@@ -19,6 +19,8 @@ export default {
       `${strapi_url}/resume?_locale=es`
     );
 
+    // const { data: work } = await axios.get(`${strapi_url}/projects`);
+
     return [
       {
         path: "/",
@@ -40,6 +42,11 @@ export default {
         template: "src/pages/resume.tsx",
         getData: () => ({ data: resume_es }),
       },
+      // {
+      //   path: "/work",
+      //   template: "src/pages/work.tsx",
+      //   getData: () => ({ data: work }),
+      // },
     ];
   },
   Document: ({ Html, Head, Body, children, state: { renderMeta } }) => (

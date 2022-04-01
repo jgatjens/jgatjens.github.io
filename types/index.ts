@@ -4,12 +4,31 @@ export interface Post {
   title: string;
 }
 
+interface ISeoImage {
+  name: string;
+  alternativeText: string;
+  caption: string;
+  width: number;
+  height: number;
+  formats: any | null;
+  hash: string;
+  ext: string;
+  mime: string;
+  size: number;
+  url: string;
+  previewUrl: any | null;
+  provider: string;
+  provider_metadata: any | null;
+  created_at: string;
+  updated_at: string;
+}
+
 export interface ISeo {
   id: number;
   metaTitle: string;
   metaDescription: string;
   metaKeyboards: string;
-  metaImage: any;
+  metaImage: ISeoImage;
 }
 
 export interface IHireMe {

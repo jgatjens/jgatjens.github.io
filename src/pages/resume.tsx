@@ -220,6 +220,8 @@ const Resume = () => {
   const data: IResume = res.data;
   const downloadLink = `/static/jgatjens-resume-${data.locale}.pdf`;
 
+  // console.log(data.seo);
+
   return (
     <ResumePage>
       <Seo data={data.seo}></Seo>

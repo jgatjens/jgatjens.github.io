@@ -68,6 +68,7 @@ const Menu = styled.nav`
     text-decoration: none;
     ont-weight: 600;
     font-size: 17px;
+    margin-left: 20px;
     &:hover {
       color: #ff2f4a;
       text-decoration: underline;
@@ -127,6 +128,7 @@ export default () => {
         <Link to={locale !== "en" ? `/${locale}/resume` : "/resume"}>
           {data.resume || "resume"}
         </Link>
+        {/* <Link to={"/work"}>{data.work || "work"}</Link> */}
       </Menu>
 
       <Background />
