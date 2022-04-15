@@ -1,0 +1,35 @@
+.header-left {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    position: absolute;
+    height: 100%;
+    width: 260px;
+    top: 0px;
+    z-index: 0;
+}
+
+.resume-header-left {
+    background-image: url(/assets/img/resume-header-left.png);
+    background-position-x: 0%;
+    left: 0px;
+}
+
+.resume-header-right {
+    background-image: url(/assets/img/resume-header-right.png);
+    background-position-x: 100%;
+    right: 0px;
+}
+
+.resume-logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 0px;
+    background-image: url(/assets/icon-jgatjens.png);
+    background-position: center center;
+    background-size: cover;
+    -webkit-print-color-adjust: exact;
+}

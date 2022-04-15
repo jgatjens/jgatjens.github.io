@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss/base";
+/* @import "./base/typography.css"; */
+
+/* components */
+@import "tailwindcss/components";
+@import "./components/buttons.css";
+@import "./components/header.css";
+@import "./components/work-grid.css";
+
+/* utilities */
+@import "tailwindcss/utilities";
+
+html,
+body,
+#__next {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    -webkit-print-color-adjust: exact !important;
+}
