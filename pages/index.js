@@ -1,5 +1,5 @@
 import Link from "next/link";
-// import Image from "next/image";
+import { getData } from "../db/index";
 import { Navigation } from "../src/Navigation/Navigation";
 import { Profile } from "../src/Profile/Profile";
 import Meta from "./components/Meta";
@@ -38,8 +38,7 @@ export default function Home({ data }) {
 }
 
 export async function getStaticProps({ locale }) {
-  const res = await fetch(`http://localhost:3007/homepage?_locale=${locale}`);
-  const data = await res.json();
+  const data = await getData("homepage", locale);
   return {
     props: { data }, // will be passed to the page component as props
   };

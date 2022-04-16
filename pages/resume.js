@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getData } from "../db/index";
 import { ShareLinks } from "../src/ShareLinks/ShareLinks";
 import { HeaderResume } from "../src/HeaderResume/HeaderResume";
 import { ResumenContent } from "../src/ResumenContent/ResumenContent";
@@ -19,8 +20,7 @@ export default function Resume({ data, locale }) {
 }
 
 export async function getStaticProps({ locale, locales }) {
-  const res = await fetch(`http://localhost:3007/resume?_locale=${locale}`);
-  const data = await res.json();
+  const data = await getData("resume", locale);
 
   const lan = locales.filter((lan) => {
     return lan != locale;

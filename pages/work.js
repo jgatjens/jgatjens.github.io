@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getData } from "../db/index";
 import { ProjectItem } from "src/ProjectItem/ProjectItem";
 import Meta from "./components/Meta";
 import { IconArrow } from "../src/Icons/Icons";
@@ -6,12 +7,6 @@ import { IconArrow } from "../src/Icons/Icons";
 
 export default function Work({ data }) {
   console.log(data.items);
-  // const thumbnails = data.items.map((item) => {
-  //   return {
-  //     url: item.image.formats.thumbnail.url,
-  //   };
-  // });
-
   return (
     <>
       <Meta data={data.seo} />
@@ -41,9 +36,8 @@ export default function Work({ data }) {
   );
 }
 
-export async function getStaticProps({ locale }) {
-  const res = await fetch(`http://localhost:3007/projects`);
-  const data = await res.json();
+export async function getStaticProps() {
+  const data = await getData("projects");
   return {
     props: { data }, // will be passed to the page component as props
   };
