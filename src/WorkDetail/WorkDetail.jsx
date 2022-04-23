@@ -4,7 +4,14 @@ import { Button } from "../Button/Button";
 /**
  * Primary UI component for user interaction
  */
-export const WorkDetail = ({ title, date, image, description, skills }) => (
+export const WorkDetail = ({
+  title,
+  date,
+  image,
+  description,
+  skills,
+  buttonLabel,
+}) => (
   <div className="max-w-xl m-auto pt-14" role="alert">
     <h1 className="text-h1 text-bluedark  mb-14">{title}</h1>
     <h3 className="text-h3 font-bold mb-6"> {date}</h3>
@@ -20,6 +27,6 @@ export const WorkDetail = ({ title, date, image, description, skills }) => (
       className="mb-14 rounded-md"
     />
 
-    <Button label="SEE PROJECT" />
+    <Button label={buttonLabel || "SEE PROJECT"} />
   </div>
 );
