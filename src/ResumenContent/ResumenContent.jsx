@@ -57,22 +57,24 @@ export const ResumenContent = ({
         {email}
       </a>
     </p>
-    <h2 className="text-h2 mb-4">{summary_title}</h2>
+    <h2 className="text-h2 mb-4 uppercase">{summary_title}</h2>
     <p className="mb-7 text-bodysmall">{summary}</p>
 
     <ButtonDownload label={resume_button_label || "RESUME"} />
 
-    <h2 className="text-h2 mb-4 print:">{skills_title || "SKILLS"}</h2>
+    <h2 className="text-h2 mb-4 uppercase">{skills_title || "SKILLS"}</h2>
 
     <List items={skills.split("-")}></List>
 
-    <h2 className="text-h2 mb-5 print:mt-28">{work_title || "WORK HISTORY"}</h2>
+    <h2 className="text-h2 mb-5 print:mt-28 uppercase">
+      {work_title || "WORK HISTORY"}
+    </h2>
 
     {work_history.map((work, i) => (
       <HistoryItem key={i} {...work} />
     ))}
 
-    <h2 className="text-h2 mb-5">{academic_title}</h2>
+    <h2 className="text-h2 mb-5 uppercase">{academic_title}</h2>
 
     <div>
       <a

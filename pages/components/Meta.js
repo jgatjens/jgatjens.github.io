@@ -1,9 +1,6 @@
 import Head from "next/head";
 
 const Meta = ({ data }) => {
-  console.log(data);
-  // const imageUrl = `../assets/${data.metaImage.name}`;
-
   return (
     <Head>
       <title>{data.metaTitle || "Jairo Gätjens - Website"}</title>
@@ -51,7 +48,7 @@ const Meta = ({ data }) => {
           "I'm an experienced Developer based in Costa Rica."
         }
       />
-      {/* <meta name="twitter:image" content={img} /> */}
+      <meta name="twitter:image" content={data.metaImage.url} />
     </Head>
   );
 };

@@ -1,45 +1,31 @@
-import Link from "next/link";
-import { getData } from "../db/index";
-import { Navigation } from "../src/Navigation/Navigation";
-import { Profile } from "../src/Profile/Profile";
+import Layout from "./components/Layout";
 import Meta from "./components/Meta";
+import { Profile } from "@/components/Profile/Profile";
+import { getData } from "@/db/index";
 
-export default function Home({ data }) {
+export default function Home({ data, nav, locale }) {
   return (
-    <>
+    <Layout nav={nav} locale={locale}>
       <Meta data={data.Seo} />
+
       <div className="flex items-center justify-center h-full">
-        <div className="absolute top-0 w-full">
-          <Navigation
-            Link={Link}
-            resumeTitle={data.resume}
-            workTitle={data.work}
-          />
-        </div>
         <Profile
-          {...data.profile}
+          title={data.profile.title}
+          description={data.profile.description}
+          location={data.profile.location}
+          image={data.profile.image[0] || "/assets/img/profile.jpg"}
           button={{ label: data.hire_me.text, link: data.hire_me.url }}
         />
-
-        {/* bars */}
-        <div className="absolute top-1/2 -left-2 -mt-3">
-          <div className="h-[4px] block bg-bluedark rounded-md w-16 mb-1"></div>
-          <div className="h-[4px] block bg-bluedark rounded-md w-24 mb-1"></div>
-          <div className="h-[4px] block bg-bluedark rounded-md w-10"></div>
-        </div>
-
-        {/* background image */}
-        <div className="absolute bottom-0 left-0 -z-10">
-          <img src="/assets/img/bg-website.jpg" alt="background home image" />
-        </div>
       </div>
-    </>
+    </Layout>
   );
 }
 
 export async function getStaticProps({ locale }) {
   const data = await getData("homepage", locale);
+  const nav = await getData("navigation", locale);
+
   return {
-    props: { data }, // will be passed to the page component as props
+    props: { data, nav, locale }, // will be passed to the page component as props
   };
 }

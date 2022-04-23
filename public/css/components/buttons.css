@@ -8,7 +8,7 @@
   }
 
   .btn-secondary {
-    @apply pt-4 pb-[14px] px-14 text-button font-semibold uppercase rounded-md border-2 border-red-700 bg-red text-white transition-colors;
+    @apply cursor-pointer pt-4 pb-[14px] px-14 text-button font-semibold uppercase rounded-md border-2 border-red-700 bg-red text-white transition-colors;
   }
 
   .btn-secondary:hover {

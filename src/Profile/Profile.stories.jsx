@@ -14,7 +14,11 @@ const Template = (args) => <Profile {...args} />;
 export const Default = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Default.args = {
-  img: "/assets/img/profile.jpg",
+  image: {
+    url: "/assets/img/profile.jpg",
+    width: "144px",
+    height: "144px",
+  },
   title: "Jairo Gätjens",
   location: "Santa Teresa, Costa Rica",
   description: "Experienced Software Developer based in Costa Rica.",

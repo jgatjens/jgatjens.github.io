@@ -1,29 +1,6 @@
+import { RouterContext } from "next/dist/shared/lib/router-context";
 // tailwindcss 3 import
 import "../public/css/main.css";
-
-// const customViewports = {
-//   Mobile: {
-//     name: "Mobile",
-//     styles: {
-//       width: "375px",
-//       height: "667px",
-//     },
-//   },
-//   Tablet: {
-//     name: "Tablet",
-//     styles: {
-//       width: "768px",
-//       height: "1024px",
-//     },
-//   },
-//   Desktop: {
-//     name: "Desktop",
-//     styles: {
-//       width: "1440px",
-//       height: "1024px",
-//     },
-//   },
-// };
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -34,11 +11,12 @@ export const parameters = {
     },
   },
 
-  // viewport: {
-  //   viewports: customViewports,
-  // },
   backgrounds: {
     white: "#fff",
+  },
+
+  nextRouter: {
+    Provider: RouterContext.Provider,
   },
 
   // https://storybook.js.org/addons/@whitespace/storybook-addon-html/
