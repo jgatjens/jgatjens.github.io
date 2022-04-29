@@ -9,12 +9,14 @@ import {
 import { getData } from "@/db/index";
 
 export default function Resume({ data, nav, locale }) {
+  const pdfLink = `/assets/pdf/jgatjens-resume-${locale}.pdf`;
+
   return (
     <Layout nav={nav} locale={locale} color="text-white">
       <Meta data={data.seo} />
       <HeaderResume title={data.title} locale={locale} Link={Link} />
       <div className="container m-auto max-w-xl py-8 print:pt-10">
-        <ResumenContent {...data} />
+        <ResumenContent {...data} pdfLink={pdfLink} />
         <ShareLinks />
       </div>
     </Layout>

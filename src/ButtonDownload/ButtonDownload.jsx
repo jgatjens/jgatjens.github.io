@@ -3,8 +3,11 @@ import React from "react";
 /**
  * Primary UI component for user interaction
  */
-export const ButtonDownload = ({ label }) => (
-  <div type="button" className="btn-download print:hidden">
+export const ButtonDownload = ({
+  label,
+  link = "/assets/pdf/jgatjens-resume-en.pdf",
+}) => (
+  <a href={link} target="_blank" className="btn-download print:hidden">
     <svg width="190px" height="50px" viewBox="0 0 190 50" className="svg-anime">
       <polyline points="189,1 189,49 1,49 1,1 189,1" className="bg-line" />
       <polyline points="189,1 189,49 1,49 1,1 189,1" className="hl-line" />
@@ -22,5 +25,5 @@ export const ButtonDownload = ({ label }) => (
       />
     </svg>
     <span>{label}</span>
-  </div>
+  </a>
 );

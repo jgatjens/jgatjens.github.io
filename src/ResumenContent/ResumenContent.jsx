@@ -47,6 +47,7 @@ export const ResumenContent = ({
   skills_title,
   academic_title,
   skills,
+  pdfLink,
   work_history,
 }) => (
   <div className="container text-[#3b3e48] pb-10">
@@ -60,7 +61,7 @@ export const ResumenContent = ({
     <h2 className="text-h2 mb-4 uppercase">{summary_title}</h2>
     <p className="mb-7 text-bodysmall">{summary}</p>
 
-    <ButtonDownload label={resume_button_label || "RESUME"} />
+    <ButtonDownload link={pdfLink} label={resume_button_label || "RESUME"} />
 
     <h2 className="text-h2 mb-4 uppercase">{skills_title || "SKILLS"}</h2>
 
