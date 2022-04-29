@@ -1,10 +1,12 @@
 import Link from "next/link";
-import Meta from "./components/Meta";
+import {
+  ShareLinks,
+  Layout,
+  Meta,
+  HeaderResume,
+  ResumenContent,
+} from "@/components";
 import { getData } from "@/db/index";
-import { ShareLinks } from "@/components/ShareLinks/ShareLinks";
-import { HeaderResume } from "@/components/HeaderResume/HeaderResume";
-import { ResumenContent } from "@/components/ResumenContent/ResumenContent";
-import Layout from "./components/Layout";
 
 export default function Resume({ data, nav, locale }) {
   return (

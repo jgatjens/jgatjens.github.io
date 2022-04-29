@@ -1,8 +1,6 @@
 import Link from "next/link";
-import Layout from "./components/Layout";
-import Meta from "./components/Meta";
+import { ProjectItem, Layout, Meta } from "@/components";
 import { getData } from "@/db/index";
-import { ProjectItem } from "@/components/ProjectItem/ProjectItem";
 
 export default function Work({ data, nav, locale }) {
   return (

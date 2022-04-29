@@ -17,8 +17,6 @@ export const Navigation = ({
   const lan = router.locales.find((locale) => locale != router.locale);
   const pathname = router.asPath;
 
-  console.log(lan);
-
   return (
     <div className={`flex justify-between px-5 pt-4 ${color}`}>
       <div className="flex items-center  gap-3">

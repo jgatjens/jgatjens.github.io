@@ -1,6 +1,4 @@
-import Layout from "./components/Layout";
-import Meta from "./components/Meta";
-import { Profile } from "@/components/Profile/Profile";
+import { Profile, Layout, Meta } from "@/components";
 import { getData } from "@/db/index";
 
 export default function Home({ data, nav, locale }) {
@@ -24,7 +22,7 @@ export default function Home({ data, nav, locale }) {
 export async function getStaticProps({ locale }) {
   const data = await getData("homepage", locale);
   const nav = await getData("navigation", locale);
-
+  // console.log(data);
   return {
     props: { data, nav, locale }, // will be passed to the page component as props
   };

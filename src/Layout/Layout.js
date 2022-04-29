@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Navigation } from "../../src/Navigation/Navigation";
+import { Navigation } from "../Navigation/Navigation";
 
-export default function Layout({ nav, locale, color, children }) {
+export function Layout({ nav, locale, color, children }) {
   return (
     <>
       <div className="absolute top-0 w-full z-10">

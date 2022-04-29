@@ -34,8 +34,8 @@ export const WorkDetail = ({
     <h2 className="text-h4 text-bluedark mb-5">{techTitle}</h2>
     <List items={tech.split("-")}></List>
 
-    <div className="mb-14 font-bold rounded-md block">
-      <Image src={image.url} width="520" height="340" />
+    <div className="mb-14 font-bold block">
+      <Image src={image.url} width="520" height="340" className="rounded-md" />
     </div>
 
     <Button label={buttonLabel || "SEE PROJECT"} />

@@ -1,7 +1,5 @@
+import { WorkDetail, Layout, Meta } from "@/components";
 import { getData } from "@/db/index";
-import Meta from "../components/Meta";
-import Layout from "../components/Layout";
-import { WorkDetail } from "@/components/WorkDetail/WorkDetail";
 
 export default function WorkDetailPage({
   data,

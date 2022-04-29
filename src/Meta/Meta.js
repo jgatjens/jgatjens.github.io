@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const Meta = ({ data }) => {
+export const Meta = ({ data }) => {
   return (
     <Head>
       <title>{data.metaTitle || "Jairo Gätjens - Website"}</title>
@@ -52,5 +52,3 @@ const Meta = ({ data }) => {
     </Head>
   );
 };
-
-export default Meta;
