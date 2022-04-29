@@ -1,5 +1,5 @@
 import db from "./db";
-const strapi_url = "http://localhost:3007/";
+const strapi_url = process.env.API_URL || "http://localhost:3007/";
 
 export const getData = async (section, locale) => {
   const languaje = locale ? `?_locale=${locale}` : "";
