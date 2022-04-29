@@ -2,6 +2,7 @@ import React from "react";
 import { IconDotSquare } from "../Icons/Icons";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { route } from "next/dist/server/router";
 /**
  * Primary UI component for user interaction
  */
@@ -12,8 +13,11 @@ export const Navigation = ({
   color = "text-black",
 }) => {
   const router = useRouter();
-  const lan = router.locale == "es" ? "/" : "es";
-  const pathname = lan + router.pathname;
+
+  const lan = router.locales.find((locale) => locale != router.locale);
+  const pathname = router.asPath;
+
+  console.log(lan);
 
   return (
     <div className={`flex justify-between px-5 pt-4 ${color}`}>
@@ -24,9 +28,9 @@ export const Navigation = ({
           </a>
         </Link>
 
-        <Link locale={false} href={pathname}>
+        <Link locale={lan} href={pathname}>
           <a className="hover:text-red text-link dark:text-white hover:dark:text-red uppercase">
-            {router.locale == "es" ? "en" : "es"}
+            {lan}
           </a>
         </Link>
       </div>
