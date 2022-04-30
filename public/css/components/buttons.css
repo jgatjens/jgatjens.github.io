@@ -7,11 +7,6 @@
     @apply border-red-700 bg-red text-white transition-colors;
   }
 
-  .btn-primary:focus,
-  .btn-primary:active {
-    @apply border-blue;
-  }
-
   .btn-secondary {
     @apply cursor-pointer pt-4 pb-[14px] px-14 text-button font-semibold uppercase rounded-md border-2 border-red-700 bg-red text-white transition-colors;
   }
