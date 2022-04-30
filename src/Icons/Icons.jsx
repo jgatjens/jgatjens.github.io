@@ -67,4 +67,12 @@ export const IconDotSquare = ({ props }) => (
   </svg>
 );
 
+export const IconFatArrow = () => (
+  <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="M7.94 3.18a.901.901 0 0 0-1.44.72v16.2a.901.901 0 0 0 1.44.72l10.8-8.1a.898.898 0 0 0 0-1.44l-10.8-8.1Z"
+      fill="currentColor"
+    />
+  </svg>
+);
 // export const IconTemplate = () => () {...props}
