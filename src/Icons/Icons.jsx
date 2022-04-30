@@ -28,8 +28,20 @@ export const IconLinkedin = (props) => (
 );
 
 export const IconTwitch = (props) => (
-  <svg fill="currentColor" {...props} width="100%" height="100%">
-    <path d="M1.969 0L0 4.806v19.642h7V28h3.938l3.718-3.552h5.688L28 17.134V0H1.969zm23.406 15.88L21 20.06h-7l-3.719 3.552V20.06H4.375V2.507h21v13.374zM21 7.314v7.314h-2.625V7.313H21zm-7 0v7.314h-2.625V7.313H14z" />
+  <svg
+    {...props}
+    width="28"
+    height="28"
+    viewBox="0 0 28 28"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M-0.000488281 4.80597L1.96826 0H27.9995V17.1343L20.3433 24.4478H14.6558L10.937 28H6.99951V24.4478H-0.000488281V4.80597ZM20.9995 20.0597L25.3745 15.8806V2.50746H4.37451V20.0597H10.2808V23.6119L13.9995 20.0597H20.9995ZM20.9995 7.31343V14.6269H18.3745V7.31343H20.9995ZM13.9995 14.6269V7.31343H11.3745V14.6269H13.9995Z"
+      fill="currentColor"
+    />
   </svg>
 );
 

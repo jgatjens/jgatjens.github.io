@@ -1,14 +1,19 @@
+import { useState } from "react";
 import Script from "next/script";
+import { Router } from "next/router";
+
 import { Profile, Layout, Meta } from "@/components";
 import { getData } from "@/db/index";
 
 import { startAnimation } from "../public/js/animation.js";
 
-export default function Home({ data, nav, locale }) {
-  const onLoad = () => {
+Router.events.on("routeChangeComplete", (path) => {
+  if (path == "/") {
     startAnimation();
-  };
+  }
+});
 
+export default function Home({ data, nav, locale }) {
   return (
     <Layout nav={nav} locale={locale}>
       <Meta data={data.Seo} />
@@ -26,7 +31,9 @@ export default function Home({ data, nav, locale }) {
 
       <Script
         src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"
-        onLoad={onLoad}
+        onLoad={() => {
+          startAnimation();
+        }}
       />
     </Layout>
   );

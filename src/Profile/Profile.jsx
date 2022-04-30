@@ -8,7 +8,7 @@ import Image from "next/image";
  * Primary UI component for user interaction
  */
 export const Profile = ({ image, title, location, description, button }) => (
-  <div className="text-center max-w-[245px]">
+  <div className="text-center max-w-[265px] p-5 rounded-md bg-white/70">
     <div className="w-36 h-36 m-auto dark:rounded-full dark:mb-5">
       <Image
         src={image.url}
