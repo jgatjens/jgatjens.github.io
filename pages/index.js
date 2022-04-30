@@ -6,7 +6,7 @@ export default function Home({ data, nav, locale }) {
     <Layout nav={nav} locale={locale}>
       <Meta data={data.Seo} />
 
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center h-full border-b-bluedark border-b-4">
         <Profile
           title={data.profile.title}
           description={data.profile.description}

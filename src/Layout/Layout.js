@@ -16,7 +16,7 @@ export function Layout({ nav, locale, color, children }) {
       <main className="w-full h-full">{children}</main>
 
       {/* bars */}
-      <div className="absolute top-1/2 -left-2 -mt-3">
+      <div className="absolute hidden top-1/2 -left-2 -mt-3 md:block">
         <div className="h-[4px] block bg-bluedark rounded-md w-16 mb-1"></div>
         <div className="h-[4px] block bg-bluedark rounded-md w-24 mb-1"></div>
         <div className="h-[4px] block bg-bluedark rounded-md w-10"></div>

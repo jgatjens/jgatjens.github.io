@@ -23,21 +23,28 @@ export const WorkDetail = ({
   image,
   description,
   tech,
+  link,
   buttonLabel,
   techTitle,
 }) => (
-  <div className="max-w-xl m-auto my-16" role="alert">
-    <h1 className="text-h1 text-bluedark mb-14">{title}</h1>
-    <h3 className="text-h3 font-bold mb-6"> {date}</h3>
-    <p className="text-bodysmall mb-12">{description}</p>
+  <div className="max-w-xl m-auto my-20" role="alert">
+    <h1 className="text-h1 text-bluedark mb-8">{title}</h1>
+    <p className="text-bodysmall mb-6">{description}</p>
 
     <h2 className="text-h4 text-bluedark mb-5">{techTitle}</h2>
     <List items={tech.split("-")}></List>
 
+    <h3 className="text-h3 font-bold mb-6"> {date}</h3>
     <div className="mb-14 font-bold block">
       <Image src={image.url} width="520" height="340" className="rounded-md" />
     </div>
 
-    <Button label={buttonLabel || "SEE PROJECT"} />
+    <a
+      target="_blank"
+      href={link}
+      className="btn-primary block text-center lg:inline-block"
+    >
+      {buttonLabel || "SEE PROJECT"}
+    </a>
   </div>
 );

@@ -4,11 +4,11 @@ import PropTypes from "prop-types";
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, size, label }) => {
+export const Button = ({ primary, size, label, href }) => {
   const mode = primary ? "btn-primary" : "btn-secondary";
 
   return (
-    <a type="button" className={[size, mode].join(" ")}>
+    <a href={href || "#"} className={[size, mode].join(" ")}>
       {label}
     </a>
   );
@@ -27,6 +27,7 @@ Button.propTypes = {
    * Button contents
    */
   label: PropTypes.string.isRequired,
+  href: PropTypes.string,
   /**
    * Optional click handler
    */
@@ -36,5 +37,6 @@ Button.propTypes = {
 Button.defaultProps = {
   primary: true,
   size: "w-auto",
+  href: "#",
   onClick: undefined,
 };

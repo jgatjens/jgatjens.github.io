@@ -23,7 +23,9 @@ export const Profile = ({ image, title, location, description, button }) => (
         {location}
       </small>
     </h1>
-    <Button label={button.label} link size="w-full" />
+    <a target="_blank" href={button.link} className="btn-primary w-full block">
+      {button.label}
+    </a>
     <p className="text-bodysmall mt-6 dark:text-white">{description}</p>
     <div className="mt-6">
       <ShareLinks />

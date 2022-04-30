@@ -15,11 +15,11 @@ export const HeaderResume = ({ title }) => (
 
     <Link href="/">
       <a>
-        <IconArrow className="text-white mb-5 hover:text-red print:hidden" />
+        <IconArrow className="text-white relative z-10 mb-5 hover:text-red print:hidden" />
       </a>
     </Link>
 
-    <h1 className="font-sans font-semibold text-4xl text-center text-white max-w-[236px] mb-10 print:max-w-full">
+    <h1 className="font-sans relative z-10 font-semibold text-4xl text-center text-white max-w-[236px] mb-10 print:max-w-full">
       {title}
     </h1>
 

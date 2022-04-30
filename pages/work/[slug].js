@@ -22,7 +22,7 @@ export default function WorkDetailPage({
   return (
     <Layout nav={nav} locale={locale}>
       <Meta data={seo} />
-      <div className="flex items-center justify-center h-full flex-col">
+      <div className="min-h-full flex items-center justify-center flex-col px-5 lg:px-0 border-b-bluedark border-b-4">
         <WorkDetail {...data} techTitle={techTitle} buttonLabel={buttonLabel} />
       </div>
     </Layout>
