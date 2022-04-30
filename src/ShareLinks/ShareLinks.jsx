@@ -36,7 +36,7 @@ export const ShareLinks = () => (
       target="_blank"
       className="h-8 w-8 inline-block mx-4 hover:text-red dark:text-white dark:hover:text-red"
     >
-      <IconTwitch />
+      <IconTwitch className="w-full" />
     </a>
   </div>
 );
