@@ -15,9 +15,11 @@ export default function Resume({ data, nav, locale }) {
     <Layout nav={nav} locale={locale} color="text-white">
       <Meta data={data.seo} />
       <HeaderResume title={data.title} locale={locale} Link={Link} />
-      <div className="container m-auto max-w-xl py-8 border-b-bluedark border-b-4 px-5 lg:px-0 print:pt-10">
-        <ResumenContent {...data} pdfLink={pdfLink} />
-        <ShareLinks />
+      <div className="border-b-bluedark border-b-4">
+        <div className="container m-auto max-w-xl py-8  px-5 lg:px-0 print:pt-10">
+          <ResumenContent {...data} pdfLink={pdfLink} />
+          <ShareLinks />
+        </div>
       </div>
     </Layout>
   );
