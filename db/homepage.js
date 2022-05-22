@@ -11,7 +11,8 @@ export const homepage = {
     title: "Jairo Gätjens",
     location: "Santa Teresa, Costa Rica",
     description: "Experienced Software Developer based in Costa Rica.",
-    image: [],
+    image:
+      "https://res.cloudinary.com/jgatjens/image/upload/v1650319445/profile_34f62eb1a5.jpg",
   },
   Seo: {
     id: 1,
@@ -25,28 +26,11 @@ export const homepage = {
       caption: "",
       width: 1200,
       height: 630,
-      formats: {
-        thumbnail: {
-          name: "thumbnail_seo-homepage.jpg",
-          hash: "thumbnail_seo_homepage_75dc7fe56e",
-          ext: ".jpg",
-          mime: "image/jpeg",
-          width: 245,
-          height: 129,
-          size: 2.69,
-          path: "",
-          url: "https://res.cloudinary.com/jgatjens/image/upload/v1649452277/thumbnail_seo_homepage_75dc7fe56e.jpg",
-          provider_metadata: {
-            public_id: "thumbnail_seo_homepage_75dc7fe56e",
-            resource_type: "image",
-          },
-        },
-      },
       hash: "seo_homepage_75dc7fe56e",
       ext: ".jpg",
       mime: "image/jpeg",
       size: 122.96,
-      url: "https://res.cloudinary.com/jgatjens/image/upload/v1649452276/seo_homepage_75dc7fe56e.jpg",
+      url: "https://res.cloudinary.com/jgatjens/image/upload/v1650319535/share_jgatjens_7a54113295.jpg",
       previewUrl: "",
       provider: "cloudinary",
       provider_metadata: {
