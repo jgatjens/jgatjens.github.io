@@ -1,6 +1,10 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 
 export const Meta = ({ data }) => {
+  const router = useRouter();
+  const pathname = router.asPath;
+
   return (
     <Head>
       <title>{data.metaTitle || "Jairo Gätjens - Website"}</title>
@@ -21,7 +25,7 @@ export const Meta = ({ data }) => {
       <meta name="author" content="Jairo Gätjens" />
       <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://jgatjens.com/" />
+      <meta property="og:url" content={`https://jgatjens.com${pathname}`} />
       <meta
         property="og:title"
         content={data.metaTitle || "Jairo Gätjens - Website"}
