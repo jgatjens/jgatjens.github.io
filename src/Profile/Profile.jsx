@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Button } from "../Button/Button";
 import { ShareLinks } from "../ShareLinks/ShareLinks";
 import Image from "next/image";
 
@@ -9,7 +8,7 @@ import Image from "next/image";
  */
 export const Profile = ({ image, title, location, description, button }) => (
   <div className="text-center max-w-[265px] p-5 rounded-md bg-white/70">
-    <div className="w-36 h-36 m-auto dark:rounded-full dark:mb-5">
+    <div className="w-36 h-36 m-auto">
       <Image
         src={image.url}
         width={image.width}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Script from "next/script";
 import { Navigation } from "../Navigation/Navigation";
 
 export function Layout({ nav, locale, color, children }) {
@@ -31,6 +32,12 @@ export function Layout({ nav, locale, color, children }) {
           height="624px"
         />
       </div>
+
+      <Script
+        strategy="afterInteractive"
+        src="/js/gtm.js"
+        onLoad={() => console.log("GTM")}
+      />
     </>
   );
 }

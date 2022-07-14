@@ -1,6 +1,5 @@
-import { useState } from "react";
-import Script from "next/script";
 import { Router } from "next/router";
+import Script from "next/script";
 
 import { Profile, Layout, Meta } from "@/components";
 import { getData } from "@/db/index";
