@@ -33,11 +33,7 @@ export function Layout({ nav, locale, color, children }) {
         />
       </div>
 
-      <Script
-        strategy="afterInteractive"
-        src="/js/gtm.js"
-        onLoad={() => console.log("GTM")}
-      />
+      <Script strategy="afterInteractive" src="/js/gtm.js" />
     </>
   );
 }

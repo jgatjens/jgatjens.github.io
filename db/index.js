@@ -5,8 +5,6 @@ export const getData = async (section, locale) => {
   const languaje = locale ? `?_locale=${locale}` : "";
   const url = `${strapi_url}/${section}${languaje}`;
 
-  console.log(url);
-
   try {
     const res = await fetch(url);
     return await res.json();

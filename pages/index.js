@@ -41,7 +41,6 @@ export default function Home({ data, nav, locale }) {
 export async function getStaticProps({ locale }) {
   const data = await getData("homepage", locale);
   const nav = await getData("navigation", locale);
-  console.log(data);
   return {
     props: { data, nav, locale }, // will be passed to the page component as props
   };
