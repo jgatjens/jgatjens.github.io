@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "npm run sitemap & npm run pdf",
     "start": "next start",
     "lint": "next lint",
     "pdf": "node ./libs/pdf.js",
+    "sitemap": "node ./libs/pdf.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -34,6 +36,7 @@
     "autoprefixer": "^10.4.2",
     "babel-loader": "^8.2.3",
     "esbuild": "^0.14.27",
+    "globby": "^13.1.2",
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
     "eslint-plugin-storybook": "^0.5.10",
