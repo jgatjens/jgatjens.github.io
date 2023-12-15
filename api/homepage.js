@@ -1,0 +1,58 @@
+export const homepage = {
+  id: 1,
+  resume: "RESUME",
+  work: "WORK",
+  locale: "en",
+  published_at: "2021-12-11T19:25:03.198Z",
+  created_at: "2021-11-11T16:22:51.139Z",
+  updated_at: "2022-04-08T21:23:14.616Z",
+  profile: {
+    id: 1,
+    title: "Jairo Gätjens",
+    location: "Santa Teresa, Costa Rica",
+    description: "Experienced Software Developer based in Costa Rica.",
+    image:
+      "https://res.cloudinary.com/jgatjens/image/upload/v1650319445/profile_34f62eb1a5.jpg",
+  },
+  Seo: {
+    id: 1,
+    metaTitle: "Jairo Gätjens - Website",
+    metaDescription: "I'm an experienced Developer based in Costa Rica.",
+    metaKeyboards: "Website, Resume, Profile, Github, HTML, CSS, JavaScript",
+    metaImage: {
+      id: 78,
+      name: "seo-homepage.jpg",
+      alternativeText: "seo homepage",
+      caption: "",
+      width: 1200,
+      height: 630,
+      hash: "seo_homepage_75dc7fe56e",
+      ext: ".jpg",
+      mime: "image/jpeg",
+      size: 122.96,
+      url: "https://res.cloudinary.com/jgatjens/image/upload/v1650319535/share_jgatjens_7a54113295.jpg",
+      previewUrl: "",
+      provider: "cloudinary",
+      provider_metadata: {
+        public_id: "seo_homepage_75dc7fe56e",
+        resource_type: "image",
+      },
+      created_at: "2022-04-08T21:11:17.740Z",
+      updated_at: "2022-04-08T21:11:17.748Z",
+    },
+  },
+  hire_me: {
+    id: 1,
+    text: "hire me",
+    url: "mailto:jgatjens@gmail.com",
+    external: "",
+    image: "",
+  },
+  localizations: [
+    {
+      id: 2,
+      locale: "es",
+      published_at: "2022-03-29T21:47:32.365Z",
+    },
+  ],
+};

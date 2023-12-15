@@ -1,0 +1,43 @@
+.btn-download {
+  height: 50px;
+  width: 190px;
+  border-radius: 4px;
+  background-color: #212356;
+  border-color: #606292;
+  color: white;
+  cursor: pointer;
+  padding: 0;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 32px;
+}
+
+.btn-download:hover svg.svg-anime {
+  stroke-dashoffset: -480;
+}
+
+.btn-download .svg-donwload {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.btn-download svg.svg-anime {
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
