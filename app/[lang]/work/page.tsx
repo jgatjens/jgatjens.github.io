@@ -1,17 +1,33 @@
-import { getData } from "@/api/get-data";
+import type { Locale } from "@/i18n-config";
+import { getData } from "@/http/get-data";
 import { ProjectItem } from "@/components/project-item/project-item";
+import { metadata } from "@/utils/metadata";
+import { Metadata } from "next";
+import { WorkItemProps } from "@/utils/types";
 
-export default async function Work({ params }: { params: { lang: string } }) {
-  const populate = `work?populate=items`;
-  const res = await getData(populate, params.lang);
+const page = {
+  name: 'work',
+  populate: '?populate[0]=items&populate[1]=open_graph.media'
+}
+
+export default async function Work({ params }: { params: { lang: Locale } }) {
+  const res = await getData(page, params.lang);
   const data = res.data?.attributes;
+
+  // sort items by date 
+  const items = data.items.sort((a: WorkItemProps, b:WorkItemProps) => {
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
+  });
 
   return (
     <div className="flex items-center justify-center h-full flex-col ">
-      <h1 className="text-h1 mb-10 text-gray text-center">{data.headline}</h1>
       <div className="px-5 lg:px-0">
-        <ProjectItem items={data.items} />
+        <ProjectItem items={items} />
       </div>
     </div>
   );
+}
+
+export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
+  return metadata({ params, page });
 }

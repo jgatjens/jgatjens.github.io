@@ -1,20 +1,26 @@
-import { getData } from "@/api/get-data";
-import { WorkDetail } from "@/components/work-detail/work-detail";
+import type { Metadata } from "next";
+import { getData } from "@/http/get-data";
+import { WorkItem } from "@/components/work-detail/work-item";
 import { getDictionary } from "@/get-diccionary";
 import { Locale } from "@/i18n-config";
+import { BackendProps, WorkItemProps } from "@/utils/types";
 
-interface ParamsProps {
+interface WorkDetailProps {
   params: {
     lang: Locale;
     slug: string;
   };
 }
 
+const page = {
+  name: 'work',
+  populate: '?populate[0]=items.media&populate[1]=open_graph.media'
+}
+
 // This function gets called at build time
 export async function generateStaticParams() {
-  const populate = `work?populate=items.media`;
-  const resEn = await getData(populate, "en");
-  const resEs = await getData(populate, "es");
+  const resEn = await getData(page, "en");
+  const resEs = await getData(page, "es");
   const dataEn = resEn.data?.attributes;
   const dataEs = resEs.data?.attributes;
 
@@ -32,15 +38,14 @@ export async function generateStaticParams() {
   return paths;
 }
 
-export default async function WorkDetailPage({ params }: ParamsProps) {
+export default async function WorkDetailPage({ params }: WorkDetailProps) {
   const t = await getDictionary(params.lang);
-  const populate = `work?populate[0]=items.media`;
-  const res = await getData(populate, params?.lang);
+  const res = await getData(page, params?.lang);
   const data = res.data?.attributes;
 
   // find items by slug
   let selectedWork = 0;
-  const project = data.items.find((item: any, i: number) => {
+  const project = data.items.find((item: WorkItemProps, i: number) => {
     if (item.slug.toLowerCase() === params.slug) {
       selectedWork = i;
       return true;
@@ -67,8 +72,67 @@ export default async function WorkDetailPage({ params }: ParamsProps) {
   project.t_tech_title = t.work_detail_tech;
 
   return (
-    <div className="flex justify-center flex-col px-5 lg:px-0">
-      <WorkDetail {...project} />
-    </div>
+    <section className="flex justify-center flex-col px-5 lg:px-0">
+      <WorkItem {...project} />
+    </section>
   );
+}
+
+export async function generateMetadata({ params }: { params: { lang: string, slug: string } }): Promise<Metadata> {
+  // read route params
+  const locale = params.lang || "en";
+  const res: BackendProps = await getData(page, locale);
+  const seo = res.data.attributes?.open_graph;
+
+  // find project by slug
+  const project: WorkItemProps = res.data.attributes.items.find((item: WorkItemProps) => item.slug.toLowerCase() === params.slug);
+  const canonical = page.name == 'homepage' ? '/' : `/work/${project.slug}`;
+  const canonicalLangEn = page.name == 'homepage' ? '/en' : `/en/work/${project.slug}`;
+  const canonicalLangEs = page.name == 'homepage' ? '/es' : `/es/work/${project.slug}`;
+
+  const media = project.media as {
+    url: string;
+    width: number;
+    height: number;
+    alternativeText: string;
+  };
+
+  const keyboards = project.tech_stack.replaceAll('-', '').split('\n').map((str) => str.trim()).join(', ').toLowerCase();
+  
+  return {
+    title: project?.headline ?? seo?.title,
+    description: project?.description ?? seo?.description,
+    keywords: keyboards ?? seo?.keywords,
+    creator: 'jairo gatjens',
+    publisher: 'jairo gatjens',
+    alternates: {
+      canonical,
+      languages: {
+        'en-US': canonicalLangEn,
+        'es-CR': canonicalLangEs,
+      },
+    },
+    openGraph: {
+      title: project?.headline,
+      description: project?.description,
+      locale: locale,
+      images: [
+        {
+          url: media.url,
+          width: media.width,
+          height: media.height,
+          alt: media.alternativeText,
+        },
+      ],
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      site: '@jgatjens',
+      creator: '@jgatjens',
+      title: project?.headline ?? seo?.title,
+      description: project?.description ?? seo?.description,
+      images: media.url,
+    },
+  }
 }

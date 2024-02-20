@@ -1,19 +1,25 @@
-import { getData } from "@/api/get-data";
+import type { Metadata } from 'next'
+import type { Locale } from '@/i18n-config';
+import { Suspense } from 'react';
+import { getData } from "@/http/get-data";
+import { metadata } from '@/utils/metadata';
 import { Stars3D } from "@/components/3d/starts";
 import { Profile } from "@/components/profile/profile";
-import { Suspense } from "react";
 
-export default async function Home({ params }: { params: { lang: string } }) {
-  const populate = `homepage?populate[0]=profile.media&populate[1]=hire_me`;
-  const res = await getData(populate, params.lang);
+const page = {
+  name: 'homepage',
+  populate: '?populate[0]=profile.media&populate[1]=hire_me&populate[2]=open_graph.media'
+}
+
+export default async function Home({ params }: { params: { lang: Locale } }) {
+  const res = await getData(page, params.lang);
+ 
   const profile = res.data?.attributes?.profile;
   const hireMe = res.data?.attributes?.hire_me;
   const media = profile.media?.data.attributes;
 
-  // console.log(profile);
-
   return (
-    <div className="flex items-center justify-center h-full ">
+    <section className="flex items-center justify-center h-full ">
       <Suspense>
         <Stars3D />
       </Suspense>
@@ -25,6 +31,10 @@ export default async function Home({ params }: { params: { lang: string } }) {
         image={media}
         button={{ label: hireMe.text, link: hireMe.url }}
       />
-    </div>
+    </section>
   );
+}
+
+export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
+  return metadata({ params, page });
 }

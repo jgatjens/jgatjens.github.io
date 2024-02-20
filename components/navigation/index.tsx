@@ -20,17 +20,18 @@ export const Navigation = async ({ lang, t }: NavigationProps) => {
   };
 
   const locale = lang === "en" ? "es" : "en";
+  const isWhiteText = pathName.includes("resume") ? "text-white" : "";
 
   return (
-    <div className={`flex justify-between px-5 py-4 print:hidden`}>
+    <nav aria-label="navigation" className={`flex justify-between px-5 py-4 print:hidden`}>
       <div className="flex items-center gap-3">
         <Link href="/">
-          <IconDotSquare className="w-5 h-5 dark:text-white cursor-pointer" />
+          <IconDotSquare className={`w-5 h-5 ${isWhiteText} cursor-pointer`} />
         </Link>
 
         <Link
           href={redirectedPathName(locale)}
-          className="hover:text-red text-link dark:text-white hover:dark:text-red uppercase"
+          className={`hover:text-red text-link ${isWhiteText} hover:dark:text-red uppercase`}
         >
           {locale}
         </Link>
@@ -39,18 +40,18 @@ export const Navigation = async ({ lang, t }: NavigationProps) => {
         <Link
           locale={lang}
           href={`/resume`}
-          className="text-link uppercase hover:text-red dark:text-white hover:dark:text-red"
+          className={`text-link capitalize hover:text-red ${isWhiteText} hover:dark:text-red`}
         >
           {t.nav_resume}
         </Link>
         <Link
           locale={lang}
           href="/work"
-          className="text-link uppercase hover:text-red dark:text-white hover:dark:text-red"
+          className={`text-link capitalize hover:text-red ${isWhiteText} hover:dark:text-red`}
         >
           {t.nav_work}
         </Link>
       </div>
-    </div>
+    </nav>
   );
 };

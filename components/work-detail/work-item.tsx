@@ -1,25 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { IconFatArrow } from "@/components/icons";
+import { WorkItemProps } from "@/utils/types";
 
 interface ItemsProps {
   items: string[];
 }
-
-// const List = ({ items }: ItemsProps) => (
-//   <ul className="list-disc list-inside mb-8 pl-4">
-//     {items.map((str, i) => {
-//       if (str.length === 0) {
-//         return;
-//       }
-//       return (
-//         <li className="text-bodysmall" key={i}>
-//           {str}
-//         </li>
-//       );
-//     })}
-//   </ul>
-// );
 
 const List = ({ items }: ItemsProps) => (
   <div className="flex flex-wrap gap-y-2 gap-x-1 mb-8">
@@ -39,24 +25,7 @@ const List = ({ items }: ItemsProps) => (
   </div>
 );
 
-interface WorkDetailProps {
-  headline: string;
-  description: string;
-  date: string;
-  media: {
-    url: string;
-  };
-  tech_stack: string;
-  url: string;
-  url_next_work: string;
-  url_prev_work: string;
-  // translation
-  t_button_label: string;
-  t_tech_title: string;
-  lang: string;
-}
-
-export const WorkDetail = ({
+export const WorkItem = ({
   headline,
   description,
   date,
@@ -65,13 +34,12 @@ export const WorkDetail = ({
   tech_stack,
   url_next_work,
   url_prev_work,
-  // translation
   t_button_label,
   t_tech_title,
   lang,
-}: WorkDetailProps) => (
+}: WorkItemProps) => (
   <div className="max-w-xl m-auto my-16 lg:my-10" role="alert">
-    <h1 className="text-h2 bg-white lg:text-h1 text-bluedark mb-8 flex items-center justify-between">
+    <h1 className="text-h2 lg:font-semibold bg-white lg:text-h1text-bluedark mb-8 flex items-center justify-between">
       {headline}
 
       <div className="flex items-center">
@@ -88,24 +56,33 @@ export const WorkDetail = ({
       </div>
     </h1>
 
-    <p className="text-bodysmall mb-6">{description}</p>
-
-    {t_tech_title && <h2 className="text-h4 font-bold text-bluedark mb-3">{t_tech_title}</h2>}
-    <List items={tech_stack.split("-")}></List>
-
-    <h3 className="text-h3 mb-3">{date}</h3>
-
-    <div className="mb-8 font-bold block relative">
+    <div className="mb-4 font-bold block relative">
       {media && (
         <Image
           src={media.url}
           alt="work detail image"
           width="520"
           height="340"
+
           className="rounded-md w-full object-cover"
         />
       )}
     </div>
+
+    <h3 className="text-gray/100 text-right text-xs mb-4">{
+      new Date(date).toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      })
+    }</h3>
+
+    <p className="text-bodysmall mb-6">{description}</p>
+
+    {t_tech_title && <h2 className="text-h4 font-semibold text-gray mb-3">{t_tech_title}</h2>}
+    <List items={tech_stack.split("-")}></List>
+
+
 
     {url && (
       <a

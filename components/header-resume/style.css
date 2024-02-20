@@ -33,3 +33,14 @@
   background-size: cover;
   -webkit-print-color-adjust: exact;
 }
+
+
+.app__resume h1 {
+  background: linear-gradient(45deg, #afb3b8, #9a80b1);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0,0,0,0);
+}
+

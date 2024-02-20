@@ -1,16 +1,20 @@
-import { getData } from "@/api/get-data";
+import type { Locale } from "@/i18n-config";
+import type { Metadata } from "next";
+import { getData } from "@/http/get-data";
 import { HeaderResume } from "@/components/header-resume/header-resume";
 import { ResumenContent } from "@/components/resumen-content/resumen-content";
 import { ShareLinks } from "@/components/share-links/share-links";
-import type { Locale } from "@/i18n-config";
+import { metadata } from "@/utils/metadata";
+
+const page = {
+  name: 'resume',
+  populate: '?populate[0]=history&populate[1]=open_graph.media'
+}
+
 
 export default async function Work({ params }: { params: { lang: Locale } }) {
-  const populate = `resume?populate=*`;
-  const res = await getData(populate, params.lang);
+  const res = await getData(page, params.lang);
   const data = res.data?.attributes;
-
-  console.log(data);
-
   const pdf_link = `/assets/pdf/jgatjens-resume-${params.lang}.pdf`;
 
   return (
@@ -23,4 +27,8 @@ export default async function Work({ params }: { params: { lang: Locale } }) {
       </div>
     </>
   );
+}
+
+export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
+  return metadata({ params, page });
 }

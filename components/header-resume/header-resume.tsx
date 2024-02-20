@@ -9,7 +9,7 @@ interface HeaderResumeProps {
 }
 
 export const HeaderResume = ({ headline, lang }: HeaderResumeProps) => (
-  <div className="flex flex-col justify-center items-center w-full h-96 print:h-64 bg-[#202255] relative">
+  <header className="app__resume flex flex-col justify-center items-center w-full h-96 print:h-64 bg-[#202255] relative">
     <div className="header-left resume-header-left"></div>
     <div className="header-left resume-header-right"></div>
 
@@ -26,5 +26,5 @@ export const HeaderResume = ({ headline, lang }: HeaderResumeProps) => (
     </h1>
 
     <div className="resume-logo"></div>
-  </div>
+  </header>
 );

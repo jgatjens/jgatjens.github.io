@@ -16,7 +16,7 @@ type Story = StoryObj<typeof HeaderResume>;
 
 export const Default: Story = {
   args: {
-    title: "Jairo Gatjens",
+    headline: "Jairo Gatjens",
     // link: MockLink,
   },
 };

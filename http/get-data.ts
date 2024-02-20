@@ -1,7 +1,11 @@
-import db from "./db";
+import { cache } from "react";
+import { getDataProps } from "@/utils/types";
+
+// import db from "./db";
 const strapi_url = process.env.API_URL || "http://localhost:1337/api";
 
-export const getData = async (populate: string, locale: string) => {
+
+const getDataFn = async (populate: string, locale: string) => {
   const languaje = locale ? `&locale=${locale}` : "";
   const url = `${strapi_url}/${populate}${languaje}`;
 
@@ -15,3 +19,8 @@ export const getData = async (populate: string, locale: string) => {
     // return db[section];
   }
 };
+
+export const getData = cache(async (page: getDataProps, locale: string) => {    
+  const url = `${page.name}/${page.populate}`;
+  return await getDataFn(url, locale);
+});

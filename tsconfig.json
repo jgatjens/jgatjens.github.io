@@ -29,6 +29,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "components/3d/starts.jsx"
-  ],
+, "libs/pdf.js"  ],
   "exclude": ["node_modules"]
 }

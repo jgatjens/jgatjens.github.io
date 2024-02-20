@@ -1,16 +1,16 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { WorkDetail } from "./work-detail";
+import { WorkItem } from "./work-item";
 
 // More on how to set up stories at: https://storybook.js.org/docs/7.0/react/writing-stories/introduction
-const meta: Meta<typeof WorkDetail> = {
-  title: "components/WorkDetail",
-  component: WorkDetail,
+const meta: Meta<typeof WorkItem> = {
+  title: "components/WorkItem",
+  component: WorkItem,
   tags: ["autodocs"],
 };
 
 export default meta;
 
-type Story = StoryObj<typeof WorkDetail>;
+type Story = StoryObj<typeof WorkItem>;
 
 export const Default: Story = {
   args: {
