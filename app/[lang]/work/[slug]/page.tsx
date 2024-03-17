@@ -96,8 +96,6 @@ export async function generateMetadata({
   const canonicalLangEn = page.name == "homepage" ? "/en" : `/en/work/${project.slug}`;
   const canonicalLangEs = page.name == "homepage" ? "/es" : `/es/work/${project.slug}`;
 
-  console.log("Project", project);
-
   const media = project.media as {
     url: string;
     width: number;

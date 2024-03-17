@@ -1,8 +1,8 @@
 "use client";
 
+import type { Locale } from "@/i18n-config";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import type { Locale } from "@/i18n-config";
 import { IconDotSquare } from "@/components/icons";
 
 interface NavigationProps {
@@ -10,7 +10,7 @@ interface NavigationProps {
   t: any;
 }
 
-export const Navigation = async ({ lang, t }: NavigationProps) => {
+export const Navigation = ({ lang, t }: NavigationProps) => {
   const pathName = usePathname();
   const redirectedPathName = (locale: string) => {
     if (!pathName) return "/";
