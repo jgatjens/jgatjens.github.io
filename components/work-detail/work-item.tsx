@@ -63,26 +63,23 @@ export const WorkItem = ({
           alt="work detail image"
           width="520"
           height="340"
-
-          className="rounded-md w-full object-cover"
+          className="rounded-md shadow-inner shadow-lg w-full object-cover grayscale hover:grayscale-0 transition-all"
         />
       )}
     </div>
 
-    <h3 className="text-gray/100 text-right text-xs mb-4">{
-      new Date(date).toLocaleDateString("en-US", {
+    <h3 className="text-gray/100 text-right text-xs mb-4">
+      {new Date(date).toLocaleDateString("en-US", {
         year: "numeric",
         month: "long",
         day: "numeric",
-      })
-    }</h3>
+      })}
+    </h3>
 
     <p className="text-bodysmall mb-6">{description}</p>
 
     {t_tech_title && <h2 className="text-h4 font-semibold text-gray mb-3">{t_tech_title}</h2>}
     <List items={tech_stack.split("-")}></List>
-
-
 
     {url && (
       <a

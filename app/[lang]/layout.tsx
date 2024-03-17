@@ -4,7 +4,7 @@ import { Poppins } from "next/font/google";
 import { Navigation } from "@/components/navigation";
 import { Locale, i18n } from "@/i18n-config";
 import { getDictionary } from "@/get-diccionary";
-import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleTagManager } from "@next/third-parties/google";
 import Wave from "@/components/wave";
 
 const poppins = Poppins({
@@ -27,7 +27,6 @@ export default async function RootLayout({
 }) {
   const t = await getDictionary(params.lang);
 
-
   return (
     <html lang={params.lang}>
       <body className={poppins.className}>
@@ -41,9 +40,6 @@ export default async function RootLayout({
           {/* bars */}
           <div className="fixed hidden top-1/2 -left-2 -mt-3 md:block">
             <Wave />
-            {/* <div className="h-[4px] block bg-bluedark rounded-md w-16 mb-1"></div> */}
-            {/* <div className="h-[4px] block bg-bluedark rounded-md w-24 mb-1"></div> */}
-            {/* <div className="h-[4px] block bg-bluedark rounded-md w-10"></div> */}
           </div>
 
           {/* background image */}
@@ -51,6 +47,9 @@ export default async function RootLayout({
             <Image
               src="/assets/img/bg-website.jpg"
               alt="background home image"
+              loading="lazy"
+              priority={false}
+              style={{ width: 626, height: 412, maxWidth: "inherit" }}
               width={626}
               height={412}
             />

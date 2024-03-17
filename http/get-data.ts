@@ -1,11 +1,11 @@
 import { cache } from "react";
 import { getDataProps } from "@/utils/types";
 
-// import db from "./db";
+import db from "./db";
 const strapi_url = process.env.API_URL || "http://localhost:1337/api";
 
-
-const getDataFn = async (populate: string, locale: string) => {
+const getDataFn = async (populate: string, locale: string, pageName: string) => {
+  const localDb = (await db()) as any;
   const languaje = locale ? `&locale=${locale}` : "";
   const url = `${strapi_url}/${populate}${languaje}`;
 
@@ -16,11 +16,11 @@ const getDataFn = async (populate: string, locale: string) => {
     return await res.json();
   } catch (error) {
     console.log("Fetch connection error, returning local data");
-    // return db[section];
+    return localDb[locale][pageName];
   }
 };
 
-export const getData = cache(async (page: getDataProps, locale: string) => {    
+export const getData = cache(async (page: getDataProps, locale: string) => {
   const url = `${page.name}/${page.populate}`;
-  return await getDataFn(url, locale);
+  return await getDataFn(url, locale, page.name);
 });

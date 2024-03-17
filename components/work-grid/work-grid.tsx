@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface WorkGridProps {
@@ -16,7 +17,7 @@ export const WorkGrid = ({ items }: WorkGridProps) => (
         tabIndex={-1}
         aria-label="Select image one"
       >
-        <img src={item.url} alt="Image description" />
+        <Image src={item.url} alt="Image description" />
       </div>
     ))}
   </div>

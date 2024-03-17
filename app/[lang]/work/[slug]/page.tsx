@@ -13,9 +13,9 @@ interface WorkDetailProps {
 }
 
 const page = {
-  name: 'work',
-  populate: '?populate[0]=items.media&populate[1]=open_graph.media'
-}
+  name: "work",
+  populate: "?populate[0]=items.media&populate[1]=open_graph.media",
+};
 
 // This function gets called at build time
 export async function generateStaticParams() {
@@ -78,17 +78,25 @@ export default async function WorkDetailPage({ params }: WorkDetailProps) {
   );
 }
 
-export async function generateMetadata({ params }: { params: { lang: string, slug: string } }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: { lang: string; slug: string };
+}): Promise<Metadata> {
   // read route params
   const locale = params.lang || "en";
   const res: BackendProps = await getData(page, locale);
   const seo = res.data.attributes?.open_graph;
 
   // find project by slug
-  const project: WorkItemProps = res.data.attributes.items.find((item: WorkItemProps) => item.slug.toLowerCase() === params.slug);
-  const canonical = page.name == 'homepage' ? '/' : `/work/${project.slug}`;
-  const canonicalLangEn = page.name == 'homepage' ? '/en' : `/en/work/${project.slug}`;
-  const canonicalLangEs = page.name == 'homepage' ? '/es' : `/es/work/${project.slug}`;
+  const project: WorkItemProps = res.data.attributes.items.find(
+    (item: WorkItemProps) => item.slug.toLowerCase() === params.slug
+  );
+  const canonical = page.name == "homepage" ? "/" : `/work/${project.slug}`;
+  const canonicalLangEn = page.name == "homepage" ? "/en" : `/en/work/${project.slug}`;
+  const canonicalLangEs = page.name == "homepage" ? "/es" : `/es/work/${project.slug}`;
+
+  console.log("Project", project);
 
   const media = project.media as {
     url: string;
@@ -97,19 +105,24 @@ export async function generateMetadata({ params }: { params: { lang: string, slu
     alternativeText: string;
   };
 
-  const keyboards = project.tech_stack.replaceAll('-', '').split('\n').map((str) => str.trim()).join(', ').toLowerCase();
-  
+  const keyboards = project.tech_stack
+    .replaceAll("-", "")
+    .split("\n")
+    .map((str) => str.trim())
+    .join(", ")
+    .toLowerCase();
+
   return {
     title: project?.headline ?? seo?.title,
     description: project?.description ?? seo?.description,
     keywords: keyboards ?? seo?.keywords,
-    creator: 'jairo gatjens',
-    publisher: 'jairo gatjens',
+    creator: "jairo gatjens",
+    publisher: "jairo gatjens",
     alternates: {
       canonical,
       languages: {
-        'en-US': canonicalLangEn,
-        'es-CR': canonicalLangEs,
+        "en-US": canonicalLangEn,
+        "es-CR": canonicalLangEs,
       },
     },
     openGraph: {
@@ -118,21 +131,21 @@ export async function generateMetadata({ params }: { params: { lang: string, slu
       locale: locale,
       images: [
         {
-          url: media.url,
-          width: media.width,
-          height: media.height,
-          alt: media.alternativeText,
+          url: media?.url,
+          width: media?.width,
+          height: media?.height,
+          alt: media?.alternativeText ?? project.headline + "| image",
         },
       ],
-      type: 'website',
+      type: "website",
     },
     twitter: {
-      card: 'summary_large_image',
-      site: '@jgatjens',
-      creator: '@jgatjens',
+      card: "summary_large_image",
+      site: "@jgatjens",
+      creator: "@jgatjens",
       title: project?.headline ?? seo?.title,
       description: project?.description ?? seo?.description,
-      images: media.url,
+      images: media?.url,
     },
-  }
+  };
 }
