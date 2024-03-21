@@ -20,7 +20,7 @@ export const Navigation = ({ lang, t }: NavigationProps) => {
   };
 
   const locale = lang === "en" ? "es" : "en";
-  const isWhiteText = pathName.includes("resume") ? "text-white" : "";
+  const isWhiteText = pathName?.includes("resume") ? "text-white" : "";
 
   return (
     <nav aria-label="navigation" className={`flex justify-between px-5 py-4 print:hidden`}>

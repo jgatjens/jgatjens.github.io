@@ -16,7 +16,7 @@ export const dataResume = {
     - Databases: Mongo, SQL, MySQL and Microsoft Access, Postgres.
     - Servers: Apache, Tomcat, Nodejs.
     - Environments: Mac, Ubuntu, Windows.`,
-  work_history: [
+  history: [
     {
       id: 1,
       company: "18techs.com",

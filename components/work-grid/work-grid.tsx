@@ -17,7 +17,7 @@ export const WorkGrid = ({ items }: WorkGridProps) => (
         tabIndex={-1}
         aria-label="Select image one"
       >
-        <Image src={item.url} alt="Image description" />
+        <Image src={item.url} width={200} height={200} alt="Image description" />
       </div>
     ))}
   </div>

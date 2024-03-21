@@ -3,7 +3,7 @@ import { dataResume } from "./data";
 import { ResumenContent } from "./resumen-content";
 
 const meta: Meta<typeof ResumenContent> = {
-  title: "components/ResumenContent",
+  title: "components/Resumen Content",
   component: ResumenContent,
   tags: ["autodocs"],
 };

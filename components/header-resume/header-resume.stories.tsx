@@ -3,7 +3,7 @@ import { HeaderResume } from "./header-resume";
 
 // More on how to set up stories at: https://storybook.js.org/docs/7.0/react/writing-stories/introduction
 const meta: Meta<typeof HeaderResume> = {
-  title: "components/HeaderResume",
+  title: "components/Header Resume",
   component: HeaderResume,
   tags: ["autodocs"],
 };

@@ -91,11 +91,11 @@ export const ResumenContent = ({
 
     <h2 className="text-h2 mb-4 uppercase">{skill_label || "SKILLS"}</h2>
 
-    {skills && <List items={skills.split("-")}></List>}
+    {skills && <List items={skills?.split("-")}></List>}
 
     <h2 className="text-h2 mb-5 print:mt-28 uppercase">{work_label || "WORK HISTORY"}</h2>
 
-    {history.map((work, i) => (
+    {history?.map((work, i) => (
       <HistoryItem key={i} {...work} />
     ))}
 

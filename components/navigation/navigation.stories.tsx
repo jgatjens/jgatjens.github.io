@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
+import { getDictionary } from "../../get-diccionary";
 import { Navigation } from ".";
 
 const meta: Meta<typeof Navigation> = {
@@ -14,5 +15,12 @@ type Story = StoryObj<typeof Navigation>;
 export const Default: Story = {
   args: {
     lang: "en",
+    t: {
+      nav_work: "work",
+      nav_resume: "resume",
+
+      work_detail_url: "See Project",
+      work_detail_tech: "Tags",
+    },
   },
 };
