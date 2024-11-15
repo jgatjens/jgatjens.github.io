@@ -13,7 +13,7 @@
       "work_label": " historia de trabajo",
       "academic_label": " educación",
       "createdAt": "2023-10-07T16:18:22.347Z",
-      "updatedAt": "2024-02-17T20:03:16.769Z",
+      "updatedAt": "2023-12-12T03:03:32.208Z",
       "publishedAt": "2023-12-12T02:07:26.508Z",
       "locale": "es",
       "history": [
@@ -67,46 +67,7 @@
         "keywords": "Resume, CV, Curriculum, Perfil, Github, HTML, CSS, JavaScript, React Native, React, Next.js",
         "username": "jgatjens",
         "media": {
-          "data": {
-            "id": 11,
-            "attributes": {
-              "name": "profile.jpg",
-              "alternativeText": "profile",
-              "caption": "profile",
-              "width": 400,
-              "height": 400,
-              "formats": {
-                "thumbnail": {
-                  "name": "thumbnail_profile.jpg",
-                  "hash": "thumbnail_profile_a0d5269139",
-                  "ext": ".jpg",
-                  "mime": "image/jpeg",
-                  "path": null,
-                  "width": 156,
-                  "height": 156,
-                  "size": 3.75,
-                  "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693767/thumbnail_profile_a0d5269139.jpg",
-                  "provider_metadata": {
-                    "public_id": "thumbnail_profile_a0d5269139",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "hash": "profile_a0d5269139",
-              "ext": ".jpg",
-              "mime": "image/jpeg",
-              "size": 15.25,
-              "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693768/profile_a0d5269139.jpg",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": {
-                "public_id": "profile_a0d5269139",
-                "resource_type": "image"
-              },
-              "createdAt": "2023-10-07T15:49:29.470Z",
-              "updatedAt": "2023-10-08T21:19:59.313Z"
-            }
-          }
+          "data": null
         }
       }
     }

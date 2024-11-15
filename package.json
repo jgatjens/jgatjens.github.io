@@ -9,7 +9,7 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "pdf": "node ./libs/pdf.js"
+    "pdf": "node ./utils/pdf.js"
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.2",
