@@ -37,6 +37,8 @@ export const Default: Story = {
         `,
         lang: "en",
         t_tech_title: "Tech stack",
+        t_tech_description:
+          "This is a description of the tech stack used in this project.",
         t_button_label: "Visit website",
       },
       {
@@ -62,6 +64,8 @@ export const Default: Story = {
         `,
         lang: "en",
         t_tech_title: "Tech stack",
+        t_tech_description:
+          "This is a description of the tech stack used in this project.",
         t_button_label: "Visit website",
       },
       {
@@ -87,6 +91,8 @@ export const Default: Story = {
         `,
         lang: "en",
         t_tech_title: "Tech stack",
+        t_tech_description:
+          "This is a description of the tech stack used in this project.",
         t_button_label: "Visit website",
       },
     ],

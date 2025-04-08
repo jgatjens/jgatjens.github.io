@@ -7,17 +7,20 @@ type MetadataProps = {
     lang: string;
   };
   page: getDataProps;
-}
+};
 
-export async function metadata({ params, page }: MetadataProps): Promise<Metadata> {
+export async function metadata({
+  params,
+  page,
+}: MetadataProps): Promise<Metadata> {
   // read route params
   const locale = params.lang || "en";
   const res: BackendProps = await getData(page, locale);
   const seo = res.data.attributes?.open_graph;
 
-  const canonical = page.name == 'homepage' ? '/' : `/${page.name}`;
-  const canonicalLangEn = page.name == 'homepage' ? '/en' : `/en/${page.name}`;
-  const canonicalLangEs = page.name == 'homepage' ? '/es' : `/es/${page.name}`;
+  const canonical = page.name == "homepage" ? "/" : `/${page.name}`;
+  const canonicalLangEn = page.name == "homepage" ? "/en" : `/en/${page.name}`;
+  const canonicalLangEs = page.name == "homepage" ? "/es" : `/es/${page.name}`;
 
   const media = seo?.media?.data?.attributes as {
     url: string;
@@ -25,18 +28,20 @@ export async function metadata({ params, page }: MetadataProps): Promise<Metadat
     height: number;
     alternativeText: string;
   };
-  
+
+  console.log(media?.url);
+
   return {
     title: seo?.title,
     description: seo?.description,
     keywords: seo?.keywords,
-    creator: 'Jairo Gatjens',
-    publisher: 'Jairo Gatjens',
+    creator: "Jairo Gatjens",
+    publisher: "Jairo Gatjens",
     alternates: {
       canonical,
       languages: {
-        'en-US': canonicalLangEn,
-        'es-CR': canonicalLangEs,
+        "en-US": canonicalLangEn,
+        "es-CR": canonicalLangEs,
       },
     },
     openGraph: {
@@ -45,21 +50,21 @@ export async function metadata({ params, page }: MetadataProps): Promise<Metadat
       locale: locale,
       images: [
         {
-          url: media.url,
-          width: media.width,
-          height: media.height,
-          alt: media.alternativeText,
+          url: media?.url,
+          width: media?.width,
+          height: media?.height,
+          alt: media?.alternativeText,
         },
       ],
-      type: 'website',
+      type: "website",
     },
     twitter: {
-      card: 'summary_large_image',
-      site: '@jgatjens',
-      creator: '@jgatjens',
+      card: "summary_large_image",
+      site: "@jgatjens",
+      creator: "@jgatjens",
       title: seo?.title,
       description: seo?.description,
       images: media.url,
     },
-  }
+  };
 }

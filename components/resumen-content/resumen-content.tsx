@@ -1,5 +1,6 @@
 import React from "react";
 import { ButtonDownload } from "@/components/button-download/button-download";
+import Markdown from "react-markdown";
 
 interface ItemsProps {
   items: string[];
@@ -28,10 +29,20 @@ interface HistoryItemProps {
   skills: string;
 }
 
-const HistoryItem = ({ company, company_url, job_name, date, skills }: HistoryItemProps) => (
+const HistoryItem = ({
+  company,
+  company_url,
+  job_name,
+  date,
+  skills,
+}: HistoryItemProps) => (
   <div className="mb-8">
     <div>
-      <a className="text-red underline inline font-semibold" href={company_url} target="_blank">
+      <a
+        className="text-purple inline font-semibold"
+        href={company_url}
+        target="_blank"
+      >
         {company}
       </a>
       <h4 className="italic inline-block font-normal mb-1">— {job_name}</h4>
@@ -75,56 +86,64 @@ export const ResumenContent = ({
   skills,
   pdf_link,
   history,
-}: ResumenContentProps) => (
-  <div className="container text-[#3b3e48] pb-10">
-    <p className="text-bodysmall mb-6">
-      {location || "Santa Teresa, Costa Rica"} <br />
-      <b>{email_label || "Email"}:</b>{" "}
-      <a className="text-red" href="mailto:{{email}}">
-        {email}
-      </a>
-    </p>
-    <h2 className="text-h2 mb-4 uppercase">{summary_label}</h2>
-    <p className="mb-7 text-bodysmall">{summary}</p>
+}: ResumenContentProps) => {
+  return (
+    <div className="container text-[#3b3e48] pb-10 print:pt-10 print:pb-10">
+      <p className="text-bodysmall mb-6">
+        {location || "Santa Teresa, Costa Rica"} <br />
+        <b>{email_label || "Email"}:</b>{" "}
+        <a className="text-red" target="_blank" href={`mailto:${email}`}>
+          {email}
+        </a>
+      </p>
+      <h2 className="text-h2 mb-4 uppercase">{summary_label}</h2>
 
-    <ButtonDownload link={pdf_link} label={resume_button_label || "RESUME"} />
+      <div className="mb-7 [&_p]:mb-2 [&_p]:text-bodysmall">
+        <Markdown>{summary}</Markdown>
+      </div>
+      {/* <p  className="mb-7 text-bodysmall">{summary}</p> */}
 
-    <h2 className="text-h2 mb-4 uppercase">{skill_label || "SKILLS"}</h2>
+      <ButtonDownload link={pdf_link} label={resume_button_label || "RESUME"} />
 
-    {skills && <List items={skills?.split("-")}></List>}
+      <h2 className="text-h2 mb-4 uppercase">{skill_label || "SKILLS"}</h2>
 
-    <h2 className="text-h2 mb-5 print:mt-28 uppercase">{work_label || "WORK HISTORY"}</h2>
+      {skills && <List items={skills?.split("-")}></List>}
 
-    {history?.map((work, i) => (
-      <HistoryItem key={i} {...work} />
-    ))}
+      <h2 className="text-h2 mb-5 uppercase">{work_label || "WORK HISTORY"}</h2>
 
-    <h2 className="text-h2 mb-5 uppercase">{academic_label}</h2>
+      {history?.map((work, i) => (
+        <HistoryItem key={i} {...work} />
+      ))}
 
-    <div>
-      <a
-        className="text-red underline inline font-semibold"
-        href="https://ufidelitas.ac.cr/"
-        target="_blank"
-      >
-        Universidad Fidelitas, Costa Rica
-      </a>
-      <h4 className="italic inline-block font-normal mb-1">— Bachelor’s in Computer Science</h4>
-      <p className="text-bodysmall mb-3">2005 - 2008</p>
+      <h2 className="text-h2 mb-5 uppercase">{academic_label}</h2>
+
+      <div>
+        <a
+          className="text-purple underline inline font-semibold"
+          href="https://ufidelitas.ac.cr/"
+          target="_blank"
+        >
+          Universidad Fidelitas, Costa Rica
+        </a>
+        <h4 className="italic inline-block font-normal mb-1">
+          — Bachelor’s in Computer Science
+        </h4>
+        <p className="text-bodysmall mb-3">2005 - 2008</p>
+      </div>
+
+      <div>
+        <a
+          className="text-purple underline inline font-semibold"
+          href="https://ulatina.ac.cr/"
+          target="_blank"
+        >
+          Universidad Latina, Costa Rica
+        </a>
+        <h4 className="italic inline-block font-normal mb-1">
+          — Electrical and Electronics Engineering
+        </h4>
+        <p className="text-bodysmall mb-3">2011 - 2012</p>
+      </div>
     </div>
-
-    <div>
-      <a
-        className="text-red underline inline font-semibold"
-        href="https://ulatina.ac.cr/"
-        target="_blank"
-      >
-        Universidad Latina, Costa Rica
-      </a>
-      <h4 className="italic inline-block font-normal mb-1">
-        — Electrical and Electronics Engineering
-      </h4>
-      <p className="text-bodysmall mb-3">2011 - 2012</p>
-    </div>
-  </div>
-);
+  );
+};

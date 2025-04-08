@@ -30,5 +30,6 @@ export type WorkItemProps = {
   // translation
   t_button_label: string;
   t_tech_title: string;
+  t_tech_description: string;
   lang: string;
 };

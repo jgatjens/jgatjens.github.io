@@ -3,5 +3,6 @@
   "nav_resume": "resume",
 
   "work_detail_url": "See Project",
-  "work_detail_tech": "Tags"
+  "work_detail_tech": "Tags",
+  "work_detail_description": "Description"
 }

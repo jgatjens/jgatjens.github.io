@@ -36,6 +36,7 @@ export const WorkItem = ({
   url_prev_work,
   t_button_label,
   t_tech_title,
+  t_tech_description,
   lang,
 }: WorkItemProps) => (
   <div className="max-w-xl m-auto my-16 lg:my-10" role="alert">
@@ -44,12 +45,18 @@ export const WorkItem = ({
 
       <div className="flex items-center">
         {url_prev_work && (
-          <Link href={`/${lang}/work/${url_prev_work}`} className="rotate-180 mr-3 hover:text-red">
+          <Link
+            href={`/${lang}/work/${url_prev_work}`}
+            className="rotate-180 mr-3 hover:text-red"
+          >
             <IconFatArrow />
           </Link>
         )}
         {url_next_work && (
-          <Link href={`/${lang}/work/${url_next_work}`} className="hover:text-red">
+          <Link
+            href={`/${lang}/work/${url_next_work}`}
+            className="hover:text-red"
+          >
             <IconFatArrow />
           </Link>
         )}
@@ -68,17 +75,20 @@ export const WorkItem = ({
       )}
     </div>
 
-    <h3 className="text-gray/100 text-right text-xs mb-4">
+    <div className="text-gray/100 text-right text-xs mb-4">
       {new Date(date).toLocaleDateString("en-US", {
         year: "numeric",
         month: "long",
         day: "numeric",
       })}
-    </h3>
+    </div>
 
+    <h2 className="text-lg font-semibold mb-2">{t_tech_description}</h2>
     <p className="text-bodysmall mb-6">{description}</p>
 
-    {t_tech_title && <h2 className="text-h4 font-semibold text-gray mb-3">{t_tech_title}</h2>}
+    {t_tech_title && (
+      <h2 className="text-h4 font-semibold text-gray mb-3">{t_tech_title}</h2>
+    )}
     <List items={tech_stack.split("-")}></List>
 
     {url && (

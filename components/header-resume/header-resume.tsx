@@ -18,7 +18,7 @@ export const HeaderResume = ({ headline, lang }: HeaderResumeProps) => (
     </div>
 
     <Link href={`/${lang}`}>
-      <IconArrow className="text-white relative z-10 mb-5 hover:text-red print:hidden" />
+      <IconArrow className="text-white relative z-10 mb-5 hover:text-orange print:hidden" />
     </Link>
 
     <h1 className="font-sans relative z-10 font-semibold text-4xl text-center text-white max-w-[210px] mb-10 print:max-w-full">

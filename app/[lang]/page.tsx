@@ -9,7 +9,8 @@ import { BackendProps } from "@/utils/types";
 
 const page = {
   name: "homepage",
-  populate: "?populate[0]=profile.media&populate[1]=hire_me&populate[2]=open_graph.media",
+  populate:
+    "?populate[0]=profile.media&populate[1]=hire_me&populate[2]=open_graph.media",
 };
 
 type ProfileProps = {
@@ -38,7 +39,6 @@ export default async function Page({ params }: { params: { lang: Locale } }) {
   const hireMe = res.data?.attributes?.hire_me as HireMeProps;
   const media = profile.media?.data.attributes as MediaProps;
 
-  console.log("Page homepage");
   return (
     <section className="flex items-center justify-center h-full">
       <Suspense>

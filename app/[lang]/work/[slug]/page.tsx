@@ -70,6 +70,7 @@ export default async function WorkDetailPage({ params }: WorkDetailProps) {
   project.lang = params.lang;
   project.t_button_label = t.work_detail_url;
   project.t_tech_title = t.work_detail_tech;
+  project.t_tech_description = t.work_detail_description;
 
   return (
     <section className="flex justify-center flex-col px-5 lg:px-0">
@@ -93,8 +94,10 @@ export async function generateMetadata({
     (item: WorkItemProps) => item.slug.toLowerCase() === params.slug
   );
   const canonical = page.name == "homepage" ? "/" : `/work/${project.slug}`;
-  const canonicalLangEn = page.name == "homepage" ? "/en" : `/en/work/${project.slug}`;
-  const canonicalLangEs = page.name == "homepage" ? "/es" : `/es/work/${project.slug}`;
+  const canonicalLangEn =
+    page.name == "homepage" ? "/en" : `/en/work/${project.slug}`;
+  const canonicalLangEs =
+    page.name == "homepage" ? "/es" : `/es/work/${project.slug}`;
 
   const media = project.media as {
     url: string;

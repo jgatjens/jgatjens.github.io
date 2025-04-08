@@ -3,33 +3,26 @@
     "id": 1,
     "attributes": {
       "headline": "Jairo Gätjens",
-      "location": "San jose, Costa Rica",
+      "location": "Santa Teresa, Costa Rica",
       "email_label": "email",
       "email": "jgatjens@gmail.com",
       "summary_label": "summary",
-      "summary": "I have worked as a software engineer for more than 15 years leading teams, working on hiring processes, personal management, creating architectures in different areas, projects with tight deadlines and new technologies. Some of the biggest companies and brands I have worked for includes: elancohub.com, interwellhealth.com, ni.com, OrTracker App, mergeworld.com, wunderground.com, 18techs, criticalmass.com, www.cafebritt.cr, hangarworldwide.com, www.pcfinancial.ca, Clorox - Britta +, Jerry García, among others.",
+      "summary": "With over 15 years of experience as a software engineer, I have led teams, managed hiring processes, and developed architectures across various domains, consistently delivering projects within tight deadlines and leveraging emerging technologies.\n\n- **Frontend Development**: Proficient in JavaScript frameworks like React and Angular, with extensive experience in TypeScript and Node.js. Skilled in building design systems using Storybook and implementing responsive designs with Tailwind CSS, Chakra UI, and Radix.\n\n- **Backend Development**: Experienced in developing robust backend solutions using Node.js with Drizzle, and managing databases such as PostgreSQL, MySQL, and Microsoft Access.\n\n- **Headless CMS and API Integration**: Adept at headless development with platforms like XMCloud, Contentful, Strapi, and integrating GraphQL and RESTful APIs.\n\n- **DevOps and Deployment**: Familiar with Vercel Pro and Enterprise account management, ensuring seamless deployment and performance optimization.",
       "skill_label": "skills",
-      "skills": "- Experience in Typescript and Nodejs.\n- Headless development (XMCloud, Contenful, Strapi 3/4, GraphQL, Rest).\n- Extensive experience creating design system with Storybook.\n- Javascript (React, Angular 1/2, Backbone, Gulp, Webpack, Rollup, Vite).\n- React Native, Ionic.\n- Redux, Jotai, React Query, SWR vercel.\n- Ajax, Observables, Promises.\n- Tailwind CSS, Chakra UI, Radix, Shadcn, (Sass | CSS Modules | Style Components).\n- Nextjs, server components, i18n, Next auth.\n- Vercel pro and Enterprise account management.\n- 10 years ago C#, C++ and PASCAL.\n- Postgres, SQL, MySQL and Microsoft Access databases.\n- Backend: Nodejs,  prisma or drizzle.\n- Mac, Ubuntu, Windows environments no problem.\n- SEO optimizations and implementation with AA2.\n- Graphic and UX design background.\n- Figma, Adobe XD, Sketch, Photoshop.\n- Learning Japanese and Threejs.",
+      "skills": "- Experience in Typescript, React and Nodejs.\n- Headless development (XMCloud, Contenful, Strapi 3/4).\n- Extensive experience creating design system with Storybook.\n- Javascript (Angular 1/2, Backbone, Vite, Webpack, Gulp, Rollup).\n- React Native, Ionic.\n- Redux, Jotai, React Query, SWR vercel, GraphQL, Rest.\n- Ajax, Observables, Promises.\n- Tailwind 4, Chakra UI, Radix, Shadcn, (Sass | CSS Modules | Style Components).\n- Nextjs, server components, i18n, Next auth.\n- Postgres, SQL, MySQL and Microsoft Access databases.\n- Mac, Ubuntu, Windows environments no problem.\n- SEO optimizations and implementation with AA2.\n- Graphics and UX design background.\n- Figma, Adobe XD, Sketch, Photoshop.\n- Learning Japanese and Threejs.",
       "work_label": "work history",
       "academic_label": "academic background",
       "createdAt": "2023-10-07T16:05:44.209Z",
-      "updatedAt": "2024-11-15T17:50:07.052Z",
+      "updatedAt": "2025-04-08T21:07:36.099Z",
       "publishedAt": "2023-10-08T16:58:09.549Z",
       "locale": "en",
       "history": [
         {
-          "id": 13,
-          "company": "lu-studio.dev",
-          "job_name": "Owner ",
-          "date": "Mar 2022",
-          "skills": "We offer global, practical and effective solutions for businesses that (seek, want) to create high-quality user-friendly experiences.\n\nWe engineer next level user interfaces tailor made for any clients needs."
-        },
-        {
           "id": 1,
-          "company": "18techs.com",
+          "company": "mergeworld.com",
           "job_name": "Full Stack Developer",
-          "date": "Set 2021",
-          "skills": "- Working with an amazing group of people.\n- Responsible for creating demos and full products for clients.\n- Create Figma prototypes.\n- Create style guides and design systems for backend integration.\n- React, Next.js, Storybook, Nodejs, etc..\n- I enjoy sports (soccer, surfing, and skate surfing).\n- PC and macOS environments."
+          "date": "Set 2021 - Apr 2024",
+          "skills": "- Working with an amazing group of people.\n- Responsible for creating demos and full products for clients.\n- Create Figma prototypes.\n- Integration with sitecore xp and xmcloud sites.\n- integration with microsoft sharepoint.\n- Ionic Apps.\n- Create design systems for backend integration.\n- React, Next.js, Storybook, Nodejs.\n- PC and macOS environments.\n- I enjoy sports (soccer, surfing, and skate surfing)."
         },
         {
           "id": 2,
@@ -74,7 +67,91 @@
         "keywords": "Website, Resume, Profile, Github, HTML, CSS, JavaScript, NodeJs, React, React Native, Next.js",
         "username": "jgatjens",
         "media": {
-          "data": null
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "seo-resume.jpg",
+              "alternativeText": "resume",
+              "caption": "resume",
+              "width": 2400,
+              "height": 1260,
+              "formats": {
+                "small": {
+                  "name": "small_seo-resume.jpg",
+                  "hash": "small_seo_resume_8e2ea012b5",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 263,
+                  "size": 10.23,
+                  "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693747/small_seo_resume_8e2ea012b5.jpg",
+                  "provider_metadata": {
+                    "public_id": "small_seo_resume_8e2ea012b5",
+                    "resource_type": "image"
+                  }
+                },
+                "large": {
+                  "name": "large_seo-resume.jpg",
+                  "hash": "large_seo_resume_8e2ea012b5",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 525,
+                  "size": 29.06,
+                  "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693747/large_seo_resume_8e2ea012b5.jpg",
+                  "provider_metadata": {
+                    "public_id": "large_seo_resume_8e2ea012b5",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "name": "medium_seo-resume.jpg",
+                  "hash": "medium_seo_resume_8e2ea012b5",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 394,
+                  "size": 18.78,
+                  "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693747/medium_seo_resume_8e2ea012b5.jpg",
+                  "provider_metadata": {
+                    "public_id": "medium_seo_resume_8e2ea012b5",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "name": "thumbnail_seo-resume.jpg",
+                  "hash": "thumbnail_seo_resume_8e2ea012b5",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 128,
+                  "size": 3.5,
+                  "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693747/thumbnail_seo_resume_8e2ea012b5.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_seo_resume_8e2ea012b5",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "seo_resume_8e2ea012b5",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 101.75,
+              "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693747/seo_resume_8e2ea012b5.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "seo_resume_8e2ea012b5",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-10-07T15:49:08.447Z",
+              "updatedAt": "2024-11-15T17:58:41.577Z"
+            }
+          }
         }
       }
     }

@@ -3,5 +3,6 @@
   "nav_resume": "cv",
 
   "work_detail_url": "Ver Trabajo",
-  "work_detail_tech": "Tecnologías"
+  "work_detail_tech": "Tecnologías",
+  "work_detail_description": "Detalle"
 }
