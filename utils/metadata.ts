@@ -64,7 +64,7 @@ export async function metadata({
       creator: "@jgatjens",
       title: seo?.title,
       description: seo?.description,
-      images: media.url,
+      images: media?.url,
     },
   };
 }
