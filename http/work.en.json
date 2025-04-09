@@ -8,7 +8,158 @@
       "updatedAt": "2024-11-15T18:04:05.853Z",
       "publishedAt": "2023-10-08T16:58:12.252Z",
       "locale": "en",
-      "items": [],
+      "items": [
+        {
+          "id": 29,
+          "headline": "Interwellhealth",
+          "description": "Redesign of the official interwellhealth website. They asked us to create a website with really cool animations for the user to explore. The project architecture was built around a new service from Microsft (Sitecore) named XM Cloud.\n\nThe site was built using Figma, storybook, Nextjs, and Vercel cloud.",
+          "date": "Jun 2023",
+          "url": "https://interwellhealth.com/",
+          "slug": "interwellhealth",
+          "color": "#306",
+          "tech_stack": "- XM Cloud\n- Sitecore\n- NextJs\n- Vercel\n- Tailwind\n- Radix\n- SCSS"
+        },
+        {
+          "id": 27,
+          "headline": "Lustudio",
+          "description": "Making a name in the Digital World!\n\nThis branding studio was created by Bruno Gatjens and Me. Our Idea is to deliver High-quality design and development to small, and medium businesses at affordable prices. We added some nice colors and a few animations like the Hero when you just load the page. We are planning to create a few more animations in the future.\n\nCustom domain configuration were added to this website to include a subdomain with the branding styleguide.\nhttps://ui.lustudio.dev/",
+          "date": "Mar 2023",
+          "url": "https://www.lustudio.dev/",
+          "slug": "lustudio",
+          "color": "#9580ff",
+          "tech_stack": "- Nextjs\n- Vercel\n- React\n- Tailwind\n- SCSS\n- WebGQL\n- CSS animation"
+        },
+        {
+          "id": 1,
+          "headline": "ElancoHub",
+          "description": "Web app for Elanco customer to know more about their products is also a fun way to win prizes and keep the interaction with the branding. The application uses Contentful service to store information about the shows that Elanco gives to the customers. User data and other types of information are handled with a Postgres database and a Serverless API built on node with Prisma ORM.",
+          "date": "Aug 2023",
+          "url": "https://elancohub.com/",
+          "slug": "elancohub",
+          "color": "#001149",
+          "tech_stack": "- Ionic\n- React\n- Playwright\n- 2d animation\n- SWR \n- Jota\n- Nextjs\n- Contentful\n- Postgres\n- Prisma\n- Docker"
+        },
+        {
+          "id": 2,
+          "headline": "Hangarworldwide",
+          "description": "This project was created using ReactJS as the main library. It was planned with the design team to create a small design system for future implementations. CSS and pure Javascript were used to create the animations of some sections with the idea that these components or modules could be reused in other sites.\n\nAs part of the design system, Icons, Logo Branding, Typography, Layout, Best Practices, etc. were created.",
+          "date": "Mar 2020",
+          "url": " https://hangarworldwide.com/",
+          "slug": "hangarworldwide",
+          "color": "#78cdb191",
+          "tech_stack": "- React\n- CSS and JS animations\n- Gatsby\n- Nodejs\n- Contentful\n- Small Design System"
+        },
+        {
+          "id": 3,
+          "headline": "ni.com",
+          "description": "Redesign of the official Ni.com website. Huge site with thousands of pages, and we have to create a big style guide of components to deliver to our backend team to be implemented in AEM.\n\nThe project consisted of two main parts. The first part was updating the homepage, product pages, blogs, and a few sections. The second part was creating a small Angular application for the shop experience.",
+          "date": "Mar 2020",
+          "url": "https://www.ni.com/",
+          "slug": "ni",
+          "color": "#03b585",
+          "tech_stack": "- Figma\n- Javascript\n- Html, SCSS\n- Angular 2\n- Custom storybook to develop FE components\n- AEM\n"
+        },
+        {
+          "id": 4,
+          "headline": "Organic",
+          "description": "This project was created using ReactJS as the main library. It was worked in conjunction with the organic.com design team and connected to the CMS Headless Contentful.\n\nThe project had a simple design but with very subtle animations and details that made it fun.",
+          "date": "Jan 2020",
+          "url": "https://www.organic.com/",
+          "slug": "organic",
+          "color": "#ffc7a66b",
+          "tech_stack": "- React.\n- CSS and JS animations.\n- Gatsby\n- Nodejs\n- Contentful"
+        },
+        {
+          "id": 5,
+          "headline": "OrTracker App",
+          "description": "This project was built using React Native and React talking to the same Nodejs API.\n\nCommunicate Quickly – Work Smarter\nOR Tracker’s cloud-based app provides centralized communication\nhub delivering real-time case management data to medical center teams and patients.",
+          "date": "April 2019",
+          "url": "https://or-tracker.com/",
+          "slug": "ortracker-app",
+          "color": "#7f0fbb5c",
+          "tech_stack": "- React Native.\n- Multiple RN plugins.\n- Redux.\n- React Material Design.\n- React.\n- AWS \n- Nodejs\n- Mysql"
+        },
+        {
+          "id": 6,
+          "headline": "Marco's Pizza",
+          "description": "Redesign of the official Marco’s website. They asked us to redesign the website with really cool transitions for the user to explore. We did it and backed the site with a custom admin panel. That way the final administration user is now able to edit all the content on the website easily.",
+          "date": "May 2019",
+          "url": " https://www.marcos.com/",
+          "slug": "marcos-pizza",
+          "color": "#7f0fbb5c",
+          "tech_stack": "- Docker Wordpress setup.\n- JavaScript.\n- SPA admin site.\n- Webpack.js\n- bulma.io\n- SketchApp."
+        },
+        {
+          "id": 7,
+          "headline": "Landofrost",
+          "description": "Redesign of the official Landofrost website. They asked us to create a website with really cool transitions for the user to explore. We did it and backed the site with a custom admin panel. That way the final administration user is now able to edit all the content on the website easily.",
+          "date": "Mar 2019",
+          "url": " https://www.landofrost.com/",
+          "slug": "landofrost",
+          "color": "#7f0fbb5c",
+          "tech_stack": "- Docker setup \n- WordPress\n- JavaScript\n- Webpack\n- bulma.io\n- barba.js (creating fluid and smooth transitions between pages)\n- animejs.com (animation library with a simple, yet powerful API)\n- SketchApp"
+        },
+        {
+          "id": 8,
+          "headline": "Mergeworld",
+          "description": "Redesign of the official Mergeworld website. They asked us to create a website with really cool animations and transitions for the user to explore. We did it and backed the site with a custom admin panel. That way the final administration user is now able to edit all the content on the website easily.",
+          "date": "Oct 2018",
+          "url": "https://mergeworld.com/",
+          "slug": "mergeworld",
+          "color": "#78cdb191",
+          "tech_stack": "- WordPress.\n- JavaScript (JS)\n- Webpack.js\n- bulma.io is a free, open-source CSS framework based on Flexbox\n- barba.js.org creating fluid and smooth transitions between your website’s pages\n- animejs.com (lightweight animation library with a simple, yet powerful API)\n- SketchApp"
+        },
+        {
+          "id": 9,
+          "headline": "ArmorAll Redesign",
+          "description": "Redesign of the official ArmorAll Website. This project was completed in 2 phases: In phase #1 We build all the Front-End templates and functionality for the site (backgrounds videos, carousels, accordions, modals, etc). For phase #2 We implemented it into a Drupal CMS.",
+          "date": "Nov 2015",
+          "url": "http://armorall.com/",
+          "slug": "armorall",
+          "color": "#FFC7A6",
+          "tech_stack": "- Drupal\n- Jekyll\n- SCSS\n- Gulp\n- Javascript"
+        },
+        {
+          "id": 10,
+          "headline": "Hangar Careers ",
+          "description": "Love where you work!\n\nThe Hangar Careers page facilitates the application process by allowing possible applicants to check the different positions available and send in their information. Built using Node.js and Mongodb, the site also has an administration page that allows the Recruiting team to create new jobs and review the applicants’ resumé or portfolios, and much more.",
+          "date": "Aug 2015",
+          "url": null,
+          "slug": "hangar-careers",
+          "color": "#ffc7a66b",
+          "tech_stack": "- Nodejs\n- MongoDB\n- SCSS\n- Javascript\n- Digital Ocean"
+        },
+        {
+          "id": 11,
+          "headline": "CafeBritt ",
+          "description": "Redesign of the official CafeBritt website. \nThis was a simple but interesting project. I was asked to transform the design into code, but only the presentation layer known as Front-End. I also generated a style guide of components. This allowed the Back-End people at CafeBritt to have every piece of the site documented in a way that they only would need to copy and paste code in order to make it dynamic.\n\nI created a base project from the architecture used in this project: \nhttps://github.com/jgatjens/stylekyll",
+          "date": "May 2015",
+          "url": "http://www.cafebritt.com/",
+          "slug": "cafebritt",
+          "color": "#FFC7A6",
+          "tech_stack": "- Gulp\n- Jekyll\n- Sass\n- jQuery\n- Twitter Bootstrap."
+        },
+        {
+          "id": 12,
+          "headline": "STP ",
+          "description": "Redesign of the official STP website. This project was completed in 2 phases: In phase #1 We built all the Front-End templates and functionality for the site (background videos, carousels, accordions, modals, etc). For phase #2 We implemented it into a Drupal CMS.",
+          "date": "March 2015",
+          "url": "http://www.stp.com/",
+          "slug": "stp",
+          "color": "#7f0fbb5c",
+          "tech_stack": "- Drupal\n- Jekyll\n- SCSS\n- Gulp\n- Javascript"
+        },
+        {
+          "id": 13,
+          "headline": "Criticalmass",
+          "description": "CRITICALMASS was the company that gave me my first opportunity in the web world. Here I developed many of my knowledge such as: email development for important brands like Adidas, internet 6, 7 and 8 (I mention these browsers no longer supported because they taught you very well how to work with the box model), first project in the app store with cordoba , first headless project when the term was not even known, I was also able to develop leadership skills and work in environments where there was a lot of pressure and with world-renowned clients.",
+          "date": "Jan 2015",
+          "url": "https://criticalmass.com/",
+          "slug": "criticalmass",
+          "color": "#ffc7a66b",
+          "tech_stack": "- Angularjs\n- SASS\n- Nodejs\n- Gruntjs\n- WordPress Custom API"
+        }
+      ],
       "open_graph": {
         "id": 5,
         "title": "jairo gätjens - work",
