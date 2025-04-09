@@ -89,15 +89,15 @@ export async function generateMetadata({
   const res: BackendProps = await getData(page, locale);
   const seo = res.data.attributes?.open_graph;
 
-  console.log("params.slug", params.slug);
-  console.log("params.slug", res.data.attributes.items);
+  // console.log("params.slug", params.slug);
+  // console.log("params.slug", res.data.attributes.items);
 
   // find project by slug
-  const project: WorkItemProps = res.data.attributes.items.find(
+  const project: WorkItemProps = res.data.attributes.items?.find(
     (item: WorkItemProps) => item.slug.toLowerCase() === params.slug
   );
 
-  console.log("project", project);
+  // console.log("project", project);
 
   const canonical = page.name == "homepage" ? "/" : `/work/${project.slug}`;
   const canonicalLangEn =
