@@ -23,9 +23,12 @@ export const Navigation = ({ lang, t }: NavigationProps) => {
   const isWhiteText = pathName?.includes("resume") ? "text-white" : "";
 
   return (
-    <nav aria-label="navigation" className={`flex justify-between px-5 py-4 print:hidden`}>
+    <nav
+      aria-label="navigation"
+      className={`flex justify-between px-5 py-4 print:hidden`}
+    >
       <div className="flex items-center gap-3">
-        <Link href="/">
+        <Link href={`/${lang}`}>
           <IconDotSquare className={`w-5 h-5 ${isWhiteText} cursor-pointer`} />
         </Link>
 
@@ -38,15 +41,13 @@ export const Navigation = ({ lang, t }: NavigationProps) => {
       </div>
       <div className="flex gap-3 items-center">
         <Link
-          locale={lang}
-          href={`/resume`}
+          href={`/${lang}/resume`}
           className={`text-link capitalize hover:text-red ${isWhiteText} hover:dark:text-red`}
         >
           {t.nav_resume}
         </Link>
         <Link
-          locale={lang}
-          href="/work"
+          href={`/${lang}/work`}
           className={`text-link capitalize hover:text-red ${isWhiteText} hover:dark:text-red`}
         >
           {t.nav_work}

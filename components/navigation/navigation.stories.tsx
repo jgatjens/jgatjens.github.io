@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { getDictionary } from "../../get-diccionary";
 import { Navigation } from ".";
 
 const meta: Meta<typeof Navigation> = {

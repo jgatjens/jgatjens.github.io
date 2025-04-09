@@ -3,7 +3,7 @@
     "id": 2,
     "attributes": {
       "headline": "Jairo Gätjens",
-      "location": "San jose, Costa Rica",
+      "location": "Santa Teresa, Costa Rica",
       "email_label": "correo",
       "email": "jgatjens@gmail.com",
       "summary_label": "sobre mi",
@@ -13,7 +13,7 @@
       "work_label": " historia de trabajo",
       "academic_label": " educación",
       "createdAt": "2023-10-07T16:18:22.347Z",
-      "updatedAt": "2023-12-12T03:03:32.208Z",
+      "updatedAt": "2025-04-09T00:42:43.763Z",
       "publishedAt": "2023-12-12T02:07:26.508Z",
       "locale": "es",
       "history": [
@@ -62,12 +62,96 @@
       ],
       "open_graph": {
         "id": 4,
-        "title": "Jairo Gätjens - Resume",
+        "title": "jairo gätjens - resumen de trabajo",
         "description": "He trabajado como ingeniero de software durante más de 15 años liderando equipos para superar grandes obstáculos con plazos ajustados y desafíos exigentes. ",
         "keywords": "Resume, CV, Curriculum, Perfil, Github, HTML, CSS, JavaScript, React Native, React, Next.js",
         "username": "jgatjens",
         "media": {
-          "data": null
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "seo-resume.jpg",
+              "alternativeText": "resume",
+              "caption": "resume",
+              "width": 2400,
+              "height": 1260,
+              "formats": {
+                "small": {
+                  "name": "small_seo-resume.jpg",
+                  "hash": "small_seo_resume_8e2ea012b5",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 263,
+                  "size": 10.23,
+                  "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693747/small_seo_resume_8e2ea012b5.jpg",
+                  "provider_metadata": {
+                    "public_id": "small_seo_resume_8e2ea012b5",
+                    "resource_type": "image"
+                  }
+                },
+                "large": {
+                  "name": "large_seo-resume.jpg",
+                  "hash": "large_seo_resume_8e2ea012b5",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 525,
+                  "size": 29.06,
+                  "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693747/large_seo_resume_8e2ea012b5.jpg",
+                  "provider_metadata": {
+                    "public_id": "large_seo_resume_8e2ea012b5",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "name": "medium_seo-resume.jpg",
+                  "hash": "medium_seo_resume_8e2ea012b5",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 394,
+                  "size": 18.78,
+                  "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693747/medium_seo_resume_8e2ea012b5.jpg",
+                  "provider_metadata": {
+                    "public_id": "medium_seo_resume_8e2ea012b5",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "name": "thumbnail_seo-resume.jpg",
+                  "hash": "thumbnail_seo_resume_8e2ea012b5",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 128,
+                  "size": 3.5,
+                  "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693747/thumbnail_seo_resume_8e2ea012b5.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_seo_resume_8e2ea012b5",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "seo_resume_8e2ea012b5",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 101.75,
+              "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693747/seo_resume_8e2ea012b5.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "seo_resume_8e2ea012b5",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-10-07T15:49:08.447Z",
+              "updatedAt": "2024-11-15T17:58:41.577Z"
+            }
+          }
         }
       }
     }
