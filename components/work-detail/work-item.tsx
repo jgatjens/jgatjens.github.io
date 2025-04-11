@@ -47,7 +47,7 @@ export const WorkItem = ({
         {url_prev_work && (
           <Link
             href={`/${lang}/work/${url_prev_work}`}
-            className="rotate-180 mr-3 hover:text-red"
+            className="rotate-180 mr-3 hover:text-purple"
           >
             <IconFatArrow />
           </Link>
@@ -55,7 +55,7 @@ export const WorkItem = ({
         {url_next_work && (
           <Link
             href={`/${lang}/work/${url_next_work}`}
-            className="hover:text-red"
+            className="hover:text-purple"
           >
             <IconFatArrow />
           </Link>

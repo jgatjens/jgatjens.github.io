@@ -38,11 +38,11 @@ body {
 }
 
 .btn-primary {
-  @apply pt-4 pb-[14px] px-14 cursor-pointer bg-white font-semibold uppercase rounded-md border-2 border-black;
+  @apply pt-4 pb-[14px] px-14 cursor-pointer bg-black font-semibold uppercase rounded-md border-2 border-white-400 text-white transition-colors;
 }
 
 .btn-primary:hover {
-  @apply border-red-700 bg-red text-white transition-colors;
+  @apply border-purple-700 bg-purple text-white transition-colors;
 }
 
 .btn-secondary {
@@ -92,7 +92,8 @@ body {
 }
 
 .transition-colors {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 0.15s;
 }

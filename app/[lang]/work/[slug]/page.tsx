@@ -43,6 +43,8 @@ export default async function WorkDetailPage({ params }: WorkDetailProps) {
   const res = await getData(page, params?.lang);
   const data = res.data?.attributes;
 
+  console.log("data", data.items[0]);
+
   // find items by slug
   let selectedWork = 0;
   const project = data.items.find((item: WorkItemProps, i: number) => {
