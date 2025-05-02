@@ -3,26 +3,26 @@
     "id": 2,
     "attributes": {
       "headline": "Jairo Gätjens",
-      "location": "Santa Teresa, Costa Rica",
+      "location": "San Jose, Costa Rica",
       "email_label": "correo",
       "email": "jgatjens@gmail.com",
       "summary_label": "sobre mi",
-      "summary": "He trabajado como ingeniero de software durante más de 15 años liderando equipos, trabajando en procesos de contratación, manejo de personal, creando arquitecturas en diferentes areas, proyectos con plazos ajustados y nuevas tecnologias. Algunas de las empresas y marcas más importantes para los que he trabajado incluyen: elancohub.com, interwellhealth.com, ni.com, OrTracker App, mergeworld.com, wunderground.com, 18techs, criticmass.com, www.cafebritt.cr, hangarworldwide.com, www.pcfinancial.ca, Clorox - Britta +, Jerry García, entre otros.",
+      "summary": "Con más de 15 años de experiencia como ingeniero de software, he liderado equipos, gestionado procesos de contratación y desarrollado arquitecturas en diversos dominios, entregando proyectos consistentemente dentro de plazos ajustados y aprovechando las tecnologías emergentes.\n\n- **Desarrollo Frontend**: Dominio de frameworks JavaScript como React y Angular, con amplia experiencia en TypeScript y Node.js. Habilidad para crear sistemas de diseño con Storybook e implementar diseños responsivos con Tailwind CSS, Chakra UI y Radix.\n\n- **Desarrollo Backend**: Experiencia en el desarrollo de soluciones backend robustas con Node.js y Drizzle, y en la gestión de bases de datos como PostgreSQL, MySQL y Microsoft Access.\n\n- **CMS headless e integración de API**: Experto en desarrollo headless con plataformas como XMCloud, Contentful, Strapi, e integración de APIs GraphQL y RESTful.\n\n- **DevOps e Implementación**: Conocimiento de la gestión de cuentas Vercel Pro y Enterprise, lo que garantiza una implementación fluida y la optimización del rendimiento.",
       "skill_label": "habilidades",
       "skills": "- Experiencia en Typescript y Nodejs.\n- Headless development (XMCloud, Contenful, Strapi 3/4, GraphQL, Rest).\n- Amplia experiencia creando design system con Storybook.\n- Javascript (React, Angular 1/2, Gulp, Webpack, Rollup, Vite).\n- React Native, Ionic.\n- Redux, Jotai, React Query, SWR vercel.\n- Ajax, Observables, Promises.\n- Tailwind CSS, Chakra UI, Radix, (Sass | Módulos CSS | Style Components).\n- Nextjs, server components, internationalization, API headless, next-auth.\n- Manejo de cuentas de Vercel pro y Enterprise.\n- Hace diez años C #, C ++, PASCAL.\n- Bases de datos Postgres, SQL, MySQL y Microsoft Access.\n- Backend: Nodejs con prisma y drizzle.\n- Entornos Mac, Ubuntu, Windows no hay problema.\n- Optimizaciones de SEO y implementación con AA2.\n- Aprediendo japones y threejs.\n",
       "work_label": " historia de trabajo",
       "academic_label": " educación",
       "createdAt": "2023-10-07T16:18:22.347Z",
-      "updatedAt": "2025-04-09T00:42:43.763Z",
+      "updatedAt": "2025-04-30T20:22:00.511Z",
       "publishedAt": "2023-12-12T02:07:26.508Z",
       "locale": "es",
       "history": [
         {
           "id": 8,
-          "company": "18techs.com",
+          "company": "mergeworld.com",
           "job_name": "Full Stack Developer",
-          "date": "Set 2021 - hoy",
-          "skills": "- Trabajo con un grupo increíble de personas.\n- Trabajo para clientes de 18techs.\n- Responsable de la creación de demos y productos completos para los clientes.\n- Crear prototipos en Figma.\n- Trabajo en React, Next.js, Nodejs, etc.\n- Disfruto mucho de los deportes (futbol, surf y skate surf).\n- Entornos de desarrollo PC y macOS. "
+          "date": "Set 2021 - Apr 2025",
+          "skills": "- Trabajando con un equipo increíble.\n- Responsable de crear demos y productos completos para clientes.\n- Creación de prototipos de Figma.\n- Integración con sitios web de Sitecore XP y XMCloud.\n- Integración con Microsoft SharePoint.\n- Aplicaciones Ionic.\n- Creación de sistemas de diseño para la integración backend.\n- React, Next.js, Storybook, Node.js.\n- Entornos PC y macOS."
         },
         {
           "id": 9,

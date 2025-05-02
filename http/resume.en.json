@@ -3,17 +3,17 @@
     "id": 1,
     "attributes": {
       "headline": "Jairo Gätjens",
-      "location": "Santa Teresa, Costa Rica",
+      "location": "San Jose, Costa Rica",
       "email_label": "email",
       "email": "jgatjens@gmail.com",
       "summary_label": "summary",
       "summary": "With over 15 years of experience as a software engineer, I have led teams, managed hiring processes, and developed architectures across various domains, consistently delivering projects within tight deadlines and leveraging emerging technologies.\n\n- **Frontend Development**: Proficient in JavaScript frameworks like React and Angular, with extensive experience in TypeScript and Node.js. Skilled in building design systems using Storybook and implementing responsive designs with Tailwind CSS, Chakra UI, and Radix.\n\n- **Backend Development**: Experienced in developing robust backend solutions using Node.js with Drizzle, and managing databases such as PostgreSQL, MySQL, and Microsoft Access.\n\n- **Headless CMS and API Integration**: Adept at headless development with platforms like XMCloud, Contentful, Strapi, and integrating GraphQL and RESTful APIs.\n\n- **DevOps and Deployment**: Familiar with Vercel Pro and Enterprise account management, ensuring seamless deployment and performance optimization.",
       "skill_label": "skills",
-      "skills": "- Experience in Typescript, React and Nodejs.\n- Headless development (XMCloud, Contenful, Strapi 3/4).\n- Extensive experience creating design system with Storybook.\n- Javascript (Angular 1/2, Backbone, Vite, Webpack, Gulp, Rollup).\n- React Native, Ionic.\n- Redux, Jotai, React Query, SWR vercel, GraphQL, Rest.\n- Ajax, Observables, Promises.\n- Tailwind 4, Chakra UI, Radix, Shadcn, (Sass | CSS Modules | Style Components).\n- Nextjs, server components, i18n, Next auth.\n- Postgres, SQL, MySQL and Microsoft Access databases.\n- Mac, Ubuntu, Windows environments no problem.\n- SEO optimizations and implementation with AA2.\n- Graphics and UX design background.\n- Figma, Adobe XD, Sketch, Photoshop.\n- Learning Japanese and Threejs.",
+      "skills": "- Experience in Typescript, React and Nodejs.\n- Headless development (XMCloud, Contenful, Strapi 3/4).\n- Javascript (Angular 1/2, Backbone, Vite, Webpack, Gulp, Rollup, React Native, Ionic).\n- Redux, Jotai, React Query, SWR vercel, GraphQL, Rest.\n- Ajax, Observables, Promises.\n- Extensive experience creating design system with Storybook.\n- Tailwind 4, Chakra UI, Radix, Shadcn, (Sass | CSS Modules | Style Components).\n- Nextjs, server components, i18n, Next auth.\n- Postgres, SQL, MySQL and Microsoft Access databases.\n- Mac, Ubuntu, Windows environments no problem.\n- SEO optimizations and implementation with AA2.\n- Graphics and UX design background.\n- Figma, Adobe XD, Sketch, Photoshop.\n- Learning Japanese.",
       "work_label": "work history",
       "academic_label": "academic background",
       "createdAt": "2023-10-07T16:05:44.209Z",
-      "updatedAt": "2025-04-09T17:34:07.930Z",
+      "updatedAt": "2025-04-30T20:22:04.221Z",
       "publishedAt": "2023-10-08T16:58:09.549Z",
       "locale": "en",
       "history": [
@@ -21,7 +21,7 @@
           "id": 1,
           "company": "mergeworld.com",
           "job_name": "Full Stack Developer",
-          "date": "Set 2021 - Apr 2024",
+          "date": "Set 2021 - Apr 2025",
           "skills": "- Working with an amazing group of people.\n- Responsible for creating demos and full products for clients.\n- Create Figma prototypes.\n- Integration with sitecore xp and xmcloud sites.\n- integration with microsoft sharepoint.\n- Ionic Apps.\n- Create design systems for backend integration.\n- React, Next.js, Storybook, Nodejs.\n- PC and macOS environments."
         },
         {
