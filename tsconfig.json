@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
+    "ignoreDeprecations": "6.0",
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -20,7 +25,9 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     }
   },
   "include": [
@@ -28,7 +35,10 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "components/3d/starts.jsx"
-, "libs/pdf.js"  ],
-  "exclude": ["node_modules"]
+    "components/3d/starts.jsx",
+    "libs/pdf.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

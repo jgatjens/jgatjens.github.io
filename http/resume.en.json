@@ -3,20 +3,27 @@
     "id": 1,
     "attributes": {
       "headline": "Jairo Gätjens",
-      "location": "San Jose, Costa Rica",
+      "location": "Remote, Costa Rica",
       "email_label": "email",
       "email": "jgatjens@gmail.com",
       "summary_label": "summary",
-      "summary": "With over 15 years of experience as a software engineer, I have led teams, managed hiring processes, and developed architectures across various domains, consistently delivering projects within tight deadlines and leveraging emerging technologies.\n\n- **Frontend Development**: Proficient in JavaScript frameworks like React and Angular, with extensive experience in TypeScript and Node.js. Skilled in building design systems using Storybook and implementing responsive designs with Tailwind CSS, Chakra UI, and Radix.\n\n- **Backend Development**: Experienced in developing robust backend solutions using Node.js with Drizzle, and managing databases such as PostgreSQL, MySQL, and Microsoft Access.\n\n- **Headless CMS and API Integration**: Adept at headless development with platforms like XMCloud, Contentful, Strapi, and integrating GraphQL and RESTful APIs.\n\n- **DevOps and Deployment**: Familiar with Vercel Pro and Enterprise account management, ensuring seamless deployment and performance optimization.",
+      "summary": "With over 15 years of experience as a software engineer, I specialize in building scalable frontend applications, modern architectures, and AI-powered solutions. Experienced in leading technical initiatives, designing systems, and delivering high-quality products using emerging technologies.\n\n- **Frontend Development**: Expert in React, Next.js, TypeScript, and JavaScript, with strong experience building design systems, reusable components, and scalable UI architectures using Storybook, Redux, RxJS, Tailwind CSS, Radix UI, and Shadcn UI.\n\n- **AI & Modern Development**: Experience integrating AI-powered features to enhance user experiences, automate workflows, and improve application capabilities.\n\n- **Backend & APIs**: Experience with Node.js, .NET, GraphQL, REST APIs, and databases including PostgreSQL, MySQL, and MongoDB.\n\n- **Headless & Deployment**: Skilled in Sitecore XM Cloud, Contentful, Strapi, Next.js architectures (SSR/SSG), and deployments using Vercel Pro and Enterprise.",
       "skill_label": "skills",
-      "skills": "- Experience in Typescript, React and Nodejs.\n- Headless development (XMCloud, Contenful, Strapi 3/4).\n- Javascript (Angular 1/2, Backbone, Vite, Webpack, Gulp, Rollup, React Native, Ionic).\n- Redux, Jotai, React Query, SWR vercel, GraphQL, Rest.\n- Ajax, Observables, Promises.\n- Extensive experience creating design system with Storybook.\n- Tailwind 4, Chakra UI, Radix, Shadcn, (Sass | CSS Modules | Style Components).\n- Nextjs, server components, i18n, Next auth.\n- Postgres, SQL, MySQL and Microsoft Access databases.\n- Mac, Ubuntu, Windows environments no problem.\n- SEO optimizations and implementation with AA2.\n- Graphics and UX design background.\n- Figma, Adobe XD, Sketch, Photoshop.\n- Learning Japanese.",
+      "skills": "- TypeScript, JavaScript, Node.js, React, Next.js, React Native, Ionic, Angular 1/2.\n- AI integration and AI-powered application development, improving user workflows and product capabilities.\n- React ecosystem: Redux, Jotai, React Query, SWR, GraphQL, REST APIs.\n- Reactive programming: RxJS, Observables, Promises, AJAX.\n- Headless development: Sitecore XM Cloud, Contentful, Strapi (v3/v4).\n- Extensive experience creating scalable UI libraries and design systems using Storybook.\n- UI frameworks: Radix UI, Shadcn UI, Tailwind CSS, Chakra UI, Bootstrap.\n- Styling technologies: Sass, SCSS, CSS Modules, Styled Components, BEM, Less.\n- Next.js architecture: SSR, SSG, Server Components, i18n, NextAuth.\n- Frontend tooling: Vite, Webpack, Gulp, Grunt.\n- Databases: PostgreSQL, MySQL, MongoDB.\n- SEO optimization and accessibility implementation (WCAG AA).\n- Strong UI/UX background with experience using Figma, Adobe XD, Sketch, Photoshop.\n- Experience working in macOS, Ubuntu, and Windows environments.\n- Graphics and user experience design background.\n- Currently learning Italian and Japanese.",
       "work_label": "work history",
       "academic_label": "academic background",
       "createdAt": "2023-10-07T16:05:44.209Z",
-      "updatedAt": "2025-04-30T20:22:04.221Z",
+      "updatedAt": "2026-07-18T12:48:34.286Z",
       "publishedAt": "2023-10-08T16:58:09.549Z",
       "locale": "en",
       "history": [
+        {
+          "id": 15,
+          "company": "zondahome",
+          "job_name": "Software Engineer III",
+          "date": "May 2025",
+          "skills": "- Develop and enhance a CRM platform with a strong focus on frontend engineering, user experience, and modern web application architecture.\n- Build scalable and maintainable frontend features using React, Redux, and RxJS, implementing reactive - programming patterns and efficient state management solutions.\n- Design and develop reusable UI components, improving application consistency, performance, and maintainability.\n- Implement new product features and user-facing functionality based on business requirements and customer needs.\n- Integrate and develop AI-powered features to enhance application capabilities, automate workflows, and improve user productivity.\n- Collaborate with product teams, designers, and engineers to deliver intuitive, high-quality user experiences.\nOptimize frontend performance, troubleshoot complex UI issues, and improve application reliability.\n- Contribute to frontend architecture decisions, code quality improvements, and best development practices.\nWork with backend services built on .NET by creating integrations, consuming APIs, and supporting end-to-end application functionality.\n- Participate in the complete software development lifecycle, including planning, development, testing, deployment, and continuous improvement."
+        },
         {
           "id": 1,
           "company": "mergeworld.com",
@@ -64,7 +71,7 @@
         "id": 3,
         "title": "Jairo Gätjens - Resume",
         "description": "I’ve been working as a Software Engineer for more than 15 years leading teams to overcome huge hurdles with tight timelines and demanding challenges. ",
-        "keywords": "Website, Resume, Profile, Github, HTML, CSS, JavaScript, NodeJs, React, React Native, Next.js",
+        "keywords": "Website, Resume, Profile, Github, HTML, CSS, Javascript, NodeJs, React, React Native, Next.js",
         "username": "jgatjens",
         "media": {
           "data": {

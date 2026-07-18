@@ -7,7 +7,7 @@ interface ItemsProps {
 }
 
 const List = ({ items }: ItemsProps) => (
-  <ul className="list-disc list-inside mb-8 pl-4">
+  <ul className="list-disc mb-8 pl-4">
     {items.map((str, i) => {
       if (str.length === 0) {
         return;
