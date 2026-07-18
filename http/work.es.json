@@ -5,10 +5,107 @@
       "headline": "Trabajos",
       "description": "Description",
       "createdAt": "2023-10-07T17:45:33.956Z",
-      "updatedAt": "2024-11-15T18:04:15.876Z",
+      "updatedAt": "2026-07-18T14:53:13.328Z",
       "publishedAt": "2023-12-11T18:38:47.410Z",
       "locale": "es",
       "items": [
+        {
+          "id": 32,
+          "headline": "newhomesource",
+          "description": "Desarrollé y mantuve una plataforma CRM orientada al cliente para Zonda Home, enfocada en ofrecer una experiencia de usuario intuitiva y responsiva. Implementé nuevas funcionalidades, mejoré características existentes y participé en todo el ciclo de desarrollo dentro de un entorno .NET.\n\n\nEl frontend fue desarrollado utilizando JavaScript, aprovechando RxJS para programación reactiva y Redux para el manejo de estado. Se utilizó Sass para crear estilos escalables y mantenibles. GitHub Copilot fue integrado en el flujo de trabajo para acelerar el desarrollo, mejorar la calidad del código y aumentar la productividad. La aplicación se integra con servicios backend en .NET para ofrecer una experiencia fluida a los usuarios.\n",
+          "date": "Mayo 2025",
+          "url": "https://www.newhomesource.com/communities/tx/dallas-area",
+          "slug": "newhomesource",
+          "color": null,
+          "tech_stack": "- .NET\n- JavaScript\n- RxJS\n- Redux\n- Sass\n- GitHub Copilot\n- CRM\n- Frontend Development\n- REST APIs\n- Figma",
+          "media": {
+            "data": {
+              "id": 23,
+              "attributes": {
+                "name": "work-zondahome.png",
+                "alternativeText": "zondahome",
+                "caption": null,
+                "width": 1616,
+                "height": 910,
+                "formats": {
+                  "small": {
+                    "name": "small_pika-1784383919829-1x.png",
+                    "hash": "small_pika_1784383919829_1x_a7db73d5e4",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 282,
+                    "size": 202.28,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1784384544/small_pika_1784383919829_1x_a7db73d5e4.png",
+                    "provider_metadata": {
+                      "public_id": "small_pika_1784383919829_1x_a7db73d5e4",
+                      "resource_type": "image"
+                    }
+                  },
+                  "thumbnail": {
+                    "name": "thumbnail_pika-1784383919829-1x.png",
+                    "hash": "thumbnail_pika_1784383919829_1x_a7db73d5e4",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 138,
+                    "size": 56.13,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1784384547/thumbnail_pika_1784383919829_1x_a7db73d5e4.png",
+                    "provider_metadata": {
+                      "public_id": "thumbnail_pika_1784383919829_1x_a7db73d5e4",
+                      "resource_type": "image"
+                    }
+                  },
+                  "large": {
+                    "name": "large_pika-1784383919829-1x.png",
+                    "hash": "large_pika_1784383919829_1x_a7db73d5e4",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 563,
+                    "size": 725.06,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1784384553/large_pika_1784383919829_1x_a7db73d5e4.png",
+                    "provider_metadata": {
+                      "public_id": "large_pika_1784383919829_1x_a7db73d5e4",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "name": "medium_pika-1784383919829-1x.png",
+                    "hash": "medium_pika_1784383919829_1x_a7db73d5e4",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 422,
+                    "size": 426.42,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1784384553/medium_pika_1784383919829_1x_a7db73d5e4.png",
+                    "provider_metadata": {
+                      "public_id": "medium_pika_1784383919829_1x_a7db73d5e4",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "pika_1784383919829_1x_a7db73d5e4",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 379.78,
+                "url": "https://res.cloudinary.com/jgatjens/image/upload/v1784384555/pika_1784383919829_1x_a7db73d5e4.png",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "pika_1784383919829_1x_a7db73d5e4",
+                  "resource_type": "image"
+                },
+                "createdAt": "2026-07-18T14:22:36.133Z",
+                "updatedAt": "2026-07-18T14:33:09.428Z"
+              }
+            }
+          }
+        },
         {
           "id": 30,
           "headline": "Interwellhealth",
