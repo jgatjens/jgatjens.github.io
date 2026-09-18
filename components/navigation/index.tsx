@@ -55,6 +55,14 @@ export const Navigation = ({ lang, t }: NavigationProps) => {
         >
           {t.nav_work}
         </Link>
+        <a
+          href="https://www.linkedin.com/in/jgatjens/details/recommendations/?detailScreenTabIndex=0"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`text-link capitalize hover:underline ${isWhiteText} hover:dark:text-purple`}
+        >
+          {t.nav_recommendations}
+        </a>
       </div>
     </nav>
   );

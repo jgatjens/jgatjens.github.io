@@ -1,6 +1,7 @@
 {
   "nav_work": "projects",
   "nav_resume": "resume",
+  "nav_recommendations": "recommendations",
   "work_detail_url": "See Project",
   "work_detail_tech": "Tech Stack",
   "work_detail_overview": "Overview",
