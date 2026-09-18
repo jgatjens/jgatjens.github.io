@@ -72,94 +72,30 @@
         "title": "Jairo Gätjens - Resume",
         "description": "I’ve been working as a Software Engineer for more than 15 years leading teams to overcome huge hurdles with tight timelines and demanding challenges. ",
         "keywords": "Website, Resume, Profile, Github, HTML, CSS, Javascript, NodeJs, React, React Native, Next.js",
-        "username": "jgatjens",
-        "media": {
-          "data": {
-            "id": 1,
+        "username": "jgatjens"
+      },
+      "localizations": {
+        "data": [
+          {
+            "id": 2,
             "attributes": {
-              "name": "seo-resume.jpg",
-              "alternativeText": "resume",
-              "caption": "resume",
-              "width": 2400,
-              "height": 1260,
-              "formats": {
-                "small": {
-                  "name": "small_seo-resume.jpg",
-                  "hash": "small_seo_resume_8e2ea012b5",
-                  "ext": ".jpg",
-                  "mime": "image/jpeg",
-                  "path": null,
-                  "width": 500,
-                  "height": 263,
-                  "size": 10.23,
-                  "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693747/small_seo_resume_8e2ea012b5.jpg",
-                  "provider_metadata": {
-                    "public_id": "small_seo_resume_8e2ea012b5",
-                    "resource_type": "image"
-                  }
-                },
-                "large": {
-                  "name": "large_seo-resume.jpg",
-                  "hash": "large_seo_resume_8e2ea012b5",
-                  "ext": ".jpg",
-                  "mime": "image/jpeg",
-                  "path": null,
-                  "width": 1000,
-                  "height": 525,
-                  "size": 29.06,
-                  "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693747/large_seo_resume_8e2ea012b5.jpg",
-                  "provider_metadata": {
-                    "public_id": "large_seo_resume_8e2ea012b5",
-                    "resource_type": "image"
-                  }
-                },
-                "medium": {
-                  "name": "medium_seo-resume.jpg",
-                  "hash": "medium_seo_resume_8e2ea012b5",
-                  "ext": ".jpg",
-                  "mime": "image/jpeg",
-                  "path": null,
-                  "width": 750,
-                  "height": 394,
-                  "size": 18.78,
-                  "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693747/medium_seo_resume_8e2ea012b5.jpg",
-                  "provider_metadata": {
-                    "public_id": "medium_seo_resume_8e2ea012b5",
-                    "resource_type": "image"
-                  }
-                },
-                "thumbnail": {
-                  "name": "thumbnail_seo-resume.jpg",
-                  "hash": "thumbnail_seo_resume_8e2ea012b5",
-                  "ext": ".jpg",
-                  "mime": "image/jpeg",
-                  "path": null,
-                  "width": 245,
-                  "height": 128,
-                  "size": 3.5,
-                  "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693747/thumbnail_seo_resume_8e2ea012b5.jpg",
-                  "provider_metadata": {
-                    "public_id": "thumbnail_seo_resume_8e2ea012b5",
-                    "resource_type": "image"
-                  }
-                }
-              },
-              "hash": "seo_resume_8e2ea012b5",
-              "ext": ".jpg",
-              "mime": "image/jpeg",
-              "size": 101.75,
-              "url": "https://res.cloudinary.com/jgatjens/image/upload/v1696693747/seo_resume_8e2ea012b5.jpg",
-              "previewUrl": null,
-              "provider": "cloudinary",
-              "provider_metadata": {
-                "public_id": "seo_resume_8e2ea012b5",
-                "resource_type": "image"
-              },
-              "createdAt": "2023-10-07T15:49:08.447Z",
-              "updatedAt": "2024-11-15T17:58:41.577Z"
+              "headline": "Jairo Gätjens",
+              "location": "Remoto, Costa Rica",
+              "email_label": "correo",
+              "email": "jgatjens@gmail.com",
+              "summary_label": "sobre mi",
+              "summary": "Con más de 15 años de experiencia como ingeniero de software, me especializo en la creación de aplicaciones frontend escalables, arquitecturas modernas y soluciones impulsadas por IA. Experiencia liderando iniciativas técnicas, diseñando sistemas y entregando productos de alta calidad utilizando tecnologías emergentes.\n\n**Desarrollo Frontend:** Experto en **React, Next.js, TypeScript y JavaScript**, con amplia experiencia creando sistemas de diseño, componentes reutilizables y arquitecturas UI escalables utilizando **Storybook, Redux, RxJS, Tailwind CSS, Radix UI y Shadcn UI**.\n\n**IA y Desarrollo Moderno:** Experiencia integrando **funcionalidades impulsadas por IA** para mejorar experiencias de usuario, automatizar procesos y ampliar las capacidades de las aplicaciones.\n\n**Backend y APIs:** Experiencia con **Node.js, .NET, GraphQL, APIs REST** y bases de datos como **PostgreSQL, MySQL y MongoDB**.\n\n**Headless y Despliegue:** Experiencia con **Sitecore XM Cloud, Contentful, Strapi**, arquitecturas modernas con **Next.js (SSR/SSG)** y despliegues utilizando **Vercel Pro y Enterprise**.",
+              "skill_label": "habilidades",
+              "skills": "- TypeScript, JavaScript, Node.js, React, Next.js, React Native, Ionic, Angular 1/2.\n- Integración de IA y desarrollo de aplicaciones impulsadas por inteligencia artificial para mejorar flujos de trabajo y capacidades del producto.\n- Ecosistema React: Redux, Jotai, React Query, SWR, GraphQL, APIs REST.\n- Programación reactiva: RxJS, Observables, Promises, AJAX.\n- Desarrollo Headless: Sitecore XM Cloud, Contentful, Strapi (v3/v4).\n- Amplia experiencia creando librerías UI escalables y sistemas de diseño utilizando Storybook.\n- Frameworks UI: Radix UI, Shadcn UI, Tailwind CSS, Chakra UI, Bootstrap.\n- Tecnologías de estilos: Sass, SCSS, CSS Modules, Styled Components, BEM, Less.\n- Arquitectura Next.js: SSR, SSG, Server Components, i18n, NextAuth.\n- Herramientas de desarrollo frontend: Vite, Webpack, Gulp, Grunt.\n- Bases de datos: PostgreSQL, MySQL, MongoDB.\n- Optimización SEO e implementación de accesibilidad (WCAG AA).\n- Sólida experiencia en UI/UX utilizando Figma, Adobe XD, Sketch y Photoshop.\n- Experiencia trabajando en entornos macOS, Ubuntu y Windows.\n- Formación y experiencia en diseño gráfico y experiencia de usuario.\n- Actualmente aprendiendo italiano y japonés.",
+              "work_label": " historia de trabajo",
+              "academic_label": " educación",
+              "createdAt": "2023-10-07T16:18:22.347Z",
+              "updatedAt": "2026-07-18T12:48:39.744Z",
+              "publishedAt": "2023-12-12T02:07:26.508Z",
+              "locale": "es"
             }
           }
-        }
+        ]
       }
     }
   },

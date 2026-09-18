@@ -22,7 +22,8 @@ async function fetchAndSaveData() {
   for (const page of pages) {
     for (const locale of locales) {
       try {
-        const url = `${STRAPI_URL}/${page.populate}&locale=${locale}`;
+        const separator = page.populate.includes('?') ? '&' : '?';
+        const url = `${STRAPI_URL}/${page.populate}${separator}locale=${locale}`;
         console.log(`📡 Fetching ${page.name} (${locale})...`);
         
         const response = await fetch(url);

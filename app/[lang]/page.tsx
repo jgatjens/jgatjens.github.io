@@ -63,6 +63,5 @@ export async function generateMetadata({
 }: {
   params: { lang: string };
 }): Promise<Metadata> {
-  // console.log("metadata homepage", params.lang);
   return metadata({ params, page });
 }

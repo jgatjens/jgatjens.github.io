@@ -8,8 +8,6 @@ export default async function () {
   const workEn = await fs.readFile(process.cwd() + "/http/work.en.json", "utf8");
   const workEs = await fs.readFile(process.cwd() + "/http/work.es.json", "utf8");
 
-  // console.log(workEn);
-
   return {
     en: {
       homepage: JSON.parse(homepageEn),

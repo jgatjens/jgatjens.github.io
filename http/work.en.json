@@ -5,19 +5,21 @@
       "headline": "Work",
       "description": "See Projects",
       "createdAt": "2023-10-07T16:35:14.941Z",
-      "updatedAt": "2026-07-18T14:53:17.211Z",
+      "updatedAt": "2026-09-18T10:20:00.789Z",
       "publishedAt": "2023-10-08T16:58:12.252Z",
       "locale": "en",
       "items": [
         {
           "id": 31,
-          "headline": "newhomesource",
-          "description": "Developed and maintained a customer-facing CRM platform for Zonda Home, focused on delivering an intuitive and responsive user experience. Built new features, improved existing functionality, and collaborated across the full development lifecycle within a .NET environment.\n\n\nThe frontend was developed using JavaScript, leveraging RxJS for reactive programming and Redux for state management. Sass was used to create scalable and maintainable styling solutions. GitHub Copilot was integrated into the development workflow to accelerate development, improve code quality, and increase productivity. The application integrates with .NET backend services to deliver a seamless experience for end users.\n",
+          "headline": "Search Home Builders",
           "date": "May 2025",
           "url": "https://www.newhomesource.com/communities/tx/dallas-area",
           "slug": "newhomesource",
           "color": "#7f0fbb5c",
-          "tech_stack": "- .NET\n- JavaScript\n- RxJS\n- Redux\n- Sass\n- GitHub Copilot\n- CRM\n- Frontend Development\n- REST APIs\n- Figma",
+          "tech_stack": "- .NET\n- JavaScript\n- GitHub Copilot\n- RxJS\n- Redux\n- Sass\n- CRM\n- Frontend Development\n- REST APIs\n- Figma",
+          "my_role": "As a Frontend Engineer, I developed new product features, reusable UI components, and API integrations using Javascript, Redux, and RxJS.\n\nI collaborated closely with product managers, designers, backend engineers, and QA throughout the development lifecycle, from requirements and implementation to testing and production delivery.\n",
+          "key_points": "Working on a large production platform strengthened my experience with scalable frontend architecture, reactive programming with RxJS, complex state management, and integration with .NET backend services.\n\nI also incorporated GitHub Copilot into my workflow for code exploration, implementation planning, refactoring, and AI-assisted development.\n",
+          "overview": "NewHomeSource is a large-scale real estate platform that helps homebuyers discover new construction homes, communities, and builders across the United States.\n\nI contributed to the evolution of the platform by developing and improving customer-facing experiences, integrating frontend features with backend services, and supporting a scalable and maintainable frontend architecture.\n",
           "media": {
             "data": {
               "id": 23,
@@ -108,13 +110,15 @@
         },
         {
           "id": 29,
-          "headline": "Interwellhealth",
-          "description": "Redesign of the official interwellhealth website. They asked us to create a website with really cool animations for the user to explore. The project architecture was built around a new service from Microsft (Sitecore) named XM Cloud.\n\nThe site was built using Figma, storybook, Nextjs, and Vercel cloud.",
+          "headline": "Interwell health - Serving patients",
           "date": "Jun 2023",
           "url": "https://interwellhealth.com/",
           "slug": "interwellhealth",
           "color": "#306",
-          "tech_stack": "- XM Cloud\n- Sitecore\n- NextJs\n- Vercel\n- Tailwind\n- Radix\n- SCSS",
+          "tech_stack": "- Next.js\n- React\n- TypeScript\n- Sitecore XM Cloud\n- Sitecore JSS\n- Storybook\n- Tailwind CSS\n- shadcn/ui\n- Vercel\n- Figma\n- Vercel\n- Radix",
+          "my_role": "As a Full-Stack Developer, I helped define and implement the frontend architecture around Next.js and the emerging Sitecore XM Cloud platform.\n\nI worked closely with a dedicated Sitecore advocate to understand the new platform and adapted a custom Next.js boilerplate to work with XM Cloud. I also developed custom integrations and plugins to support Sitecore-specific requirements, including error page handling and content-driven page rendering.\n\nTo keep frontend development moving independently from the backend, I introduced Storybook and built reusable UI components that could later be connected to Sitecore \"components\".\n",
+          "key_points": "Helped establish the frontend architecture for one of our team's early Sitecore XM Cloud implementations, working through evolving documentation and platform requirements.\n\nAdapted a custom Next.js architecture and developed plugins and integrations to ensure the application worked correctly with Sitecore XM Cloud, including custom error page handling.\n\nIntroduced Storybook to enable component-driven development, allowing the frontend team (me) to build and test UI components independently while the backend team worked on Sitecore schemas and content structures.\n\nBuilt reusable UI components and responsive experiences using Tailwind CSS and Radix/ui, accelerating development while maintaining consistency across pages and layouts.\n",
+          "overview": "Redesign and development of the Interwell Health website using Next.js and Sitecore XM Cloud, with a strong focus on modern UI, animations, reusable components, and a flexible content-driven architecture.\n\nThe project was built during the early adoption of XM Cloud, when the platform and its documentation were still evolving, making the integration a significant technical challenge.\n",
           "media": {
             "data": {
               "id": 22,
@@ -205,13 +209,15 @@
         },
         {
           "id": 27,
-          "headline": "Lustudio",
-          "description": "Making a name in the Digital World!\n\nThis branding studio was created by Bruno Gatjens and Me. Our Idea is to deliver High-quality design and development to small, and medium businesses at affordable prices. We added some nice colors and a few animations like the Hero when you just load the page. We are planning to create a few more animations in the future.\n\nCustom domain configuration were added to this website to include a subdomain with the branding styleguide.\nhttps://ui.lustudio.dev/",
+          "headline": "Lu studio - Making a Name",
           "date": "Mar 2023",
-          "url": "https://www.lustudio.dev/",
+          "url": "https://lustudio.vercel.app/",
           "slug": "lustudio",
           "color": "#9580ff",
-          "tech_stack": "- Nextjs\n- Vercel\n- React\n- Tailwind\n- SCSS\n- WebGQL\n- CSS animation",
+          "tech_stack": "- Next.js\n- React\n- TypeScript\n- Tailwind CSS\n- Vercel\n- Custom Domains\n- WebGQL\n- CSS animation\n- Cal.com",
+          "my_role": "As Co-Founder and Developer, I was responsible for translating the visual identity created by Bruno into a responsive and interactive web experience.\n\nI implemented the frontend, animations, deployment, and domain configuration, including a dedicated subdomain for the studio's interactive brand style guide.\n\n[ui.lustudio](https://lustudio.netlify.app/)\n",
+          "key_points": "Co-founded the studio and built its digital presence from the ground up, transforming the brand's visual direction into a complete web experience.\n\nDeveloped responsive interfaces and custom animations, including the animated hero experience that introduces the brand when users first enter the website.\n\nConfigured the production deployment and custom domain infrastructure, including a dedicated subdomain for the studio's branding and UI style guide.\n\nThe project also gave me hands-on experience beyond development, including defining a digital service offering and exploring how to turn design and engineering skills into a small business.\n",
+          "overview": "LU Studio is an independent digital studio founded by my brother, Bruno Gatjens, and me with the goal of helping small and medium-sized businesses build a strong digital presence through high-quality design and development at accessible prices.\n\nBruno led the visual design and branding, while I focused on bringing the experience to life through frontend development, animations, responsive implementation, and the technical architecture of the website.\n",
           "media": {
             "data": {
               "id": 21,
@@ -302,13 +308,15 @@
         },
         {
           "id": 1,
-          "headline": "ElancoHub",
-          "description": "Web app for Elanco customer to know more about their products is also a fun way to win prizes and keep the interaction with the branding. The application uses Contentful service to store information about the shows that Elanco gives to the customers. User data and other types of information are handled with a Postgres database and a Serverless API built on node with Prisma ORM.",
+          "headline": "Learn with us - Elanco Hub",
           "date": "Aug 2023",
           "url": "https://elancohub.com/",
           "slug": "elancohub",
           "color": "#001149",
-          "tech_stack": "- Ionic\n- React\n- Playwright\n- 2d animation\n- SWR \n- Jota\n- Nextjs\n- Contentful\n- Postgres\n- Prisma\n- Docker",
+          "tech_stack": "- React\n- TypeScript\n- Ionic React\n- Node.js\n- Prisma ORM\n- PostgreSQL\n- Docker\n- AWS\n- Serverless\n- Contentful\n- REST APIs\n- QR Codes\n",
+          "my_role": "As a Full-Stack Developer, I worked across the React/Ionic frontend, Node.js serverless APIs, and PostgreSQL database hosted on AWS.\n\nI designed and implemented the Contentful content model used to manage shows, activities, assets, and event-specific content. I also built internal admin tools for generating user and order reports and creating QR codes for individual event activities.\n",
+          "key_points": "Built features end-to-end across the customer-facing application, serverless backend, database, CMS, and internal administration tools.\n\nDesigned the Contentful headless CMS schema to support multiple shows and event-specific content without requiring application deployments.\n\nDeveloped an admin dashboard for operational workflows, including user and order reporting and QR code generation for event activities.\n\nIntegrated Prisma with PostgreSQL and deployed the database infrastructure on AWS to support users, orders, authentication, authorization, and event interactions.\n",
+          "overview": "An interactive event platform built for Elanco customers to discover products, participate in activities, win prizes, and engage with the brand during live events and shows.\n\nThe platform was designed to support multiple Elanco events, combining a mobile-first customer experience with a flexible content management system and internal administration tools.\n",
           "media": {
             "data": {
               "id": 17,
@@ -399,13 +407,15 @@
         },
         {
           "id": 2,
-          "headline": "Hangarworldwide",
-          "description": "This project was created using ReactJS as the main library. It was planned with the design team to create a small design system for future implementations. CSS and pure Javascript were used to create the animations of some sections with the idea that these components or modules could be reused in other sites.\n\nAs part of the design system, Icons, Logo Branding, Typography, Layout, Best Practices, etc. were created.",
+          "headline": "Hangar Worldwide",
           "date": "Mar 2020",
           "url": " https://hangarworldwide.com/",
           "slug": "hangarworldwide",
           "color": "#78cdb191",
-          "tech_stack": "- React\n- CSS and JS animations\n- Gatsby\n- Nodejs\n- Contentful\n- Small Design System",
+          "tech_stack": "- React\n- Gatsby\n- JavaScript\n- Node.js\n- Contentful\n- CSS\n- Headless CMS\n- Design Systems",
+          "my_role": "As a Frontend Developer, I worked closely with the design team to translate the visual direction into reusable React components and interactive web experiences.\n\nI implemented custom CSS and JavaScript animations, integrated Gatsby for content management, and helped establish frontend patterns that made components easier to reuse across different sections and projects.\n",
+          "key_points": "Collaborated with the design team to create a small design system covering reusable components, typography, icons, branding, layouts, and frontend best practices.\n\nDeveloped reusable React components and custom CSS/JavaScript animations designed to work across multiple sections and digital experiences.\n\nFocused on creating a consistent relationship between design and development, establishing reusable patterns rather than implementing each page independently.\n",
+          "overview": "Hangar Worldwide’s website was built as a modern, content-driven experience using React and Gatsby, with a strong focus on visual design, animations, and reusable frontend components.\n\nThe project was developed in close collaboration with the design team, creating a flexible foundation that could be reused and extended across different pages and future digital experiences.\n",
           "media": {
             "data": {
               "id": 14,
@@ -496,13 +506,15 @@
         },
         {
           "id": 3,
-          "headline": "ni.com",
-          "description": "Redesign of the official Ni.com website. Huge site with thousands of pages, and we have to create a big style guide of components to deliver to our backend team to be implemented in AEM.\n\nThe project consisted of two main parts. The first part was updating the homepage, product pages, blogs, and a few sections. The second part was creating a small Angular application for the shop experience.",
+          "headline": "NI - Solutions from Emerson",
           "date": "Mar 2020",
           "url": "https://www.ni.com/",
           "slug": "ni",
           "color": "#03b585",
-          "tech_stack": "- Figma\n- Javascript\n- Html, SCSS\n- Angular 2\n- Custom storybook to develop FE components\n- AEM\n",
+          "tech_stack": "- Angular\n- JavaScript\n- Adobe Experience Manager (AEM)\n- SCSS\n- HTML\n- Storybook\n- Figma\n- Component Libraries\n- Lighthouse\n- Core Web Vitals\n",
+          "my_role": "As a Frontend Developer, I helped design the Angular architecture used to build small applications that could run and communicate within the AEM platform.\n\nOver approximately six months, I developed multiple mini-apps, reusable UI components, and integrations while progressively redesigning key areas of NI.com.\n\nI also worked on measuring and improving frontend performance, using tools such as Lighthouse and Core Web Vitals to identify rendering, loading, and layout stability issues.\n",
+          "key_points": "Helped define an Angular architecture for independent mini-applications that could integrate with Adobe Experience Manager while allowing the platform to be modernized incrementally.\n\nBuilt a large collection of reusable components and integrations used to progressively redesign a website with thousands of existing pages.\n\nMeasured and optimized frontend performance using Lighthouse and Core Web Vitals, focusing on areas such as LCP, CLS, asset loading, rendering performance, and overall page experience.\n\nWorked closely with design and backend teams to ensure new components were performant, reusable, and compatible with the existing AEM infrastructure.\n",
+          "overview": "Large-scale redesign of NI.com, an enterprise website with thousands of pages powered by Adobe Experience Manager (AEM).\n\nThe project followed a progressive redesign strategy, modernizing the platform in stages while building reusable components and multiple Angular mini-applications integrated with the existing AEM ecosystem.\n",
           "media": {
             "data": {
               "id": 18,
@@ -593,13 +605,15 @@
         },
         {
           "id": 4,
-          "headline": "Organic",
-          "description": "This project was created using ReactJS as the main library. It was worked in conjunction with the organic.com design team and connected to the CMS Headless Contentful.\n\nThe project had a simple design but with very subtle animations and details that made it fun.",
+          "headline": "Organic - Crazy chicken",
           "date": "Jan 2020",
           "url": "https://www.organic.com/",
           "slug": "organic",
           "color": "#ffc7a66b",
-          "tech_stack": "- React.\n- CSS and JS animations.\n- Gatsby\n- Nodejs\n- Contentful",
+          "tech_stack": "- Gatsby\n- React\n- JavaScript\n- Gatsby Themes\n- CSS/SCSS\n- Figma\n- CI/CD\n- Custom Domains",
+          "my_role": "As a Frontend Developer, I designed and implemented the Gatsby architecture, translating Figma designs into reusable components, responsive layouts, and interactive experiences.\n\nI also created a custom Gatsby theme, configured deployment pipelines and domains, and supported two developers as they learned React and Gatsby while contributing to the project.\n",
+          "key_points": "Designed the Gatsby architecture and built a reusable component foundation to support consistent development across the website.\n\nCreated a custom Gatsby theme to reuse common components, layouts, styles, and frontend patterns across multiple web projects.\n\nTranslated Figma designs into responsive interfaces and implemented custom animations to create a more polished and interactive user experience.\n\nConfigured domains and deployment pipelines, supporting the project from development through production delivery.\n\nMentored two developers while working on the project, helping them learn React and Gatsby and supporting them as they started contributing to production websites.\n",
+          "overview": "Development of Organic's digital presence using Gatsby, with a strong focus on reusable architecture, performance, animations, and consistent implementation of the designs created in Figma.\n\nThe project also became a foundation for creating future websites, with reusable components and a custom Gatsby theme designed to accelerate development across projects.\n",
           "media": {
             "data": {
               "id": 12,
@@ -690,13 +704,15 @@
         },
         {
           "id": 5,
-          "headline": "OrTracker App",
-          "description": "This project was built using React Native and React talking to the same Nodejs API.\n\nCommunicate Quickly – Work Smarter\nOR Tracker’s cloud-based app provides centralized communication\nhub delivering real-time case management data to medical center teams and patients.",
+          "headline": "OR Turnover Tracker App",
           "date": "April 2019",
           "url": "https://or-tracker.com/",
           "slug": "ortracker-app",
           "color": "#7f0fbb5c",
-          "tech_stack": "- React Native.\n- Multiple RN plugins.\n- Redux.\n- React Material Design.\n- React.\n- AWS \n- Nodejs\n- Mysql",
+          "tech_stack": "- React Native.\n- Redux.\n- Material Design.\n- React.\n- AWS \n- Nodejs\n- Mysql",
+          "my_role": "As a Full-Stack Developer, I worked across the React Native mobile application, React web application, and Node.js backend services.\n\nI developed application features, integrated the frontend applications with shared APIs, managed application state with Redux, and contributed to the AWS-based infrastructure and MySQL data layer supporting the platform.\n",
+          "key_points": "Developed features for a cross-platform ecosystem that included a React Native mobile application and a React web application sharing the same Node.js backend services.\n\nImplemented API integrations and Redux-based state management to support real-time case management workflows and communication across the platform.\n\nContributed to backend services and MySQL data integrations while working with AWS infrastructure supporting the applications.\n\nWorked across mobile, web, backend, and cloud components, gaining end-to-end experience building and integrating a production application across multiple platforms.\n",
+          "overview": "OR Tracker is a cloud-based application designed to provide medical center teams and patients with a centralized communication hub and access to real-time case management information.\n\nThe platform included both a React Native mobile application and a React web application, connected to a shared Node.js backend and cloud infrastructure hosted on AWS.\n",
           "media": {
             "data": {
               "id": 15,
@@ -787,13 +803,15 @@
         },
         {
           "id": 6,
-          "headline": "Marco's Pizza",
-          "description": "Redesign of the official Marco’s website. They asked us to redesign the website with really cool transitions for the user to explore. We did it and backed the site with a custom admin panel. That way the final administration user is now able to edit all the content on the website easily.",
+          "headline": "Marco's Pizza ",
           "date": "May 2019",
           "url": " https://www.marcos.com/",
           "slug": "marcos-pizza",
           "color": "#7f0fbb5c",
-          "tech_stack": "- Docker Wordpress setup.\n- JavaScript.\n- SPA admin site.\n- Webpack.js\n- bulma.io\n- SketchApp.",
+          "tech_stack": "- Docker \n- Wordpress.\n- JavaScript.\n- SPA admin.\n- Webpack.js\n- bulma.io\n- SketchApp.",
+          "my_role": "As a Full-Stack Developer, I built the website's custom WordPress frontend from the ground up, including page templates, responsive styles, UI components, and animations.\n\nI also used Docker to create a consistent local development environment and support the workflow from development through production deployment.\n",
+          "key_points": "Built a fully custom WordPress implementation from scratch without relying on an existing theme.\n\nDeveloped custom templates, responsive styles, UI elements, and animations based on the project's design requirements.\n\nSet up a Docker-based development environment to maintain consistency between local development and production workflows.\n",
+          "overview": "Custom WordPress website developed for Marco's Pizza, built entirely from scratch without relying on a pre-built or third-party theme.\n\nThe project combined WordPress content management with custom templates, styling, responsive layouts, and animations to create a tailored digital experience.\n",
           "media": {
             "data": {
               "id": 10,
@@ -884,13 +902,15 @@
         },
         {
           "id": 7,
-          "headline": "Landofrost",
-          "description": "Redesign of the official Landofrost website. They asked us to create a website with really cool transitions for the user to explore. We did it and backed the site with a custom admin panel. That way the final administration user is now able to edit all the content on the website easily.",
+          "headline": "Landofrost - Passion for Food",
           "date": "Mar 2019",
           "url": " https://www.landofrost.com/",
           "slug": "landofrost",
           "color": "#7f0fbb5c",
-          "tech_stack": "- Docker setup \n- WordPress\n- JavaScript\n- Webpack\n- bulma.io\n- barba.js (creating fluid and smooth transitions between pages)\n- animejs.com (animation library with a simple, yet powerful API)\n- SketchApp",
+          "tech_stack": "- Docker \n- WordPress\n- JavaScript\n- Webpack\n- bulma.io\n- barba.js\n- animejs.com\n- SketchApp",
+          "my_role": "As a Frontend Developer, I worked on the custom WordPress implementation, building page templates, responsive styles, interactive components, and animations from scratch.\n\nI also implemented smooth page transitions and animations using Barba.js and Anime.js, and worked with Docker to maintain a consistent local development environment.\n",
+          "key_points": "Built a custom WordPress frontend from scratch, including page templates, responsive layouts, styles, and interactive components.\n\nImplemented fluid page transitions and custom animations using Barba.js and Anime.js to create a more engaging browsing experience.\n\nIntegrated the frontend with WordPress content management, allowing administrators to easily manage and update website content.\n\nUsed Docker to support a consistent development environment and production workflow.\n",
+          "overview": "Redesign of the Land O'Frost website using a completely custom WordPress implementation, with a strong focus on interactive experiences, animations, and smooth transitions between pages.\n\nThe website was built from scratch without relying on pre-built WordPress themes, providing a custom frontend experience while allowing content to be managed through WordPress.\n",
           "media": {
             "data": {
               "id": 16,
@@ -981,13 +1001,15 @@
         },
         {
           "id": 8,
-          "headline": "Mergeworld",
-          "description": "Redesign of the official Mergeworld website. They asked us to create a website with really cool animations and transitions for the user to explore. We did it and backed the site with a custom admin panel. That way the final administration user is now able to edit all the content on the website easily.",
+          "headline": "Mergeworld - happier lives",
           "date": "Oct 2018",
           "url": "https://mergeworld.com/",
           "slug": "mergeworld",
           "color": "#78cdb191",
-          "tech_stack": "- WordPress.\n- JavaScript (JS)\n- Webpack.js\n- bulma.io is a free, open-source CSS framework based on Flexbox\n- barba.js.org creating fluid and smooth transitions between your website’s pages\n- animejs.com (lightweight animation library with a simple, yet powerful API)\n- SketchApp",
+          "tech_stack": "- Sitecore XP\n- JavaScript\n- HTML\n- CSS/SCSS\n- Webpack\n- Sketch",
+          "my_role": "As a Frontend Developer, I was responsible for implementing the redesigned user experience and integrating the frontend with the existing Sitecore XP architecture.\n\nI developed reusable frontend components, responsive layouts, styles, and animations while working within Sitecore's traditional rendering and content management model.\n",
+          "key_points": "Developed the custom frontend for the Mergeworld redesign and integrated it with the Sitecore XP platform.\n\nBuilt reusable components, responsive layouts, custom styles, and animations to create a more engaging and interactive browsing experience.\n\nWorked with Sitecore's traditional integration model to connect frontend components with CMS-managed content and support content editing by administrators.\n\nCollaborated with design and backend teams to translate the new visual direction into components that could be integrated and managed within the existing Sitecore architecture.\n",
+          "overview": "Redesign of the Mergeworld website using Sitecore XP, combining a custom frontend experience with Sitecore's content management capabilities.\n\nThe project was built using the traditional Sitecore integration approach, with custom templates, components, styles, and animations integrated into the Sitecore XP platform.\n",
           "media": {
             "data": {
               "id": 13,
@@ -1079,12 +1101,14 @@
         {
           "id": 9,
           "headline": "ArmorAll Redesign",
-          "description": "Redesign of the official ArmorAll Website. This project was completed in 2 phases: In phase #1 We build all the Front-End templates and functionality for the site (backgrounds videos, carousels, accordions, modals, etc). For phase #2 We implemented it into a Drupal CMS.",
           "date": "Nov 2015",
           "url": "http://armorall.com/",
           "slug": "armorall",
           "color": "#FFC7A6",
-          "tech_stack": "- Drupal\n- Jekyll\n- SCSS\n- Gulp\n- Javascript",
+          "tech_stack": "- Drupal\n- Jekyll\n- JavaScript\n- SCSS\n- HTML\n- Gulp\n- Responsive Web Design\n- Frontend Animations",
+          "my_role": "As a Frontend Lead, I helped establish an approach that separated frontend development from the Drupal implementation, allowing frontend and backend teams to work in parallel.\n\nI built the initial website using Jekyll, creating reusable templates, responsive styles, and interactive functionality that could later be integrated into Drupal and connected to CMS-managed content.\n",
+          "key_points": "Helped establish a development workflow that separated frontend and backend responsibilities, allowing both teams to work independently and integrate later in the development process.\n\nBuilt the first phase of the website as a standalone Jekyll implementation, creating the templates, styles, responsive layouts, and interactive components that would later be integrated into Drupal.\n\nDeveloped interactive experiences including background videos, carousels, accordions, modals, and other reusable UI elements.\n\nWorked through the transition from the standalone frontend implementation to Drupal, adapting the templates and components to work with CMS-managed content.\n",
+          "overview": "Redesign of the official Armor All website, developed using a two-phase approach that allowed frontend and backend teams to work independently before integrating the final experience into Drupal.\n\nDuring the first phase, the complete frontend was built as a standalone Jekyll site, including page templates, responsive layouts, and interactive components. The second phase focused on integrating those templates and functionality into Drupal.\n",
           "media": {
             "data": {
               "id": 7,
@@ -1176,12 +1200,14 @@
         {
           "id": 10,
           "headline": "Hangar Careers ",
-          "description": "Love where you work!\n\nThe Hangar Careers page facilitates the application process by allowing possible applicants to check the different positions available and send in their information. Built using Node.js and Mongodb, the site also has an administration page that allows the Recruiting team to create new jobs and review the applicants’ resumé or portfolios, and much more.",
           "date": "Aug 2015",
           "url": null,
           "slug": "hangar-careers",
           "color": "#ffc7a66b",
-          "tech_stack": "- Nodejs\n- MongoDB\n- SCSS\n- Javascript\n- Digital Ocean",
+          "tech_stack": "- Node.js\n- MongoDB\n- JavaScript\n- HTML\n- SCSS\n- DigitalOcean\n- REST APIs\n- Full-Stack Development",
+          "my_role": "As a Full-Stack Developer, I worked across both the candidate-facing experience and the internal administration platform.\n\nI developed application functionality using Node.js and MongoDB, including job management, candidate applications, and administrative workflows, while also implementing the frontend interfaces and responsive styles.\n",
+          "key_points": "Developed a custom recruiting platform that supported both public job applications and internal recruiting workflows.\n\nBuilt backend functionality using Node.js and MongoDB to manage job positions, candidate information, applications, and administrative operations.\n\nDeveloped an administration interface that allowed the recruiting team to create and manage job openings and review candidate résumés and portfolios.\n\nWorked across frontend, backend, database, and deployment, providing end-to-end development for the platform.\n",
+          "overview": "Hangar Careers was a custom recruiting platform built to manage job openings and simplify the application process for candidates interested in joining Hangar.\n\nThe platform included a public careers experience where candidates could explore available positions and submit their information, as well as an internal administration area for the recruiting team to manage jobs and review applications.\n",
           "media": {
             "data": {
               "id": 9,
@@ -1272,13 +1298,15 @@
         },
         {
           "id": 11,
-          "headline": "CafeBritt ",
-          "description": "Redesign of the official CafeBritt website. \nThis was a simple but interesting project. I was asked to transform the design into code, but only the presentation layer known as Front-End. I also generated a style guide of components. This allowed the Back-End people at CafeBritt to have every piece of the site documented in a way that they only would need to copy and paste code in order to make it dynamic.\n\nI created a base project from the architecture used in this project: \nhttps://github.com/jgatjens/stylekyll",
+          "headline": "CafeBritt - Welcome",
           "date": "May 2015",
           "url": "http://www.cafebritt.com/",
           "slug": "cafebritt",
           "color": "#FFC7A6",
-          "tech_stack": "- Gulp\n- Jekyll\n- Sass\n- jQuery\n- Twitter Bootstrap.",
+          "tech_stack": "- Jekyll\n- JavaScript\n- jQuery\n- Sass\n- Bootstrap\n- Gulp\n- HTML\n- Style Guides",
+          "my_role": "As a Frontend Developer, I was responsible for translating the website designs into responsive, reusable frontend components using Jekyll, Sass, JavaScript, and Bootstrap.\n\nI also created a component style guide that documented the different UI elements, allowing the backend team to integrate the frontend into their existing platform without needing to recreate the presentation layer.\n",
+          "key_points": "Built the complete presentation layer of the redesigned Café Britt website, transforming the visual designs into responsive and reusable frontend components.\n\nCreated a component style guide that documented the website's UI and provided implementation-ready code for the backend team, simplifying the integration between frontend and backend development.\n\nStructured the frontend so that presentation and backend functionality could be developed independently and integrated later.\n\nUsed the architecture created for the project as the foundation for Stylekyll, a reusable Jekyll-based starter project that I later published on GitHub.\n",
+          "overview": "Redesign of the official Café Britt website, focused on building the complete presentation layer and creating a reusable frontend foundation for integration with the existing backend.\n\nThe project separated frontend implementation from backend development, providing the Café Britt team with documented components and ready-to-integrate HTML, styles, and frontend functionality.\n",
           "media": {
             "data": {
               "id": 8,
@@ -1369,13 +1397,15 @@
         },
         {
           "id": 12,
-          "headline": "STP ",
-          "description": "Redesign of the official STP website. This project was completed in 2 phases: In phase #1 We built all the Front-End templates and functionality for the site (background videos, carousels, accordions, modals, etc). For phase #2 We implemented it into a Drupal CMS.",
+          "headline": "STP - Engine & Fuel Systems",
           "date": "March 2015",
           "url": "http://www.stp.com/",
           "slug": "stp",
           "color": "#7f0fbb5c",
-          "tech_stack": "- Drupal\n- Jekyll\n- SCSS\n- Gulp\n- Javascript",
+          "tech_stack": "- Jekyll\n- Drupal\n- JavaScript\n- HTML\n- SCSS\n- Gulp\n- Responsive Web Design\n- Frontend Architecture",
+          "my_role": "As a Frontend Developer, I built the initial website experience using Jekyll, developing reusable templates, responsive styles, and interactive components.\n\nThe approach allowed frontend development to progress independently while the backend team worked on the Drupal implementation, with both parts later integrated into the final website.\n",
+          "key_points": "Built the first phase of the website as a standalone Jekyll implementation, creating the frontend templates, responsive layouts, styles, and interactive functionality.\n\nWorked with a development process that allowed frontend and backend teams to progress independently before integrating the completed frontend into Drupal.\n\nDeveloped interactive components including background videos, carousels, accordions, modals, and other reusable UI elements.\n\nParticipated in the Drupal integration phase, adapting the standalone frontend implementation to work with CMS-managed content.\n",
+          "overview": "Redesign of the official STP website using a two-phase development process that separated frontend implementation from CMS integration.\n\nThe first phase was developed as a standalone Jekyll website, where the complete frontend experience, templates, responsive layouts, and interactive functionality were created before being integrated into Drupal during the second phase.\n",
           "media": {
             "data": {
               "id": 3,
@@ -1466,13 +1496,15 @@
         },
         {
           "id": 13,
-          "headline": "Criticalmass",
-          "description": "CRITICALMASS was the company that gave me my first opportunity in the web world. Here I developed many of my knowledge such as: email development for important brands like Adidas, internet 6, 7 and 8 (I mention these browsers no longer supported because they taught you very well how to work with the box model), first project in the app store with cordoba , first headless project when the term was not even known, I was also able to develop leadership skills and work in environments where there was a lot of pressure and with world-renowned clients.",
+          "headline": "Criticalmass - The Beginning",
           "date": "Jan 2015",
           "url": "https://criticalmass.com/",
           "slug": "criticalmass",
           "color": "#ffc7a66b",
-          "tech_stack": "- Angularjs\n- SASS\n- Nodejs\n- Gruntjs\n- WordPress Custom API",
+          "tech_stack": "- AngularJS\n- JavaScript\n- Node.js\n- WordPress\n- Sass\n- Grunt\n- Cordova\n- REST APIs\n- HTML\n- CSS",
+          "my_role": "As a Developer, I worked across multiple client projects and technologies, developing frontend experiences, email campaigns, CMS integrations, APIs, and mobile applications.\n\nWorking with large international clients and multidisciplinary teams also gave me early experience delivering production work under demanding timelines while progressively taking on more technical responsibility.\n",
+          "key_points": "Developed digital experiences for internationally recognized brands, working across websites, email campaigns, mobile applications, CMS platforms, and custom APIs.\n\nBuilt email experiences for major brands such as Adidas and gained strong fundamentals in HTML and CSS by supporting legacy browsers and working through complex cross-browser compatibility challenges.\n\nContributed to my first mobile application published in an app store using Cordova and gained early experience building applications that separated frontend experiences from backend services.\n\nExpanded from frontend development into technologies such as AngularJS, Node.js, WordPress, APIs, and mobile development while progressively taking on more responsibility within project teams.\n\nDeveloped early leadership and problem-solving skills while working with multidisciplinary teams, demanding delivery schedules, and large international clients.\n",
+          "overview": "Critical Mass was where I started my professional career in web development, working on digital experiences for large international brands and gaining exposure to a wide variety of technologies and development challenges.\n\nDuring this period, I worked across websites, email development, mobile applications, APIs, CMS integrations, and some of my earliest experiences with decoupled frontend and backend architectures.\n",
           "media": {
             "data": {
               "id": 4,
