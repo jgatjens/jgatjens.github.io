@@ -22,10 +22,13 @@ export const Navigation = ({ lang, t }: NavigationProps) => {
   const locale = lang === "en" ? "es" : "en";
   const isWhiteText = pathName?.includes("resume") ? "text-white" : "";
 
+  const isResumePage = pathName?.includes("/resume");
+  const isWorkPage = pathName?.includes("/work");
+
   return (
     <nav
       aria-label="navigation"
-      className={`flex justify-between px-5 py-4 print:hidden`}
+      className={`flex justify-between px-5 pt-4 print:hidden`}
     >
       <div className="flex items-center gap-3">
         <Link href={`/${lang}`}>
@@ -42,13 +45,13 @@ export const Navigation = ({ lang, t }: NavigationProps) => {
       <div className="flex gap-3 items-center">
         <Link
           href={`/${lang}/resume`}
-          className={`text-link capitalize hover:underline hover:text-purple ${isWhiteText} hover:dark:text-purple`}
+          className={`text-link capitalize hover:underline hover:text-purple ${isWhiteText} hover:dark:text-purple ${isResumePage ? "underline" : ""}`}
         >
           {t.nav_resume}
         </Link>
         <Link
           href={`/${lang}/work`}
-          className={`text-link capitalize hover:underline hover:text-purple ${isWhiteText} hover:dark:text-purple`}
+          className={`text-link capitalize hover:underline hover:text-purple ${isWhiteText} hover:dark:text-purple ${isWorkPage ? "underline" : ""}`}
         >
           {t.nav_work}
         </Link>

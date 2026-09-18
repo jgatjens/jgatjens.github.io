@@ -1,17 +1,22 @@
 import "@/globals.css";
 import Image from "next/image";
-import { Poppins } from "next/font/google";
+import { Inter, Space_Grotesk } from "next/font/google";
 import { Navigation } from "@/components/navigation";
 import { Locale, i18n } from "@/i18n-config";
 import { getDictionary } from "@/get-diccionary";
 import { GoogleTagManager } from "@next/third-parties/google";
 import Wave from "@/components/wave";
 
-const poppins = Poppins({
+export const inter = Inter({
   subsets: ["latin"],
+  variable: "--font-inter",
   display: "swap",
-  variable: "--font-poppins",
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
+
+export const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space-grotesk",
+  display: "swap",
 });
 
 export async function generateStaticParams() {
@@ -29,7 +34,7 @@ export default async function RootLayout({
 
   return (
     <html lang={params.lang}>
-      <body className={poppins.className}>
+      <body className={`${inter.variable} ${spaceGrotesk.variable} font-inter`}>
         <>
           <div className="absolute top-0 w-full z-10">
             <Navigation lang={params.lang} t={t} />

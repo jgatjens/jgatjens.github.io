@@ -9,7 +9,8 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "pdf": "node ./utils/pdf.js"
+    "pdf": "node ./utils/pdf.js",
+    "sync-data": "tsx ./http/sync-data.ts"
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.2",
@@ -48,6 +49,7 @@
     "puppeteer": "^21.6.0",
     "storybook": "^7.6.4",
     "tailwindcss": "^3.3.0",
+    "tsx": "^4.23.1",
     "typescript": "^5"
   }
 }

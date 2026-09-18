@@ -16,7 +16,7 @@ export type getDataProps = {
 
 export type WorkItemProps = {
   headline: string;
-  description: string;
+  overview: string;
   date: string;
   slug: string;
   color: String;
@@ -24,12 +24,16 @@ export type WorkItemProps = {
     url: string;
   };
   tech_stack: string;
+  my_role?: string;
+  key_points?: string;
   url: string;
   url_next_work: string;
   url_prev_work: string;
   // translation
   t_button_label: string;
   t_tech_title: string;
-  t_tech_description: string;
+  t_overview: string;
+  t_my_role: string;
+  t_key_points: string;
   lang: string;
 };

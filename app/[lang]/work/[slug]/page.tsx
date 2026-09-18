@@ -72,7 +72,9 @@ export default async function WorkDetailPage({ params }: WorkDetailProps) {
   project.lang = params.lang;
   project.t_button_label = t.work_detail_url;
   project.t_tech_title = t.work_detail_tech;
-  project.t_tech_description = t.work_detail_description;
+  project.t_overview = t.work_detail_overview;
+  project.t_my_role = t.work_detail_my_role;
+  project.t_key_points = t.work_detail_key_points;
 
   return (
     <section className="flex justify-center flex-col px-5 lg:px-0">
@@ -123,7 +125,7 @@ export async function generateMetadata({
 
   return {
     title: project?.headline ?? seo?.title,
-    description: project?.description ?? seo?.description,
+    description: project?.overview ?? seo?.description,
     keywords: keyboards ?? seo?.keywords,
     creator: "jairo gatjens",
     publisher: "jairo gatjens",
@@ -136,7 +138,7 @@ export async function generateMetadata({
     },
     openGraph: {
       title: project?.headline,
-      description: project?.description,
+      description: project?.overview,
       locale: locale,
       images: [
         {
@@ -153,7 +155,7 @@ export async function generateMetadata({
       site: "@jgatjens",
       creator: "@jgatjens",
       title: project?.headline ?? seo?.title,
-      description: project?.description ?? seo?.description,
+      description: project?.overview ?? seo?.description,
       images: media?.url,
     },
   };

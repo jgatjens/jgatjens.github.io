@@ -1,8 +1,9 @@
 {
   "nav_work": "work",
   "nav_resume": "resume",
-
   "work_detail_url": "See Project",
-  "work_detail_tech": "Tags",
-  "work_detail_description": "Description"
+  "work_detail_tech": "Tech Stack",
+  "work_detail_overview": "Overview",
+  "work_detail_my_role": "My Role",
+  "work_detail_key_points": "Key Learnings"
 }
