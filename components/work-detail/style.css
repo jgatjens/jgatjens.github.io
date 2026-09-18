@@ -1,0 +1,28 @@
+.work-item-link {
+  display: inline-block;
+  border-radius: 0.375rem;
+  transition-duration: 300ms;
+  background-color: #000;
+}
+
+.work-item-link:hover {
+  background-color: var(--link-color, #3178c6);
+}
+
+.tech-badge {
+  background-color: #000;
+}
+
+.tech-badge:hover {
+  background-color: var(--tech-color, #4CAF50);
+  color: #fff;
+}
+
+.nav-arrow {
+  color: #3F3356;
+}
+
+.nav-arrow:hover {
+  color: var(--nav-color, #4CAF50);
+  background-color: rgba(0, 0, 0, 0.05);
+}

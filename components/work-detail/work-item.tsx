@@ -3,12 +3,14 @@ import Image from "next/image";
 import ReactMarkdown from "react-markdown";
 import { IconFatArrow } from "@/components/icons";
 import { WorkItemProps } from "@/utils/types";
+import "./style.css";
 
 interface ItemsProps {
   items: string[];
+  color?: string;
 }
 
-const List = ({ items }: ItemsProps) => (
+const List = ({ items, color }: ItemsProps) => (
   <div className="flex flex-wrap gap-y-2 gap-x-1 mb-6">
     {items.map((str, i) => {
       if (str.length === 0) {
@@ -17,7 +19,8 @@ const List = ({ items }: ItemsProps) => (
       return (
         <span
           key={i}
-          className="bg-black text-white text-[10px] font-medium px-3 py-1 rounded border hover:border-purple/20 hover:bg-purple/20 hover:text-black transition-colors"
+          className="tech-badge text-white text-[10px] font-medium px-3 py-1 rounded border transition-colors"
+          style={{ "--tech-color": color || "#4CAF50" } as React.CSSProperties}
         >
           {str}
         </span>
@@ -32,6 +35,7 @@ export const WorkItem = ({
   date,
   media,
   url,
+  color,
   tech_stack,
   my_role,
   key_points,
@@ -45,14 +49,15 @@ export const WorkItem = ({
   lang,
 }: WorkItemProps) => (
   <div className="m-auto my-16  lg:max-w-xl lg:my-12 xl:max-w-4xl" role="alert">
-    <h1 className="text-h2 lg:font-semibold bg-white lg:text-h1text-bluedark mb-4 flex items-center justify-between">
+    <h1 className="text-h1 lg:font-semibold bg-white lg:text-h1text-bluedark mb-4 flex items-center justify-between">
       {headline}
 
       <div className="flex items-center gap-2">
         {url_prev_work && (
           <Link
             href={`/${lang}/work/${url_prev_work}`}
-            className="rotate-180 p-2 rounded-md hover:text-purple hover:bg-gray-100 transition-colors"
+            className="nav-arrow p-2 rounded-md rotate-180 transition-colors"
+            style={{ "--nav-color": color || "#4CAF50" } as React.CSSProperties}
             title="Previous project"
           >
             <IconFatArrow />
@@ -61,7 +66,8 @@ export const WorkItem = ({
         {url_next_work && (
           <Link
             href={`/${lang}/work/${url_next_work}`}
-            className="p-2 rounded-md hover:text-purple hover:bg-gray-100 transition-colors"
+            className="nav-arrow p-2 rounded-md transition-colors"
+            style={{ "--nav-color": color || "#4CAF50" } as React.CSSProperties}
             title="Next project"
           >
             <IconFatArrow />
@@ -74,7 +80,7 @@ export const WorkItem = ({
     {/* Overview Section */}
     {t_overview && (
       <>
-        <h2 className="text-h4 font-semibold mb-2">{t_overview}</h2>
+        <h2 className="text-h2 uppercase font-semibold mb-2">{t_overview}</h2>
         <div className="text-bodysmall mb-6 leading-normal prose prose-sm max-w-none">
           <ReactMarkdown components={{ p: ({ node, ...props }) => <p className="mb-2" {...props} /> }}>{overview}</ReactMarkdown>
         </div>
@@ -104,15 +110,15 @@ export const WorkItem = ({
     {/* Tech Stack Section */}
     {t_tech_title && (
       <>
-        <h2 className="text-h4 font-semibold mb-2">{t_tech_title}</h2>
-        <List items={tech_stack.split("-")}></List>
+        <h2 className="text-h2 uppercase font-semibold mb-2">{t_tech_title}</h2>
+        <List items={tech_stack.split("-")} color={color}></List>
       </>
     )}
 
     {/* My Role Section */}
     {my_role && (
       <>
-        <h2 className="text-h4 font-semibold mb-2">{t_my_role}</h2>
+        <h2 className="text-h2 uppercase font-semibold mb-2">{t_my_role}</h2>
         <div className="text-bodysmall mb-6 leading-normal prose prose-sm max-w-none">
           <ReactMarkdown components={{ p: ({ node, ...props }) => <p className="mb-2" {...props} /> }}>{my_role}</ReactMarkdown>
         </div>
@@ -122,7 +128,7 @@ export const WorkItem = ({
     {/* Key Points Section */}
     {key_points && (
       <>
-        <h2 className="text-h4 font-semibold mb-2">{t_key_points}</h2>
+        <h2 className="text-h2 uppercase font-semibold mb-2">{t_key_points}</h2>
         <div className="text-bodysmall mb-6 leading-normal prose prose-sm max-w-none">
           <ReactMarkdown components={{ p: ({ node, ...props }) => <p className="mb-2" {...props} /> }}>{key_points}</ReactMarkdown>
         </div>
@@ -133,9 +139,9 @@ export const WorkItem = ({
       <a
         target="_blank"
         href={url}
-        className="inline-block rounded-md duration-300 hover:shadow-[0_0_2rem_-0.5rem_#3178c6]"
+        style={{ "--link-color": color || "#3178c6" } as React.CSSProperties}
       >
-        <div className="btn-primary px-1 block">
+        <div className="btn-primary px-1 block work-item-link">
           {t_button_label || "SEE PROJECT"}
         </div>
       </a>

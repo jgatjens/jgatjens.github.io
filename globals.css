@@ -51,7 +51,7 @@ body {
 }
 
 .btn-primary:hover {
-  @apply border-purple-700 bg-purple text-white transition-colors;
+  @apply shadow-sm bg-purple text-white transition-colors;
 }
 
 .btn-secondary {

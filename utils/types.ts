@@ -19,7 +19,7 @@ export type WorkItemProps = {
   overview: string;
   date: string;
   slug: string;
-  color: String;
+  color: string;
   media: {
     url: string;
   };
