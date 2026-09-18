@@ -23,7 +23,7 @@ export default async function Work({ params }: { params: { lang: Locale } }) {
 
   return (
     <div className="flex items-center justify-center h-full flex-col ">
-      <div className="px-5 lg:px-0">
+      <div className="px-5 lg:px-0 max-w-7xl">
         <h1 className="text-h1 font-semibold text-center mb-8 capitalize">{dict.work}</h1>
         <ProjectItem items={items} />
       </div>

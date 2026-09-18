@@ -5,7 +5,6 @@ import { Navigation } from "@/components/navigation";
 import { Locale, i18n } from "@/i18n-config";
 import { getDictionary } from "@/get-diccionary";
 import { GoogleTagManager } from "@next/third-parties/google";
-import Wave from "@/components/wave";
 
 export const inter = Inter({
   subsets: ["latin"],
@@ -34,7 +33,7 @@ export default async function RootLayout({
 
   return (
     <html lang={params.lang}>
-      <body className={`${inter.variable} ${spaceGrotesk.variable} font-inter`}>
+      <body className={spaceGrotesk.className}>
         <>
           <div className="absolute top-0 w-full z-10">
             <Navigation lang={params.lang} t={t} />
@@ -42,10 +41,7 @@ export default async function RootLayout({
 
           <main className="w-full h-full">{children}</main>
 
-          {/* bars */}
-          <div className="fixed hidden top-1/2 -left-2 -mt-3 md:block">
-            <Wave />
-          </div>
+
 
           {/* background image */}
           <div className="fixed bottom-0 left-0 -z-10 print:hidden">

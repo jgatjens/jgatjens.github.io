@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import ReactMarkdown from "react-markdown";
 import { IconFatArrow } from "@/components/icons";
 import { WorkItemProps } from "@/utils/types";
 
@@ -8,7 +9,7 @@ interface ItemsProps {
 }
 
 const List = ({ items }: ItemsProps) => (
-  <div className="flex flex-wrap gap-y-2 gap-x-1 mb-8">
+  <div className="flex flex-wrap gap-y-2 gap-x-1 mb-6">
     {items.map((str, i) => {
       if (str.length === 0) {
         return;
@@ -16,7 +17,7 @@ const List = ({ items }: ItemsProps) => (
       return (
         <span
           key={i}
-          className="bg-bluedark text-white text-[10px] font-medium px-3 py-1 rounded border hover:border-red-700 hover:bg-red transition-colors"
+          className="bg-black text-white text-[10px] font-medium px-3 py-1 rounded border hover:border-purple/20 hover:bg-purple/20 hover:text-black transition-colors"
         >
           {str}
         </span>
@@ -43,7 +44,7 @@ export const WorkItem = ({
   t_key_points,
   lang,
 }: WorkItemProps) => (
-  <div className="m-auto my-16  lg:max-w-xl lg:my-12 xl:max-w-3xl" role="alert">
+  <div className="m-auto my-16  lg:max-w-xl lg:my-12 xl:max-w-4xl" role="alert">
     <h1 className="text-h2 lg:font-semibold bg-white lg:text-h1text-bluedark mb-4 flex items-center justify-between">
       {headline}
 
@@ -69,7 +70,18 @@ export const WorkItem = ({
       </div>
     </h1>
 
-    <div className="mb-4 font-bold block relative overflow-hidden rounded-md">
+
+    {/* Overview Section */}
+    {t_overview && (
+      <>
+        <h2 className="text-h4 font-semibold mb-2">{t_overview}</h2>
+        <div className="text-bodysmall mb-6 leading-normal prose prose-sm max-w-none">
+          <ReactMarkdown components={{ p: ({ node, ...props }) => <p className="mb-2" {...props} /> }}>{overview}</ReactMarkdown>
+        </div>
+      </>
+    )}
+
+    <div className="font-bold block relative overflow-hidden rounded-md">
       {media && (
         <Image
           src={media.url}
@@ -81,7 +93,7 @@ export const WorkItem = ({
       )}
     </div>
 
-    <div className="text-gray/100 text-right italic text-xs mb-4">
+    <div className="text-gray/100 text-right italic text-xs mb-3 relative top-4">
       {new Date(date).toLocaleDateString("en-US", {
         year: "numeric",
         month: "long",
@@ -89,20 +101,10 @@ export const WorkItem = ({
       })}
     </div>
 
-    {/* Overview Section */}
-    {t_overview && (
-      <>
-        <h2 className="text-h4 font-semibold text-gray mb-3">{t_overview}</h2>
-        <div className="text-bodysmall mb-6 whitespace-pre-wrap">
-          {overview}
-        </div>
-      </>
-    )}
-
     {/* Tech Stack Section */}
     {t_tech_title && (
       <>
-        <h2 className="text-h4 font-semibold text-gray mb-3">{t_tech_title}</h2>
+        <h2 className="text-h4 font-semibold mb-2">{t_tech_title}</h2>
         <List items={tech_stack.split("-")}></List>
       </>
     )}
@@ -110,9 +112,9 @@ export const WorkItem = ({
     {/* My Role Section */}
     {my_role && (
       <>
-        <h2 className="text-h4 font-semibold text-gray mb-3">{t_my_role}</h2>
-        <div className="text-bodysmall mb-6 whitespace-pre-wrap">
-          {my_role}
+        <h2 className="text-h4 font-semibold mb-2">{t_my_role}</h2>
+        <div className="text-bodysmall mb-6 leading-normal prose prose-sm max-w-none">
+          <ReactMarkdown components={{ p: ({ node, ...props }) => <p className="mb-2" {...props} /> }}>{my_role}</ReactMarkdown>
         </div>
       </>
     )}
@@ -120,9 +122,9 @@ export const WorkItem = ({
     {/* Key Points Section */}
     {key_points && (
       <>
-        <h2 className="text-h4 font-semibold text-gray mb-3">{t_key_points}</h2>
-        <div className="text-bodysmall mb-6 whitespace-pre-wrap">
-          {key_points}
+        <h2 className="text-h4 font-semibold mb-2">{t_key_points}</h2>
+        <div className="text-bodysmall mb-6 leading-normal prose prose-sm max-w-none">
+          <ReactMarkdown components={{ p: ({ node, ...props }) => <p className="mb-2" {...props} /> }}>{key_points}</ReactMarkdown>
         </div>
       </>
     )}
@@ -133,7 +135,7 @@ export const WorkItem = ({
         href={url}
         className="inline-block rounded-md duration-300 hover:shadow-[0_0_2rem_-0.5rem_#3178c6]"
       >
-        <div className="items-center uppercase justify-center px-8 py-6 rounded-md text-sm font-normal transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50 disabled:cursor-not-allowed text-bluedark ring-offset-dark border border-input h-10 fancy-border-gradient relative mx-auto flex gap-4 border-none hover:bg-bluedark hover:text-white">
+        <div className="btn-primary px-1 block">
           {t_button_label || "SEE PROJECT"}
         </div>
       </a>

@@ -12,12 +12,12 @@ export const ProjectItem = ({ items }: ProjectItemProps) => (
       <Link
         href={`work/${item.slug}`}
         key={i}
-        className="hover:bg-black rounded-md hover:text-white p-4"
+        className="hover:bg-black rounded-md hover:text-white p-4 flex flex-col justify-between xl:min-h-[140px] group"
       >
         <div className={`text-left flex flex-col justify-start rounded-sm`}>
           <h3 className="text-h4 font-semibold lg:text-h2">{item.headline}</h3>
         </div>
-        <p>{item.date}</p>
+        <p className="mt-auto text-gray-600 group-hover:text-white">{item.date}</p>
       </Link>
     ))}
   </div>
