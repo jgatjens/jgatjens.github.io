@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ReactMarkdown from "react-markdown";
 import { ShareLinks } from "@/components/share-links/share-links";
 
 interface ProfileProps {
@@ -27,7 +28,7 @@ export const Profile = ({
   description,
   button,
 }: ProfileProps) => (
-  <div className="text-center max-w-[265px] p-5 rounded-md bg-white/70">
+  <div className="text-center max-w-[310px] p-5 rounded-md">
     <div className="w-36 h-36 m-auto">
       <Image src={image.url} width={image.width} height={image.height} alt="Jairo Gatjens" />
     </div>
@@ -38,7 +39,11 @@ export const Profile = ({
     <a target="_blank" href={button.link} className="btn-primary w-full block">
       {button.label}
     </a>
-    <p className="text-bodysmall mt-6 dark:text-white">{description}</p>
+    <div className="text-bodysmall mt-6 dark:text-white prose prose-sm max-w-none">
+      <ReactMarkdown components={{ p: ({ node, ...props }) => <p className="mb-2" {...props} /> }}>
+        {description}
+      </ReactMarkdown>
+    </div>
     <div className="mt-6">
       <ShareLinks />
     </div>

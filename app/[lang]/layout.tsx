@@ -44,7 +44,7 @@ export default async function RootLayout({
 
 
           {/* background image */}
-          <div className="fixed bottom-0 left-0 -z-10 print:hidden">
+          {/* <div className="fixed bottom-0 left-0 -z-10 print:hidden">
             <Image
               src="/assets/img/bg-website.jpg"
               alt="background home image"
@@ -54,7 +54,7 @@ export default async function RootLayout({
               width={626}
               height={412}
             />
-          </div>
+          </div> */}
         </>
       </body>
       <GoogleTagManager gtmId="GTM-PJ8T44" />

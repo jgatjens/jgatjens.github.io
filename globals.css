@@ -47,7 +47,7 @@ body {
 }
 
 .btn-primary {
-  @apply pt-4 pb-[14px] px-14 cursor-pointer bg-black font-semibold uppercase rounded-md border-2 border-white-400 text-white transition-colors;
+  @apply pt-4 pb-[14px] px-4 min-w-52 text-center cursor-pointer bg-black font-semibold uppercase rounded-md border-2 border-white-400 text-white transition-colors;
 }
 
 .btn-primary:hover {
