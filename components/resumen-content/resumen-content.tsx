@@ -92,7 +92,7 @@ export const ResumenContent = ({
       <p className="text-bodysmall mb-6">
         {location || "Santa Teresa, Costa Rica"} <br />
         <b>{email_label || "Email"}:</b>{" "}
-        <a className="text-red" target="_blank" href={`mailto:${email}`}>
+        <a className="text-purple" target="_blank" href={`mailto:${email}`}>
           {email}
         </a>
       </p>

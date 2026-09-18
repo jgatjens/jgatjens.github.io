@@ -37,7 +37,7 @@ export const Navigation = ({ lang, t }: NavigationProps) => {
 
         <Link
           href={redirectedPathName(locale)}
-          className={`hover:text-purple hover:underline text-link ${isWhiteText} hover:dark:text-purple uppercase`}
+          className={`hover:underline text-link ${isWhiteText} hover:dark:text-purple uppercase`}
         >
           {locale}
         </Link>
@@ -45,13 +45,13 @@ export const Navigation = ({ lang, t }: NavigationProps) => {
       <div className="flex gap-3 items-center">
         <Link
           href={`/${lang}/resume`}
-          className={`text-link capitalize hover:underline hover:text-purple ${isWhiteText} hover:dark:text-purple ${isResumePage ? "underline" : ""}`}
+          className={`text-link capitalize hover:underline ${isWhiteText} hover:dark:text-purple ${isResumePage ? "underline" : ""}`}
         >
           {t.nav_resume}
         </Link>
         <Link
           href={`/${lang}/work`}
-          className={`text-link capitalize hover:underline hover:text-purple ${isWhiteText} hover:dark:text-purple ${isWorkPage ? "underline" : ""}`}
+          className={`text-link capitalize hover:underline ${isWhiteText} hover:dark:text-purple ${isWorkPage ? "underline" : ""}`}
         >
           {t.nav_work}
         </Link>
