@@ -15,7 +15,7 @@ type Story = StoryObj<typeof WorkItem>;
 export const Default: Story = {
   args: {
     headline: "Mergeworld.com Website",
-    description: ` Redesign of the official CriticalMass web site. They asked us to create a
+    overview: ` Redesign of the official CriticalMass web site. They asked us to create a
     website with really cool animations and transitions for the user to
     explore. We did it and backed the site with a custom admin panel. That way
     the final administration user is now able to edit all the content on the

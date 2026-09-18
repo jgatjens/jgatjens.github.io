@@ -19,7 +19,6 @@ const config: Config = {
           {
             lineHeight: "40px",
             fontWeight: 500,
-            fontFamily: "var(--font-space-grotesk)",
           },
         ],
         h2: [
@@ -28,7 +27,6 @@ const config: Config = {
             lineHeight: "32px",
             letterSpacing: "1px",
             fontWeight: 500,
-            fontFamily: "var(--font-space-grotesk)",
           },
         ],
         h3: [
@@ -37,7 +35,6 @@ const config: Config = {
             lineHeight: "26px",
             letterSpacing: "1px",
             fontWeight: 500,
-            fontFamily: "var(--font-space-grotesk)",
           },
         ],
         h4: [
@@ -45,7 +42,6 @@ const config: Config = {
           {
             lineHeight: "24px",
             letterSpacing: "1px",
-            fontFamily: "var(--font-space-grotesk)",
           },
         ],
         button: [
@@ -53,7 +49,6 @@ const config: Config = {
           {
             lineHeight: "17px",
             letterSpacing: "0.5px",
-            fontFamily: "var(--font-inter)",
           },
         ],
         caption: [
@@ -61,28 +56,24 @@ const config: Config = {
           {
             lineHeight: "16px",
             letterSpacing: "0.5px",
-            fontFamily: "var(--font-inter)",
           },
         ],
         link: [
           "18px",
           {
             lineHeight: "24px",
-            fontFamily: "var(--font-inter)",
           },
         ],
         body: [
           "18px",
           {
             lineHeight: "24px",
-            fontFamily: "var(--font-inter)",
           },
         ],
         bodysmall: [
           "14px",
           {
             lineHeight: "22px",
-            fontFamily: "var(--font-inter)",
           },
         ],
       },

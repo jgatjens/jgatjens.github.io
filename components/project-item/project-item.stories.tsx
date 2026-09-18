@@ -17,7 +17,7 @@ export const Default: Story = {
       {
         headline: "Hangarworldwide Website",
         slug: "#",
-        description:
+        overview:
           "Redesign of the official CriticalMass web site. They asked us to create a website with really cool animations and transitions for the user to explore. We did it and backed the site with a custom admin panel. That way the final administration user is now able to edit all the content on the website easily. ",
         color: "#FFCBD1",
         media: {
@@ -37,14 +37,16 @@ export const Default: Story = {
         `,
         lang: "en",
         t_tech_title: "Tech stack",
-        t_tech_description:
+        t_overview:
           "This is a description of the tech stack used in this project.",
         t_button_label: "Visit website",
+        t_my_role: "Lead Developer",
+        t_key_points: "- Responsive design\n- Custom animations",
       },
       {
         headline: "Organic Website",
         slug: "#",
-        description:
+        overview:
           "Redesign of the official CriticalMass web site. They asked us to create a website with really cool animations and transitions for the user to explore. We did it and backed the site with a custom admin panel. That way the final administration user is now able to edit all the content on the website easily. ",
         color: "#FFCBD1",
         media: {
@@ -64,14 +66,16 @@ export const Default: Story = {
         `,
         lang: "en",
         t_tech_title: "Tech stack",
-        t_tech_description:
+        t_overview:
           "This is a description of the tech stack used in this project.",
         t_button_label: "Visit website",
+        t_my_role: "Lead Developer",
+        t_key_points: "- Responsive design\n- Custom animations",
       },
       {
         headline: "OrTracker App",
         slug: "#",
-        description:
+        overview:
           "Redesign of the official CriticalMass web site. They asked us to create a website with really cool animations and transitions for the user to explore. We did it and backed the site with a custom admin panel. That way the final administration user is now able to edit all the content on the website easily. ",
         color: "#FFCBD1",
         media: {
@@ -91,9 +95,11 @@ export const Default: Story = {
         `,
         lang: "en",
         t_tech_title: "Tech stack",
-        t_tech_description:
+        t_overview:
           "This is a description of the tech stack used in this project.",
         t_button_label: "Visit website",
+        t_my_role: "Lead Developer",
+        t_key_points: "- Responsive design\n- Custom animations",
       },
     ],
   },

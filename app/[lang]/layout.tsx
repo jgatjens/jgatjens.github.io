@@ -6,13 +6,13 @@ import { Locale, i18n } from "@/i18n-config";
 import { getDictionary } from "@/get-diccionary";
 import { GoogleTagManager } from "@next/third-parties/google";
 
-export const inter = Inter({
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
 });
 
-export const spaceGrotesk = Space_Grotesk({
+const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-space-grotesk",
   display: "swap",
