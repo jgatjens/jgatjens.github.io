@@ -3,14 +3,14 @@
     "id": 1,
     "attributes": {
       "createdAt": "2023-10-07T15:37:47.918Z",
-      "updatedAt": "2023-10-08T21:20:08.794Z",
+      "updatedAt": "2026-09-18T16:16:05.639Z",
       "publishedAt": "2023-10-08T16:57:52.080Z",
       "locale": "en",
       "profile": {
         "id": 1,
         "headline": "Jairo Gätjens",
         "location": "San Jose, Costa Rica",
-        "description": "Experienced Software \nDeveloper based in Costa Rica.",
+        "description": "Senior Software Developer\nspecializing in modern web applications, \nfrontend architecture, \nand full-stack development.\n\nBased in Costa Rica.",
         "media": {
           "data": {
             "id": 11,
@@ -56,14 +56,14 @@
       },
       "hire_me": {
         "id": 1,
-        "text": "hire me",
+        "text": "Let’s work together →",
         "url": "mailto:jgatjens@gmail.com",
         "external": true
       },
       "open_graph": {
         "id": 1,
-        "title": "Jairo Gätjens - Website",
-        "description": "Experienced Developer based in Costa Rica.",
+        "title": "Jairo Gätjens - Portafolio",
+        "description": "Senior Software Developer specializing in modern web applications, frontend architecture, and full-stack development. Based in Costa Rica.",
         "keywords": "Website, Resume, Profile, Github, HTML, CSS, JavaScript, Work, Work Detail",
         "username": "jgatjens",
         "media": {
