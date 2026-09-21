@@ -82,7 +82,7 @@ export const ProjectItem = ({ items }: ProjectItemProps) => {
               className="group flex flex-col rounded-lg overflow-hidden hover:opacity-75 transition-opacity"
             >
               {/* Image Container */}
-              <div className="relative w-full h-56 lg:h-64 overflow-hidden rounded-lg bg-gray-200">
+              <div className="relative w-full h-56 lg:h-72 overflow-hidden rounded-lg bg-gray-200">
                 {item.media?.url || item.media?.data?.attributes?.url ? (
                   <Image
                     src={item.media?.url || item.media?.data?.attributes?.url || ''}

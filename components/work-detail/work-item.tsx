@@ -76,7 +76,6 @@ export const WorkItem = ({
       </div>
     </h1>
 
-
     {/* Overview Section */}
     {t_overview && (
       <>
@@ -88,7 +87,7 @@ export const WorkItem = ({
     )}
 
     <div className="font-bold block relative overflow-hidden rounded-md">
-      {media && (
+      {media && media.url && (
         <Image
           src={media.url}
           alt="work detail image"

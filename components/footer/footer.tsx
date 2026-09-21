@@ -35,13 +35,13 @@ export const Footer = ({ lang, t }: FooterProps) => {
                 {/* Desktop Layout */}
                 <div className="hidden md:flex items-center justify-between gap-8 lg:gap-12 px-6 lg:px-8 py-6 lg:py-6">
                     {/* Left: Logo */}
-                    <Link
+                    {/* <Link
                         href={`/${lang}`}
                         className="flex-shrink-0 transition-transform duration-300 hover:scale-110 active:scale-95"
                         aria-label="Home"
                     >
                         <IconDotSquare className="w-6 h-6 text-black" />
-                    </Link>
+                    </Link> */}
 
                     {/* Identity: Name and Role */}
                     <div className="flex-shrink-0">

@@ -20,7 +20,7 @@ export default async function Work({ params }: { params: { lang: Locale } }) {
     <>
       <HeaderResume headline={data.headline} lang={params.lang} />
 
-      <div className="container m-auto max-w-3xl pt-6 md:pt-12 px-5 print:pt-10">
+      <div className="container m-auto max-w-5xl pt-6 md:pt-12 print:pt-10">
         <ResumenContent {...data} pdf_link={pdf_link} />
       </div>
     </>

@@ -23,7 +23,7 @@ export default async function Work({ params }: { params: { lang: Locale } }) {
 
   return (
     <div className="w-full flex items-start justify-center pt-20 lg:pt-32">
-      <div className="w-full max-w-5xl px-5 lg:px-8">
+      <div className="w-full max-w-5xl px-5 lg:px-0">
         {/* Mobile Section Label */}
         <div className="mb-8">
           <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide">{dict.work_section_label}</p>
