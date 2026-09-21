@@ -34,7 +34,7 @@ export default async function RootLayout({
 
   return (
     <html lang={params.lang}>
-      <body className={`${inter.variable} ${spaceGrotesk.variable} ${inter.className} flex flex-col min-h-screen`}>
+      <body className={`${inter.variable} ${spaceGrotesk.variable} flex flex-col min-h-screen`}>
         <>
           <header className="fixed top-0 w-full z-40 border-b border-white/10">
             <Navigation lang={params.lang} t={t} />

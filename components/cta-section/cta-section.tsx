@@ -47,7 +47,7 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
     const links = secondaryLinks || defaultSecondaryLinks;
 
     return (
-        <div className="print:hidden w-full md:mt-16 md:relative md:min-h-[550px] overflow-hidden">
+        <div className="print:hidden bg-gray-200 w-full relative md:bg-transparent md:min-h-[550px] mt-4 md:mt-16 overflow-hidden">
             {/* Background Image */}
             <div
                 className="absolute hidden md:block w-[60%] left-auto right-0 inset-0 h-full bg-cover bg-center bg-no-repeat"
@@ -73,8 +73,8 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
             />
 
             {/* Content Container */}
-            <div className="max-w-5xl mx-auto relative z-10 flex items-center justify-start md:min-h-[480px]">
-                <div className="w-full px-6 py-10 md:py-12 lg:py-20">
+            <div className="max-w-5xl mx-auto relative z-10 flex items-center justify-start min-h-[400px] md:min-h-[480px]">
+                <div className="w-full px-6 py-10 md:px-0 md:py-12 lg:py-20">
                     {/* Line and Eyebrow inline */}
                     <div className="flex items-center gap-3 mb-4 md:mb-6">
                         <div className="h-px bg-black w-8" />
@@ -84,17 +84,17 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
                     </div>
 
                     {/* Main Heading */}
-                    <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-bluedark mb-5 md:mb-6 leading-tight">
+                    <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-bluedark mb-2 md:mb-6 leading-tight">
                         {question}
                     </h2>
 
                     {/* Description */}
-                    <p className="text-base sm:text-base md:text-lg text-gray-700 mb-6 md:mb-8 leading-relaxed max-w-xl">
+                    <p className="text-base sm:text-base md:text-lg text-gray-700 mb-4 md:mb-8 leading-relaxed max-w-xl">
                         {description}
                     </p>
 
                     {/* Availability and Location on same row */}
-                    <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8 mb-6 md:mb-8">
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-8 mb-6 md:mb-8">
                         <div className="flex items-center gap-3">
                             <span className="inline-block w-2 h-2 md:w-2.5 md:h-2.5 bg-green rounded-full flex-shrink-0" />
                             <span className="text-sm md:text-base text-gray-800 font-medium">{availability}</span>
@@ -106,17 +106,17 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
                     </div>
 
                     {/* Button and Secondary Links on same row */}
-                    <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
+                    <div className="flex flex-col justify-center sm:flex-row sm:items-center gap-4 sm:gap-6">
                         {/* Primary Button */}
                         <a
                             href={buttonHref}
-                            className="inline-flex px-6 md:px-8 py-3 md:py-3 bg-black text-white font-semibold rounded-md hover:shadow-lg hover:opacity-90 transition-all duration-300 text-sm md:text-base whitespace-nowrap"
+                            className="px-6 md:px-12 py-3 md:py-3 bg-black text-white font-semibold text-center rounded-md hover:shadow-lg transition-all duration-300 text-sm md:text-base whitespace-nowrap"
                         >
                             {buttonLabel} →
                         </a>
 
                         {/* Secondary Links */}
-                        <div className="flex flex-wrap gap-3 md:gap-6 text-sm md:text-base">
+                        <div className="flex flex-wrap gap-4 md:gap-6 text-sm md:text-base">
                             {links.map((link, _) => (
                                 <React.Fragment key={link.href}>
                                     {link.isExternal ? (
@@ -144,9 +144,7 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
                     {/* Bottom tagline */}
                     <div className="mt-10 md:mt-12">
                         <div className="h-px bg-gray-400 mb-3 md:mb-4 w-8" />
-                        <p className="text-xs sm:text-sm text-gray-600">
-                            Let's build something great together.
-                        </p>
+                        <p className="text-xs sm:text-sm text-gray-600">Let&apos;s build something great together.</p>
                     </div>
                 </div>
             </div>

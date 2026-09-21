@@ -40,7 +40,7 @@ export const WithFullPage: Story = {
     },
     decorators: [
         (Story) => (
-            <div className="flex flex-col min-h-screen bg-white">
+            <div className="flex flex-col bg-white">
                 <div className="flex-1 flex items-center justify-center p-8 text-center text-gray-400">
                     <p>Page Content Goes Here</p>
                 </div>

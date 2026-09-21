@@ -24,9 +24,10 @@ export const Footer = ({ lang, t }: FooterProps) => {
             {showCta && (
                 <CtaSection
                     question={t.work_cta_question}
-                    subtitle={t.work_cta_subtitle}
+                    description={t.work_cta_subtitle}
                     buttonLabel={t.work_cta_button}
-                    href={`/${lang}#contact`}
+                    buttonHref={`/${lang}#contact`}
+                    lang={lang}
                 />
             )}
 
@@ -71,7 +72,7 @@ export const Footer = ({ lang, t }: FooterProps) => {
                 </div>
 
                 {/* Mobile Layout */}
-                <div className="md:hidden flex flex-col gap-6 px-5 py-6">
+                <div className="md:hidden flex flex-col gap-x-6 gap-y-2 px-6 py-6">
                     {/* Logo and Identity */}
                     <div className="flex items-center gap-3">
                         <Link

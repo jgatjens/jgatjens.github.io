@@ -48,7 +48,7 @@ export const WorkItem = ({
   t_key_points,
   lang,
 }: WorkItemProps) => (
-  <div className="m-auto mt-16 lg:mt-12 max-w-xl lg:max-w-4xl" role="alert">
+  <div className="m-auto mt-16 lg:mt-12 lg:max-w-5xl" role="alert">
     <h1 className="text-h1 lg:font-semibold bg-white lg:text-h1text-bluedark mb-4 flex items-center justify-between">
       {headline}
 
