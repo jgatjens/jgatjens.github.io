@@ -88,7 +88,7 @@ export const ResumenContent = ({
   history,
 }: ResumenContentProps) => {
   return (
-    <div className="container text-[#3b3e48] pb-10 print:pt-10 print:pb-10">
+    <div className="container text-[#3b3e48]">
       <p className="text-bodysmall mb-6">
         {location || "Santa Teresa, Costa Rica"} <br />
         <b>{email_label || "Email"}:</b>{" "}

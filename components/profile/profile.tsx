@@ -1,6 +1,5 @@
 import Image from "next/image";
 import ReactMarkdown from "react-markdown";
-import { ShareLinks } from "@/components/share-links/share-links";
 
 interface ProfileProps {
   image?: {
@@ -43,9 +42,6 @@ export const Profile = ({
       <ReactMarkdown components={{ p: ({ node, ...props }) => <p className="mb-2" {...props} /> }}>
         {description}
       </ReactMarkdown>
-    </div>
-    <div className="mt-6">
-      <ShareLinks />
     </div>
   </div>
 );

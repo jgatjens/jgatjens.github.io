@@ -1,8 +1,6 @@
 import type { Locale } from "@/i18n-config";
 import { getData } from "@/http/get-data";
 import { ProjectItem } from "@/components/project-item/project-item";
-import { ShareLinks } from "@/components/share-links/share-links";
-import { CTAFooter } from "@/components/cta-footer/cta-footer";
 import { metadata } from "@/utils/metadata";
 import { getDictionary } from "@/translation";
 import { Metadata } from "next";
@@ -24,7 +22,7 @@ export default async function Work({ params }: { params: { lang: Locale } }) {
   });
 
   return (
-    <div className="w-full min-h-screen flex items-start justify-center py-16 md:py-20 lg:py-32">
+    <div className="w-full flex items-start justify-center pt-20 lg:pt-32">
       <div className="w-full max-w-5xl px-5 lg:px-8">
         {/* Mobile Section Label */}
         <div className="mb-8">
@@ -50,30 +48,6 @@ export default async function Work({ params }: { params: { lang: Locale } }) {
 
         {/* Projects */}
         <ProjectItem items={items} />
-
-        {/* CTA Section */}
-        <div className="mt-16 md:mt-20 lg:mt-24 -mx-5 lg:-mx-8 px-5 lg:px-8 py-12 md:py-16 bg-gray-50 flex flex-col items-center text-center">
-          <p className="text-lg md:text-xl text-gray-600 mb-4">{dict.work_cta_question}</p>
-          <p className="text-base md:text-lg text-gray-700 mb-8">{dict.work_cta_subtitle}</p>
-          <a
-            href={`/${params.lang}#contact`}
-            className="px-8 py-3 bg-black text-white rounded-md font-medium hover:bg-gray-900 transition-colors"
-          >
-            {dict.work_cta_button} →
-          </a>
-        </div>
-
-        <CTAFooter
-          lang={params.lang}
-          question={dict.work_cta_question}
-          subtitle={dict.work_cta_subtitle}
-          buttonLabel={dict.work_cta_button}
-        />
-
-        {/* Social Links */}
-        <div className="mt-12 md:mt-16 flex justify-center">
-          <ShareLinks />
-        </div>
       </div>
     </div>
   );

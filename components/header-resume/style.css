@@ -34,13 +34,32 @@
   -webkit-print-color-adjust: exact;
 }
 
-
-.app__resume h1 {
-  background: linear-gradient(45deg, #afb3b8, #9a80b1);
-  background-size: 100%;
-  background-repeat: repeat;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(0,0,0,0);
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
 }
 
+.resume-header-title {
+  background: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #ffffff 45%,
+    rgba(255, 255, 255, 0.5) 50%,
+    #ffffff 55%,
+    #ffffff 100%
+  );
+  background-size: 1000px 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.resume-header-title:hover {
+  animation: shimmer 4s cubic-bezier(0.4, 0, 0.2, 1);
+}

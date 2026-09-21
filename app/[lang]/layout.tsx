@@ -2,6 +2,7 @@ import "@/globals.css";
 import Image from "next/image";
 import { Inter, Space_Grotesk } from "next/font/google";
 import { Navigation } from "@/components/navigation";
+import { Footer } from "@/components/footer";
 import { Locale, i18n } from "@/i18n-config";
 import { getDictionary } from "@/get-diccionary";
 import { GoogleTagManager } from "@next/third-parties/google";
@@ -33,28 +34,15 @@ export default async function RootLayout({
 
   return (
     <html lang={params.lang}>
-      <body className={spaceGrotesk.className}>
+      <body className={`${spaceGrotesk.className} flex flex-col min-h-screen`}>
         <>
           <header className="fixed top-0 w-full z-40 border-b border-white/10">
             <Navigation lang={params.lang} t={t} />
           </header>
 
-          <main className="w-full h-full">{children}</main>
+          <main className="w-full flex-1">{children}</main>
 
-
-
-          {/* background image */}
-          {/* <div className="fixed bottom-0 left-0 -z-10 print:hidden">
-            <Image
-              src="/assets/img/bg-website.jpg"
-              alt="background home image"
-              loading="lazy"
-              priority={false}
-              style={{ width: 626, height: 412, maxWidth: "inherit" }}
-              width={626}
-              height={412}
-            />
-          </div> */}
+          <Footer lang={params.lang} t={t} />
         </>
       </body>
       <GoogleTagManager gtmId="GTM-PJ8T44" />
