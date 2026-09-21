@@ -20,8 +20,13 @@ export type WorkItemProps = {
   date: string;
   slug: string;
   color: string;
-  media: {
-    url: string;
+  media?: {
+    url?: string;
+    data?: {
+      attributes?: {
+        url?: string;
+      };
+    };
   };
   tech_stack: string;
   my_role?: string;
@@ -29,6 +34,13 @@ export type WorkItemProps = {
   url: string;
   url_next_work: string;
   url_prev_work: string;
+  categories?: {
+    web?: boolean;
+    mobile?: boolean;
+    cms?: boolean;
+    design_systems?: boolean;
+    ai?: boolean;
+  };
   // translation
   t_button_label: string;
   t_tech_title: string;

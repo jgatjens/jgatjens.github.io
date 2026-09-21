@@ -6,5 +6,11 @@
   "work_detail_tech": "Stack Tecnológico",
   "work_detail_overview": "Descripción General",
   "work_detail_my_role": "Mi Rol",
-  "work_detail_key_points": "Aprendizajes Clave"
+  "work_detail_key_points": "Aprendizajes Clave",
+  "work_title": "Proyectos reales.\nImpacto real.",
+  "work_description": "Una selección de productos, plataformas y experiencias que he diseñado y desarrollado a lo largo de los años.",
+  "work_section_label": "Trabajo Seleccionado",
+  "work_cta_question": "¿Te gusta lo que ves?",
+  "work_cta_subtitle": "Hagamos algo increíble juntos.",
+  "work_cta_button": "Hablemos"
 }

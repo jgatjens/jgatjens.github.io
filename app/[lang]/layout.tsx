@@ -35,9 +35,9 @@ export default async function RootLayout({
     <html lang={params.lang}>
       <body className={spaceGrotesk.className}>
         <>
-          <div className="absolute top-0 w-full z-10">
+          <header className="fixed top-0 w-full z-40 border-b border-white/10">
             <Navigation lang={params.lang} t={t} />
-          </div>
+          </header>
 
           <main className="w-full h-full">{children}</main>
 

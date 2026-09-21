@@ -46,6 +46,12 @@ body {
   z-index: -9;
 }
 
+/* Navigation smooth transitions */
+nav a {
+  @apply transition-all duration-300 ease-out;
+}
+
+/* Enhanced button styles */
 .btn-primary {
   @apply pt-4 pb-[14px] px-4 min-w-52 text-center cursor-pointer bg-black font-semibold uppercase rounded-md border-2 border-white-400 text-white transition-colors;
 }
@@ -70,6 +76,22 @@ body {
   @apply border-red-700 bg-red text-white transition-colors;
 }
 
+/* Animated underline effect */
+.nav-underline {
+  @apply relative inline-block;
+}
+
+.nav-underline::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-full h-0.5 bg-purple rounded transform origin-left scale-x-0 transition-transform duration-300 ease-out;
+}
+
+.nav-underline:hover::after,
+.nav-underline.active::after {
+  @apply scale-x-100;
+}
+
+/* Fancy border gradient */
 .fancy-border-gradient:before {
   inset: 0;
   content: "";
@@ -100,11 +122,21 @@ body {
   }
 }
 
+/* Smooth color transitions */
 .transition-colors {
   transition-property: color, background-color, border-color,
     text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 0.15s;
+}
+
+/* Focus visible for accessibility */
+a:focus-visible {
+  @apply outline-2 outline-offset-2 outline-purple rounded;
+}
+
+button:focus-visible {
+  @apply outline-2 outline-offset-2 outline-purple rounded;
 }
 
 @property --angle {

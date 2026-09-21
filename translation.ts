@@ -1,18 +1,15 @@
+import en from './dictionaries/en.json';
+import es from './dictionaries/es.json';
+
 interface DictionaryEntry {
   [key: string]: string;
 }
 
 export const dictionary: Record<string, DictionaryEntry> = {
-  en: {
-    resume: "Resume",
-    work: "Work",
-  },
-  es: {
-    resume: "CV",
-    work: "Trabajo",
-  },
+  en,
+  es,
 };
 
 export const getDictionary = (locale: string) => {
-  return dictionary[locale];
+  return dictionary[locale] || dictionary['en'];
 };

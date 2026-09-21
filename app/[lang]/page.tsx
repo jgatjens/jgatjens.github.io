@@ -40,7 +40,7 @@ export default async function Page({ params }: { params: { lang: Locale } }) {
   const media = profile.media?.data.attributes as MediaProps;
 
   return (
-    <section className="flex items-center justify-center h-full">
+    <section className="flex items-center justify-center h-full pt-20 md:pt-24">
       <Suspense>
         <Stars3D />
       </Suspense>
