@@ -21,6 +21,8 @@ export const ProjectItem = ({ items }: ProjectItemProps) => {
     setSelectedCategory(category);
   };
 
+  console.log('Selected Category:', selectedCategory);
+  console.log('Items:', items);
   // Filter items based on selected category
   const filteredItems = selectedCategory === 'All'
     ? items
@@ -54,6 +56,7 @@ export const ProjectItem = ({ items }: ProjectItemProps) => {
 
       return false;
     });
+  console.log('Filtered Items:', filteredItems);
 
   return (
     <div className="w-full mb-6 md:mb-16">

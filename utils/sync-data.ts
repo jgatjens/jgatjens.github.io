@@ -13,7 +13,7 @@ interface PageConfig {
 const pages: PageConfig[] = [
   { name: "homepage", populate: "homepage?populate[0]=profile.media&populate[1]=hire_me&populate[2]=open_graph.media" },
   { name: "resume", populate: "resume?populate[0]=history&populate[1]=open_graph.media" },
-  { name: "work", populate: "work?populate[0]=items.media&populate[1]=open_graph.media" },
+  { name: "work", populate: "work?populate[0]=items&populate[1]=items.media&populate[2]=items.categories&populate[3]=open_graph.media" },
 ];
 
 const locales = ["en", "es"];
