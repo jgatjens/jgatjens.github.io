@@ -19,6 +19,7 @@ interface CtaSectionProps {
     location?: string;
     buttonLabel?: string;
     buttonHref?: string;
+    tagline?: string;
     secondaryLinks?: SecondaryLink[];
     lang?: string;
     // Legacy props (for backward compatibility)
@@ -34,6 +35,7 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
     location = "Remote · Costa Rica",
     buttonLabel = "Let's Talk",
     buttonHref = "#contact",
+    tagline = "Let's build something great together.",
     secondaryLinks,
     lang = "en"
 }) => {
@@ -89,7 +91,7 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
                     </h2>
 
                     {/* Description */}
-                    <p className="text-base sm:text-base md:text-lg text-gray-700 mb-4 md:mb-8 leading-relaxed max-w-xl">
+                    <p className="first-letter:capitalize text-base sm:text-base md:text-lg text-gray-700 mb-4 md:mb-8 leading-relaxed max-w-xl">
                         {description}
                     </p>
 
@@ -97,11 +99,11 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
                     <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-8 mb-6 md:mb-8">
                         <div className="flex items-center gap-3">
                             <span className="inline-block w-2 h-2 md:w-2.5 md:h-2.5 bg-green rounded-full flex-shrink-0" />
-                            <span className="text-sm md:text-base text-gray-800 font-medium">{availability}</span>
+                            <span className="first-letter:capitalize text-sm md:text-base text-gray-800 font-medium">{availability}</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <IconLocation className="w-4 h-4 text-gray-600 flex-shrink-0" />
-                            <span className="text-sm md:text-base text-gray-600">{location}</span>
+                            <span className="capitalize text-sm md:text-base text-gray-600">{location}</span>
                         </div>
                     </div>
 
@@ -110,7 +112,7 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
                         {/* Primary Button */}
                         <a
                             href={buttonHref}
-                            className="px-6 md:px-12 py-3 md:py-3 bg-black text-white font-semibold text-center rounded-md hover:shadow-lg transition-all duration-300 text-sm md:text-base whitespace-nowrap"
+                            className="capitalize px-6 md:px-12 py-3 md:py-3 bg-black text-white font-semibold text-center rounded-md hover:shadow-lg transition-all duration-300 text-sm md:text-base whitespace-nowrap"
                         >
                             {buttonLabel} →
                         </a>
@@ -144,7 +146,7 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
                     {/* Bottom tagline */}
                     <div className="mt-10 md:mt-12">
                         <div className="h-px bg-gray-400 mb-3 md:mb-4 w-8" />
-                        <p className="text-xs sm:text-sm text-gray-600">Let&apos;s build something great together.</p>
+                        <p className="first-letter:capitalize text-xs sm:text-sm text-gray-600">{tagline}</p>
                     </div>
                 </div>
             </div>

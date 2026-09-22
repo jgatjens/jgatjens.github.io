@@ -23,9 +23,13 @@ export const Footer = ({ lang, t }: FooterProps) => {
             {/* CTA Section - Above Footer */}
             {showCta && (
                 <CtaSection
+                    eyebrow={t.work_cta_eyebrow}
                     question={t.work_cta_question}
                     description={t.work_cta_subtitle}
+                    availability={t.work_cta_availability}
+                    location={t.work_cta_location}
                     buttonLabel={t.work_cta_button}
+                    tagline={t.work_cta_tagline}
                     buttonHref={`/${lang}#contact`}
                     lang={lang}
                 />
@@ -49,7 +53,7 @@ export const Footer = ({ lang, t }: FooterProps) => {
                         {!isHomePage && (
                             <p className="text-sm font-semibold text-black">Jairo Gätjens</p>
                         )}
-                        <p className="text-xs text-gray-500">Senior Software Developer</p>
+                        <p className="text-xs text-gray-500">Senior Software Engineer</p>
                     </div>
 
                     {/* Center/Right: Navigation Links */}
