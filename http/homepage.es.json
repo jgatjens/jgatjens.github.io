@@ -3,14 +3,14 @@
     "id": 2,
     "attributes": {
       "createdAt": "2023-10-07T15:53:34.153Z",
-      "updatedAt": "2026-09-18T16:16:01.585Z",
+      "updatedAt": "2026-09-22T08:28:50.939Z",
       "publishedAt": "2023-12-10T02:36:33.028Z",
       "locale": "es",
       "profile": {
         "id": 2,
         "headline": "Jairo Gätjens",
         "location": "San Jose, Costa Rica",
-        "description": "Senior Software Developer especializado en aplicaciones web modernas, arquitectura frontend y desarrollo full-stack. \n\nAhora en Costa Rica.",
+        "description": "Senior Software Engineer especializado en aplicaciones web modernas, arquitectura frontend y desarrollo full-stack. \n\nAhora en Costa Rica.",
         "media": {
           "data": {
             "id": 11,
