@@ -9,9 +9,9 @@ export const CATEGORY_MAP = {
     ai: 'AI',
     backend: 'Backend',
     headless_cms: 'Headless CMS',
-    animations: 'Animations',
+    // animations: 'Animations',
     cms: 'CMS',
-    design_systems: 'Design Systems'
+    // design_systems: 'Design Systems'
 } as const;
 
 export type CategoryKey = keyof typeof CATEGORY_MAP;

@@ -37,6 +37,9 @@ export type WorkItemProps = {
   categories?: {
     web?: boolean;
     mobile?: boolean;
+    backend?: boolean;
+    headless_cms?: boolean;
+    animations?: boolean;
     cms?: boolean;
     design_systems?: boolean;
     ai?: boolean;
