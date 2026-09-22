@@ -9,16 +9,6 @@
   background-color: var(--link-color, #3178c6);
 }
 
-.tech-badge {
-  background-color: #000;
-}
-
-.tech-badge:hover {
-  background-color: var(--tech-color, #4CAF50);
-  color: #fff;
-}
-
-
 .nav-arrow:hover {
   color: var(--nav-color, #4CAF50);
   background-color: rgba(0, 0, 0, 0.05);

@@ -53,7 +53,7 @@ export const ProjectItem = ({ items }: ProjectItemProps) => {
     });
 
   return (
-    <div className="w-full">
+    <div className="w-full mb-6 md:mb-16">
       {/* Filter Tabs with Borders */}
       <div className="border-t border-b border-gray-100 py-3 md:py-4 mb-8 md:mb-12">
         <div className="flex flex-wrap gap-3 justify-center lg:justify-start">

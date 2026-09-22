@@ -1,21 +1,39 @@
-/* Tech tag - clean minimalist style */
-.tech-tag {
-  @apply inline-flex items-center px-3 py-2 text-bodysmall font-medium text-gray-800 border border-gray-300 rounded transition-all duration-200 ease-out cursor-default;
+/* Technology Badge Container */
+.tech-badge {
+  @apply inline-flex items-center justify-center px-4 py-3 rounded-lg border border-gray-200 bg-white transition-all duration-200 ease-out cursor-default;
+  gap: 0.5rem;
 }
 
-/* Hover state - subtle color tint and border change */
+.tech-badge-text {
+  @apply text-bodysmall font-medium text-gray-500;
+  letter-spacing: 0.3px;
+}
+
+/* Hover state - color accent with enhanced visibility */
 @media (hover: hover) {
-  .tech-tag:hover {
+  .tech-badge:hover {
     border-color: var(--tech-color, #4caf50);
-    /* Very subtle background - 6% opacity of the project color */
-    background-color: rgba(76, 175, 80, 0.06);
+    background-color: rgba(76, 175, 80, 0.15);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .tech-badge:hover .tech-badge-text {
+    color: var(--tech-color, #4caf50);
+    font-weight: 600;
   }
 }
 
-/* Touch devices - subtle active state */
+/* Active state for touch devices */
 @media (hover: none) {
-  .tech-tag:active {
+  .tech-badge:active {
     border-color: var(--tech-color, #4caf50);
+    background-color: rgba(76, 175, 80, 0.18);
+  }
+
+  .tech-badge:active .tech-badge-text {
+    color: var(--tech-color, #4caf50);
+    font-weight: 600;
   }
 }
 

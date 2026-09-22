@@ -49,7 +49,7 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
     const links = secondaryLinks || defaultSecondaryLinks;
 
     return (
-        <div className="print:hidden bg-gray-200 w-full relative md:bg-transparent md:min-h-[550px] mt-4 md:mt-16 overflow-hidden">
+        <section className="print:hidden bg-gray-200 w-full relative md:bg-transparent md:min-h-[550px] overflow-hidden">
             {/* Background Image */}
             <div
                 className="absolute hidden md:block w-[60%] left-auto right-0 inset-0 h-full bg-cover bg-center bg-no-repeat"
@@ -150,6 +150,6 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };

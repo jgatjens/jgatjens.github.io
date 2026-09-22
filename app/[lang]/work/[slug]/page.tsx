@@ -83,6 +83,13 @@ export default async function WorkDetailPage({ params }: WorkDetailProps) {
   return (
     <>
       <ProjectHero {...project} lang={params.lang} />
+      <ProjectRoleTech
+        myRole={project.my_role}
+        techStack={project.tech_stack}
+        color={project.color}
+        roleLabel={project.t_my_role}
+        techLabel={project.t_tech_title}
+      />
       <ProjectNavigation
         previous={
           prevProject
@@ -103,13 +110,6 @@ export default async function WorkDetailPage({ params }: WorkDetailProps) {
             : null
         }
         lang={params.lang}
-      />
-      <ProjectRoleTech
-        myRole={project.my_role}
-        techStack={project.tech_stack}
-        color={project.color}
-        roleLabel={project.t_my_role}
-        techLabel={project.t_tech_title}
       />
     </>
   );

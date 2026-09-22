@@ -36,7 +36,7 @@ export const ProjectRoleTech = ({
     }
 
     return (
-        <section className="w-full px-6 lg:px-0 py-16 lg:py-6">
+        <section className="w-full px-6 md:py-16 lg:px-0">
             <div className="mx-auto max-w-5xl">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
                     {/* Left Column: My Role */}
@@ -62,20 +62,20 @@ export const ProjectRoleTech = ({
                     {/* Right Column: Key Technologies */}
                     {technologies.length > 0 && (
                         <div className="flex flex-col">
-                            <h3 className="text-caption uppercase font-semibold tracking-wide text-gray-600 mb-4 block">
+                            <h3 className="text-caption uppercase font-semibold tracking-wide text-gray-600 mb-6 block">
                                 {techLabel}
                             </h3>
-                            <div className="flex flex-wrap gap-2">
+                            <div className="flex flex-wrap gap-3">
                                 {technologies.map((tech, index) => (
-                                    <span
+                                    <div
                                         key={`${tech}-${index}`}
-                                        className="tech-tag"
+                                        className="tech-badge"
                                         style={{
                                             "--tech-color": color,
                                         } as React.CSSProperties & { "--tech-color": string }}
                                     >
-                                        {tech}
-                                    </span>
+                                        <span className="tech-badge-text">{tech}</span>
+                                    </div>
                                 ))}
                             </div>
                         </div>

@@ -24,7 +24,7 @@ export const ProjectNavigation = ({
     lang,
 }: ProjectNavigationProps) => {
     return (
-        <section className="w-full px-6 lg:px-0 py-6 md:py-8">
+        <section className="w-full px-6 lg:px-0">
             <div className="mx-auto max-w-5xl">
                 {/* Divider */}
                 <div className="w-full h-px bg-gray-100 mb-2 md:mb-4"></div>
@@ -44,7 +44,7 @@ export const ProjectNavigation = ({
                         >
                             {/* Arrow + Label Row */}
                             <div className="flex items-center gap-2">
-                                <span className="text-base lg:text-lg text-black transition-all duration-300 transform group-hover:-translate-x-1 flex-shrink-0">
+                                <span className="text-base lg:text-lg text-black relative -top-[2px]">
                                     ←
                                 </span>
                                 <span className="text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -61,7 +61,7 @@ export const ProjectNavigation = ({
                         <div className="flex flex-col items-start gap-1">
                             {/* Arrow + Label Row */}
                             <div className="flex items-center gap-2">
-                                <span className="text-base lg:text-lg text-gray-300 opacity-0 flex-shrink-0">
+                                <span className="text-base lg:text-lg text-gray-300 relative -top-[2px]">
                                     ←
                                 </span>
                                 <span className="text-xs font-medium text-gray-300 uppercase tracking-wider">
@@ -94,7 +94,7 @@ export const ProjectNavigation = ({
                         >
                             {/* Label + Arrow Row */}
                             <div className="flex items-center gap-2 flex-row-reverse">
-                                <span className="text-base lg:text-lg text-black transition-all duration-300 transform group-hover:translate-x-1 flex-shrink-0">
+                                <span className="text-base lg:text-lg text-black relative -top-[2px]">
                                     →
                                 </span>
                                 <span className="text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -111,7 +111,7 @@ export const ProjectNavigation = ({
                         <div className="flex flex-col items-end gap-1 text-right">
                             {/* Label + Arrow Row */}
                             <div className="flex items-center gap-2 flex-row-reverse">
-                                <span className="text-base lg:text-lg text-gray-300 opacity-0 flex-shrink-0">
+                                <span className="text-base lg:text-lg text-gray-300 relative -top-[2px]">
                                     →
                                 </span>
                                 <span className="text-xs font-medium text-gray-300 uppercase tracking-wider">
