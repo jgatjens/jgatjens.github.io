@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getData } from "@/http/get-data";
-import { ProjectHero, WorkItem } from "@/components/work-detail";
+import { ProjectHero, WorkItem, ProjectNavigation } from "@/components/work-detail";
 import { getDictionary } from "@/get-diccionary";
 import { Locale } from "@/i18n-config";
 import { BackendProps, WorkItemProps } from "@/utils/types";
@@ -52,18 +52,24 @@ export default async function WorkDetailPage({ params }: WorkDetailProps) {
     }
   });
 
+  // Get next and previous projects
+  let nextProject = null;
+  let prevProject = null;
+
   if (data.items[selectedWork + 1]) {
-    project.url_next_work = data.items[selectedWork + 1].slug;
+    nextProject = data.items[selectedWork + 1];
   } else {
-    project.url_next_work = data.items[0].slug;
+    nextProject = data.items[0];
   }
 
-  // prev
   if (data.items[selectedWork - 1]) {
-    project.url_prev_work = data.items[selectedWork - 1].slug;
+    prevProject = data.items[selectedWork - 1];
   } else {
-    project.url_prev_work = data.items[data.items.length - 1].slug;
+    prevProject = data.items[data.items.length - 1];
   }
+
+  project.url_next_work = nextProject.slug;
+  project.url_prev_work = prevProject.slug;
 
   project.media = project.media?.data?.attributes ?? null;
 
@@ -80,6 +86,27 @@ export default async function WorkDetailPage({ params }: WorkDetailProps) {
       {/* <section className="flex justify-center flex-col px-5 lg:px-0 pt-20 md:pt-24">
         <WorkItem {...project} />
       </section> */}
+      <ProjectNavigation
+        previous={
+          prevProject
+            ? {
+              title: prevProject.headline,
+              slug: prevProject.slug,
+              color: prevProject.color,
+            }
+            : null
+        }
+        next={
+          nextProject
+            ? {
+              title: nextProject.headline,
+              slug: nextProject.slug,
+              color: nextProject.color,
+            }
+            : null
+        }
+        lang={params.lang}
+      />
     </>
   );
 }

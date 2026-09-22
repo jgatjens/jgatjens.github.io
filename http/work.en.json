@@ -5,7 +5,7 @@
       "headline": "Work",
       "description": "See Projects",
       "createdAt": "2023-10-07T16:35:14.941Z",
-      "updatedAt": "2026-09-21T07:30:30.282Z",
+      "updatedAt": "2026-09-22T13:44:27.798Z",
       "publishedAt": "2023-10-08T16:58:12.252Z",
       "locale": "en",
       "items": [
@@ -22,88 +22,88 @@
           "overview": "NewHomeSource is a large-scale real estate platform that helps homebuyers discover new construction homes, communities, and builders across the United States.\n\nI contributed to the evolution of the platform by developing and improving customer-facing experiences, integrating frontend features with backend services, and supporting a scalable and maintainable frontend architecture.\n",
           "media": {
             "data": {
-              "id": 23,
+              "id": 25,
               "attributes": {
                 "name": "work-zondahome.png",
-                "alternativeText": "zondahome",
+                "alternativeText": null,
                 "caption": null,
                 "width": 1616,
                 "height": 910,
                 "formats": {
-                  "small": {
-                    "name": "small_pika-1784383919829-1x.png",
-                    "hash": "small_pika_1784383919829_1x_a7db73d5e4",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "path": null,
-                    "width": 500,
-                    "height": 282,
-                    "size": 202.28,
-                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1784384544/small_pika_1784383919829_1x_a7db73d5e4.png",
-                    "provider_metadata": {
-                      "public_id": "small_pika_1784383919829_1x_a7db73d5e4",
-                      "resource_type": "image"
-                    }
-                  },
                   "thumbnail": {
-                    "name": "thumbnail_pika-1784383919829-1x.png",
-                    "hash": "thumbnail_pika_1784383919829_1x_a7db73d5e4",
+                    "name": "thumbnail_work-zondahome.png",
+                    "hash": "thumbnail_work_zondahome_ab4fb9f6d7",
                     "ext": ".png",
                     "mime": "image/png",
                     "path": null,
                     "width": 245,
                     "height": 138,
-                    "size": 56.13,
-                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1784384547/thumbnail_pika_1784383919829_1x_a7db73d5e4.png",
+                    "size": 54.91,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790084629/thumbnail_work_zondahome_ab4fb9f6d7.png",
                     "provider_metadata": {
-                      "public_id": "thumbnail_pika_1784383919829_1x_a7db73d5e4",
+                      "public_id": "thumbnail_work_zondahome_ab4fb9f6d7",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "name": "small_work-zondahome.png",
+                    "hash": "small_work_zondahome_ab4fb9f6d7",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 282,
+                    "size": 196.64,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790084631/small_work_zondahome_ab4fb9f6d7.png",
+                    "provider_metadata": {
+                      "public_id": "small_work_zondahome_ab4fb9f6d7",
                       "resource_type": "image"
                     }
                   },
                   "large": {
-                    "name": "large_pika-1784383919829-1x.png",
-                    "hash": "large_pika_1784383919829_1x_a7db73d5e4",
+                    "name": "large_work-zondahome.png",
+                    "hash": "large_work_zondahome_ab4fb9f6d7",
                     "ext": ".png",
                     "mime": "image/png",
                     "path": null,
                     "width": 1000,
                     "height": 563,
-                    "size": 725.06,
-                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1784384553/large_pika_1784383919829_1x_a7db73d5e4.png",
+                    "size": 706.33,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790084633/large_work_zondahome_ab4fb9f6d7.png",
                     "provider_metadata": {
-                      "public_id": "large_pika_1784383919829_1x_a7db73d5e4",
+                      "public_id": "large_work_zondahome_ab4fb9f6d7",
                       "resource_type": "image"
                     }
                   },
                   "medium": {
-                    "name": "medium_pika-1784383919829-1x.png",
-                    "hash": "medium_pika_1784383919829_1x_a7db73d5e4",
+                    "name": "medium_work-zondahome.png",
+                    "hash": "medium_work_zondahome_ab4fb9f6d7",
                     "ext": ".png",
                     "mime": "image/png",
                     "path": null,
                     "width": 750,
                     "height": 422,
-                    "size": 426.42,
-                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1784384553/medium_pika_1784383919829_1x_a7db73d5e4.png",
+                    "size": 414.17,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790084634/medium_work_zondahome_ab4fb9f6d7.png",
                     "provider_metadata": {
-                      "public_id": "medium_pika_1784383919829_1x_a7db73d5e4",
+                      "public_id": "medium_work_zondahome_ab4fb9f6d7",
                       "resource_type": "image"
                     }
                   }
                 },
-                "hash": "pika_1784383919829_1x_a7db73d5e4",
+                "hash": "work_zondahome_ab4fb9f6d7",
                 "ext": ".png",
                 "mime": "image/png",
-                "size": 379.78,
-                "url": "https://res.cloudinary.com/jgatjens/image/upload/v1784384555/pika_1784383919829_1x_a7db73d5e4.png",
+                "size": 334.32,
+                "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790084631/work_zondahome_ab4fb9f6d7.png",
                 "previewUrl": null,
                 "provider": "cloudinary",
                 "provider_metadata": {
-                  "public_id": "pika_1784383919829_1x_a7db73d5e4",
+                  "public_id": "work_zondahome_ab4fb9f6d7",
                   "resource_type": "image"
                 },
-                "createdAt": "2026-07-18T14:22:36.133Z",
-                "updatedAt": "2026-07-18T14:33:09.428Z"
+                "createdAt": "2026-09-22T13:43:54.674Z",
+                "updatedAt": "2026-09-22T13:44:05.961Z"
               }
             }
           }
