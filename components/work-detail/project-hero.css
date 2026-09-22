@@ -1,0 +1,18 @@
+/* Project Hero Link Styling */
+.project-visit-link {
+  @apply inline-flex items-center gap-2 font-medium text-black transition-colors duration-200;
+}
+
+/* Hover state - use project color */
+@media (hover: hover) {
+  .project-visit-link:hover {
+    color: var(--link-color, #3178c6);
+  }
+}
+
+/* Active state for touch devices */
+@media (hover: none) {
+  .project-visit-link:active {
+    color: var(--link-color, #3178c6);
+  }
+}

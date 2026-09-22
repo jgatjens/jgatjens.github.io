@@ -36,7 +36,7 @@ export const ProjectRoleTech = ({
     }
 
     return (
-        <section className="w-full px-6 md:py-16 lg:px-0">
+        <section className="w-full px-6 py-6 md:py-16 lg:px-0">
             <div className="mx-auto max-w-5xl">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
                     {/* Left Column: My Role */}

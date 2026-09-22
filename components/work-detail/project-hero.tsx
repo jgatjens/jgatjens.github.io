@@ -6,9 +6,11 @@ import { getCategoryLabel } from "@/utils/categories";
 import { ProjectVisual } from "./project-visual";
 import type { WorkItemProps } from "@/utils/types";
 import type { Locale } from "@/i18n-config";
+import "./project-hero.css";
 
 interface ProjectHeroProps extends Partial<WorkItemProps> {
     lang: Locale;
+    t_button_label?: string;
 }
 
 export const ProjectHero = ({
@@ -20,6 +22,7 @@ export const ProjectHero = ({
     color,
     categories,
     lang,
+    t_button_label,
 }: ProjectHeroProps) => {
     // Extract active categories
     const activeCategoryKeys = Object.entries(categories || {})
@@ -56,7 +59,7 @@ export const ProjectHero = ({
                 </Link>
 
                 {/* Two-column layout: Desktop; Single-column: Mobile */}
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
                     {/* Left Column: Text Content Only */}
                     <div className="flex flex-col">
                         {/* Metadata: Category + Year */}
@@ -94,10 +97,10 @@ export const ProjectHero = ({
                                 href={url}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center gap-2 font-medium text-black hover:transition-all duration-200"
+                                className="project-visit-link"
                                 style={{ "--link-color": color || "#3178c6" } as React.CSSProperties}
                             >
-                                <span>Visit live project</span>
+                                <span>{t_button_label || "Visit live project"}</span>
                                 <IconFatArrow />
                             </a>
                         )}
@@ -105,7 +108,7 @@ export const ProjectHero = ({
 
                     {/* Right Column: Image - Normal grid cell */}
                     {media && media.url && (
-                        <div className="hidden lg:block h-96">
+                        <div className="hidden lg:block h-72">
                             <ProjectVisual
                                 image={media}
                                 color={color}

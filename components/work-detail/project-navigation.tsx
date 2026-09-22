@@ -25,9 +25,9 @@ export const ProjectNavigation = ({
 }: ProjectNavigationProps) => {
     return (
         <section className="w-full px-6 lg:px-0">
+            <div className="w-full h-px bg-gray-100 mb-2 md:mb-4"></div>
             <div className="mx-auto max-w-5xl">
                 {/* Divider */}
-                <div className="w-full h-px bg-gray-100 mb-2 md:mb-4"></div>
 
                 {/* Navigation Grid */}
                 <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-12 items-center">
@@ -128,8 +128,8 @@ export const ProjectNavigation = ({
                 </div>
 
                 {/* Divider */}
-                <div className="w-full h-px bg-gray-100 mt-2 md:mt-4"></div>
             </div>
+            <div className="w-full h-px bg-gray-100 mt-2 md:mt-4"></div>
         </section>
     );
 };
