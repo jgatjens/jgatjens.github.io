@@ -41,7 +41,7 @@ export default async function Work({ params }: { params: { lang: Locale } }) {
 
           {/* Right: Description */}
           <div className="flex flex-col justify-start">
-            <p className="text-base md:text-lg lg:pl-14 text-gray-600">
+            <p className="first-letter:capitalize text-base md:text-lg lg:pl-14 text-gray-600">
               {dict.work_description}
             </p>
           </div>

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getData } from "@/http/get-data";
-import { WorkItem } from "@/components/work-detail/work-item";
+import { ProjectHero, WorkItem } from "@/components/work-detail";
 import { getDictionary } from "@/get-diccionary";
 import { Locale } from "@/i18n-config";
 import { BackendProps, WorkItemProps } from "@/utils/types";
@@ -75,9 +75,12 @@ export default async function WorkDetailPage({ params }: WorkDetailProps) {
   project.t_key_points = t.work_detail_key_points;
 
   return (
-    <section className="flex justify-center flex-col px-5 lg:px-0 pt-20 md:pt-24">
-      <WorkItem {...project} />
-    </section>
+    <>
+      <ProjectHero {...project} lang={params.lang} />
+      {/* <section className="flex justify-center flex-col px-5 lg:px-0 pt-20 md:pt-24">
+        <WorkItem {...project} />
+      </section> */}
+    </>
   );
 }
 
