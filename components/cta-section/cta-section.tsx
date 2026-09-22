@@ -106,7 +106,7 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
                     </div>
 
                     {/* Button and Secondary Links on same row */}
-                    <div className="flex flex-col justify-center sm:flex-row sm:items-center gap-4 sm:gap-6">
+                    <div className="flex flex-col justify-center md:justify-normal sm:flex-row sm:items-center gap-4 sm:gap-6">
                         {/* Primary Button */}
                         <a
                             href={buttonHref}
