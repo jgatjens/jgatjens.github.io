@@ -4,6 +4,7 @@ import { ProjectItem } from "@/components/project-item/project-item";
 import { metadata } from "@/utils/metadata";
 import { getDictionary } from "@/translation";
 import { Metadata } from "next";
+import { Suspense } from "react";
 import { WorkItemProps } from "@/utils/types";
 
 const page = {
@@ -47,7 +48,9 @@ export default async function Work({ params }: { params: { lang: Locale } }) {
         </div>
 
         {/* Projects */}
-        <ProjectItem items={items} />
+        <Suspense fallback={<div className="py-12 text-center text-gray-500">Loading projects...</div>}>
+          <ProjectItem items={items} />
+        </Suspense>
       </div>
     </div>
   );
