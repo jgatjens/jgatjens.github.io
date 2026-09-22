@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getData } from "@/http/get-data";
-import { ProjectHero, WorkItem, ProjectNavigation } from "@/components/work-detail";
+import { ProjectHero, WorkItem, ProjectNavigation, ProjectRoleTech } from "@/components/work-detail";
 import { getDictionary } from "@/get-diccionary";
 import { Locale } from "@/i18n-config";
 import { BackendProps, WorkItemProps } from "@/utils/types";
@@ -83,9 +83,6 @@ export default async function WorkDetailPage({ params }: WorkDetailProps) {
   return (
     <>
       <ProjectHero {...project} lang={params.lang} />
-      {/* <section className="flex justify-center flex-col px-5 lg:px-0 pt-20 md:pt-24">
-        <WorkItem {...project} />
-      </section> */}
       <ProjectNavigation
         previous={
           prevProject
@@ -106,6 +103,13 @@ export default async function WorkDetailPage({ params }: WorkDetailProps) {
             : null
         }
         lang={params.lang}
+      />
+      <ProjectRoleTech
+        myRole={project.my_role}
+        techStack={project.tech_stack}
+        color={project.color}
+        roleLabel={project.t_my_role}
+        techLabel={project.t_tech_title}
       />
     </>
   );
