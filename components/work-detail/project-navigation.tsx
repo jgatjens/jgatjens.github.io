@@ -24,7 +24,7 @@ export const ProjectNavigation = ({
     lang,
 }: ProjectNavigationProps) => {
     return (
-        <section className="w-full px-6 lg:px-0 py-6 md:py-16">
+        <section className="w-full px-6 lg:px-0 py-6 md:py-8">
             <div className="mx-auto max-w-5xl">
                 {/* Divider */}
                 <div className="w-full h-px bg-gray-100 mb-2 md:mb-4"></div>

@@ -41,7 +41,7 @@ export const ProjectHero = ({
     const heroTint = hexToRgba(color);
 
     return (
-        <section className="w-full mt-20 lg:pb-12 px-6 lg:px-0 relative overflow-visible">
+        <section className="w-full mt-20 px-6 lg:px-0 relative overflow-visible">
             <div className="mx-auto max-w-5xl relative">
                 {/* Back Link */}
                 <Link

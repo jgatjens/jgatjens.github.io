@@ -1,0 +1,21 @@
+/* Tech tag - clean minimalist style */
+.tech-tag {
+  @apply inline-flex items-center px-3 py-2 text-bodysmall font-medium text-gray-800 border border-gray-300 rounded transition-all duration-200 ease-out cursor-default;
+}
+
+/* Hover state - subtle color tint and border change */
+@media (hover: hover) {
+  .tech-tag:hover {
+    border-color: var(--tech-color, #4caf50);
+    /* Very subtle background - 6% opacity of the project color */
+    background-color: rgba(76, 175, 80, 0.06);
+  }
+}
+
+/* Touch devices - subtle active state */
+@media (hover: none) {
+  .tech-tag:active {
+    border-color: var(--tech-color, #4caf50);
+  }
+}
+
