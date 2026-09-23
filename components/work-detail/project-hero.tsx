@@ -25,9 +25,19 @@ export const ProjectHero = ({
     t_button_label,
 }: ProjectHeroProps) => {
     // Extract active categories
-    const activeCategoryKeys = Object.entries(categories || {})
-        .filter(([_, isActive]) => isActive)
-        .map(([key]) => key);
+    // console.log("categories:", categories);
+
+    // Handle nested categories structure and extract active ones
+    let categoriesObj = categories;
+    if (categoriesObj && typeof categoriesObj === 'object' && 'data' in categoriesObj) {
+        categoriesObj = (categoriesObj as any).data?.attributes;
+    }
+
+    const activeCategoryKeys = categoriesObj && typeof categoriesObj === 'object'
+        ? Object.entries(categoriesObj)
+            .filter(([_, isActive]) => isActive === true)
+            .map(([key]) => key)
+        : [];
 
     // Format date to year only
     const year = date ? new Date(date).getFullYear() : null;
@@ -97,7 +107,7 @@ export const ProjectHero = ({
                                 href={url}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="project-visit-link"
+                                className="project-visit-link capitalize"
                                 style={{ "--link-color": color || "#3178c6" } as React.CSSProperties}
                             >
                                 <span>{t_button_label || "Visit live project"}</span>

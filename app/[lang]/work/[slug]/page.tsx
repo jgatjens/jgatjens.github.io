@@ -14,7 +14,7 @@ interface WorkDetailProps {
 
 const page = {
   name: "work",
-  populate: "?populate[0]=items.media&populate[1]=open_graph.media",
+  populate: "?populate[0]=items.media&populate[1]=items.categories&populate[2]=open_graph.media",
 };
 
 // This function gets called at build time
@@ -72,6 +72,13 @@ export default async function WorkDetailPage({ params }: WorkDetailProps) {
   project.url_prev_work = prevProject.slug;
 
   project.media = project.media?.data?.attributes ?? null;
+  
+  // Extract categories from nested Strapi structure
+  if (project.categories && typeof project.categories === 'object') {
+    if ('data' in project.categories && typeof (project.categories as any).data === 'object') {
+      project.categories = (project.categories as any).data?.attributes ?? project.categories;
+    }
+  }
 
   project.lang = params.lang;
   project.t_button_label = t.work_detail_url;

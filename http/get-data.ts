@@ -9,7 +9,7 @@ const getDataFn = async (populate: string, locale: string, pageName: string) => 
   const languaje = locale ? `&locale=${locale}` : "";
   const url = `${strapi_url}/${populate}${languaje}`;
 
-  console.log("Fetching data from: ", url);
+  // console.log("Fetching data from: ", url);
 
   try {
     const res = await fetch(url);
