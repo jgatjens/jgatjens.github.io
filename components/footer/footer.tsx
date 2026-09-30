@@ -53,7 +53,7 @@ export const Footer = ({ lang, t }: FooterProps) => {
                         {!isHomePage && (
                             <p className="text-sm font-semibold text-black">Jairo Gätjens</p>
                         )}
-                        <p className="text-xs text-gray-500">Senior Software Engineer</p>
+                        <p className="text-xs text-gray-500">Senior Software AI Engineer</p>
                     </div>
 
                     {/* Center/Right: Navigation Links */}
