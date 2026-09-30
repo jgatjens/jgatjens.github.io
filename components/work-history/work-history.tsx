@@ -88,7 +88,7 @@ export const WorkHistory = ({ history, lang, t }: WorkHistoryProps) => {
                                     {displayDate} — {displayName} — {job.job_name}
                                 </p>
                                 {bullets.length > 0 && (
-                                    <ul className="list-disc pl-4 mt-1 space-y-0.5">
+                                    <ul className="list-disc pl-4 mt-1 space-y-0.5 print:hidden">
                                         {bullets.map((bullet, b) => (
                                             <li key={b}>{bullet}</li>
                                         ))}

@@ -27,7 +27,7 @@ export const ResumenContent = ({
 
       <TechnicalSkills t={t} />
 
-      <EducationLearning t={t} />
+      <EducationLearning t={t} lang={lang} />
     </div>
   );
 };

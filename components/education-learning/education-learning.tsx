@@ -4,9 +4,10 @@ import { LanguageFlag } from "./language-flag";
 
 interface EducationLearningProps {
     t: any;
+    lang: string;
 }
 
-export const EducationLearning = ({ t }: EducationLearningProps) => (
+export const EducationLearning = ({ t, lang }: EducationLearningProps) => (
     <section className="max-w-6xl m-auto px-6 md:px-0 py-14 md:py-20 border-t border-gray-200 print:border-t-0 print:py-4">
         {/* Screen version */}
         <div className="print:hidden">
@@ -130,6 +131,9 @@ export const EducationLearning = ({ t }: EducationLearningProps) => (
                 <strong>{t.resume_education_languages_label}:</strong>{" "}
                 {languages.map((lang) => `${t[lang.nameKey]} (${t[lang.levelKey]})`).join(", ")}
             </p>
+        </div>
+        <div className="mt-6 pt-4 border-t border-gray-300 text-xs hidden print:block">
+            <p>For the full interactive version of this resume, visit: https://jgatjens.vercel.app/{lang}/resume</p>
         </div>
     </section>
 );
