@@ -451,7 +451,7 @@
         },
         {
           "id": 2,
-          "headline": "Hangar Worldwide",
+          "headline": "Criticalmass",
           "date": "Mar 2020",
           "url": " https://hangarworldwide.com/",
           "slug": "hangarworldwide",
@@ -459,7 +459,7 @@
           "tech_stack": "- React\n- Gatsby\n- JavaScript\n- Node.js\n- Contentful\n- CSS\n- Headless CMS\n- Design Systems",
           "my_role": "As a Frontend Developer, I worked closely with the design team to translate the visual direction into reusable React components and interactive web experiences.\n\nI implemented custom CSS and JavaScript animations, integrated Gatsby for content management, and helped establish frontend patterns that made components easier to reuse across different sections and projects.\n",
           "key_points": "Collaborated with the design team to create a small design system covering reusable components, typography, icons, branding, layouts, and frontend best practices.\n\nDeveloped reusable React components and custom CSS/JavaScript animations designed to work across multiple sections and digital experiences.\n\nFocused on creating a consistent relationship between design and development, establishing reusable patterns rather than implementing each page independently.\n",
-          "overview": "Hangar Worldwide’s website was built as a modern, content-driven experience using React and Gatsby, with a strong focus on visual design, animations, and reusable frontend components.\n\nThe project was developed in close collaboration with the design team, creating a flexible foundation that could be reused and extended across different pages and future digital experiences.\n",
+          "overview": "Criticalmass’s website was built as a modern, content-driven experience using React and Gatsby, with a strong focus on visual design, animations, and reusable frontend components.\n\nThe project was developed in close collaboration with the design team, creating a flexible foundation that could be reused and extended across different pages and future digital experiences.\n",
           "categories": {
             "id": 5,
             "web": true,

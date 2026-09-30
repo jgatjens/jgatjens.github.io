@@ -27,7 +27,7 @@ export const jobCurations: JobCuration[] = [
   },
   {
     // hangarworldwide.com — Lead Frontend Engineer (2020-2021)
-    displayName: "Hangar Worldwide",
+    displayName: "Criticalmass",
     techTags: ["Angular", "Storybook", "JavaScript", "Figma"],
     relatedWork: [{ label: "NI - Solutions from Emerson", slug: "ni" }],
     summaryKey: "work_history_summary_2",
@@ -41,7 +41,7 @@ export const jobCurations: JobCuration[] = [
   },
   {
     // hangarworldwide.com — Lead Frontend Engineer (2009-2016)
-    displayName: "Hangar Worldwide",
+    displayName: "Criticalmass",
     techTags: [],
     summaryKey: "work_history_summary_4",
   },

@@ -451,7 +451,7 @@
         },
         {
           "id": 15,
-          "headline": "Hangar Worldwide",
+          "headline": "Criticalmass",
           "date": "Mar 2020",
           "url": " https://hangarworldwide.com/",
           "slug": "hangarworldwide",
@@ -459,7 +459,7 @@
           "tech_stack": "- React\n- Gatsby\n- JavaScript\n- Node.js\n- Contentful\n- CSS\n- Headless CMS\n- Design Systems",
           "my_role": "Como Frontend Developer, trabajé junto al equipo de diseño para transformar la identidad visual en componentes reutilizables y experiencias web interactivas utilizando Gatsby.\n\nImplementé animaciones personalizadas con CSS y JavaScript, integré Contentful para la gestión de contenido y contribuí a definir patrones de frontend que facilitaran la reutilización y consistencia de los componentes.\n",
           "key_points": "Colaboré con el equipo de diseño en la creación de un pequeño design system que incluía componentes reutilizables, tipografía, iconografía, branding, layouts y buenas prácticas de frontend.\n\nDesarrollé componentes reutilizables con Gatsby y animaciones personalizadas utilizando CSS y JavaScript para crear una experiencia visual más dinámica.\n\nIntegré Contentful como headless CMS, separando la gestión del contenido de la presentación y facilitando el mantenimiento y evolución del sitio.\n\nContribuí a establecer una relación consistente entre diseño y desarrollo, creando patrones reutilizables en lugar de desarrollar cada página de forma independiente.\n",
-          "overview": "El sitio web de Hangar Worldwide fue desarrollado con Gatsby como una experiencia digital moderna y orientada al contenido, con un fuerte enfoque en diseño visual, animaciones y componentes reutilizables.\n\nEl proyecto se desarrolló en estrecha colaboración con el equipo de diseño, creando una base visual y técnica consistente que pudiera reutilizarse y evolucionar en diferentes secciones del sitio.\n",
+          "overview": "El sitio web de Criticalmass fue desarrollado con Gatsby como una experiencia digital moderna y orientada al contenido, con un fuerte enfoque en diseño visual, animaciones y componentes reutilizables.\n\nEl proyecto se desarrolló en estrecha colaboración con el equipo de diseño, creando una base visual y técnica consistente que pudiera reutilizarse y evolucionar en diferentes secciones del sitio.\n",
           "categories": {
             "id": 21,
             "web": true,
