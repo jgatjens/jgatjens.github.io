@@ -137,3 +137,61 @@ export const IconSparkle = (props: IconProps) => (
     <path d="M19 15.5l.7 1.9 1.9.7-1.9.7-.7 1.9-.7-1.9-1.9-.7 1.9-.7.7-1.9z" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
+
+export const IconWindow = (props: IconProps) => (
+  <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <rect x="3" y="4.5" width="18" height="15" rx="2" />
+    <path d="M3 9h18" strokeLinecap="round" />
+    <circle cx="6.5" cy="6.75" r="0.6" fill="currentColor" stroke="none" />
+  </svg>
+);
+
+export const IconWrench = (props: IconProps) => (
+  <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <path
+      d="M14.5 6.5a4 4 0 00-5.44 4.9L3 17.46 6.54 21l6.05-6.06a4 4 0 004.9-5.44l-2.88 2.88-2.12-2.12L14.5 6.5z"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const IconGraduationCap = (props: IconProps) => (
+  <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <path d="M12 4L2 9l10 5 10-5-10-5z" strokeLinejoin="round" />
+    <path d="M6 11.5V17c0 1.1 2.7 2 6 2s6-.9 6-2v-5.5" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M22 9v6" strokeLinecap="round" />
+  </svg>
+);
+
+export const IconChip = (props: IconProps) => (
+  <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <rect x="7" y="7" width="10" height="10" rx="1.5" />
+    <path
+      d="M9 7V3M12 7V3M15 7V3M9 21v-4M12 21v-4M15 21v-4M7 9H3M7 12H3M7 15H3M21 9h-4M21 12h-4M21 15h-4"
+      strokeLinecap="round"
+    />
+  </svg>
+);
+
+export const IconBook = (props: IconProps) => (
+  <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <path d="M4 5.5C4 4.67 4.67 4 5.5 4H12v16H5.5A1.5 1.5 0 014 18.5v-13z" strokeLinejoin="round" />
+    <path d="M20 5.5c0-.83-.67-1.5-1.5-1.5H12v16h6.5a1.5 1.5 0 001.5-1.5v-13z" strokeLinejoin="round" />
+  </svg>
+);
+
+export const IconChevronDown = (props: IconProps) => (
+  <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <path d="M6 9l6 6 6-6" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+export const IconExternalLink = (props: IconProps) => (
+  <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <path d="M7 17L17 7M9 7h8v8" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+
+
