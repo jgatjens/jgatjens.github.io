@@ -5,7 +5,7 @@ interface CoreExpertiseProps {
 }
 
 export const CoreExpertise = ({ t }: CoreExpertiseProps) => (
-    <section className="print:hidden border-t border-gray-200 max-w-5xl m-auto px-6 md:px-0 py-10 md:py-14">
+    <section className="print:hidden border-t border-gray-200 max-w-6xl m-auto px-6 xl:px-0 py-10 md:py-14">
         {/* Desktop: single row separated by thin dividers */}
         <div className="hidden md:flex md:divide-x md:divide-gray-200">
             {coreExpertiseGroups.map((group) => {

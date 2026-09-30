@@ -30,9 +30,7 @@ export default async function Work({ params }: { params: { lang: Locale } }) {
 
       <CoreExpertise t={dict} />
 
-      <div className="px-6 md:px-0 m-auto max-w-5xl py-6 md:py-12 print:pt-10">
-        <ResumenContent {...data} lang={params.lang} t={dict} />
-      </div>
+      <ResumenContent {...data} lang={params.lang} t={dict} />
     </>
   );
 }

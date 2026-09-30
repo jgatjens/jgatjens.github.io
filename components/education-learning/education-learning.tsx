@@ -7,7 +7,7 @@ interface EducationLearningProps {
 }
 
 export const EducationLearning = ({ t }: EducationLearningProps) => (
-    <section className="max-w-5xl m-auto px-6 md:px-0 py-14 md:py-20 border-t border-gray-200 print:border-t-0 print:py-4">
+    <section className="max-w-6xl m-auto px-6 md:px-0 py-14 md:py-20 border-t border-gray-200 print:border-t-0 print:py-4">
         {/* Screen version */}
         <div className="print:hidden">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 mb-10 md:mb-14 pb-10 md:pb-14 border-b border-gray-200">

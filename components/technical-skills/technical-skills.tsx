@@ -6,7 +6,7 @@ interface TechnicalSkillsProps {
 }
 
 export const TechnicalSkills = ({ t }: TechnicalSkillsProps) => (
-    <section className="max-w-5xl m-auto px-6 md:px-0 py-14 md:py-20 border-t border-gray-200 print:border-t-0 print:py-4">
+    <section className="max-w-6xl m-auto px-6 py-10 xl:px-0 md:py-20 border-t border-gray-200 print:border-t-0 print:py-4">
         {/* Screen version */}
         <div className="print:hidden">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 mb-10 md:mb-14">
