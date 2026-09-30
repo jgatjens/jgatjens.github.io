@@ -37,6 +37,18 @@ body {
   -webkit-print-color-adjust: exact !important;
 }
 
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+  }
+
+  body {
+    background: white;
+    color: #000;
+  }
+}
+
 #css--particles {
   position: fixed;
   top: 0;

@@ -1,6 +1,4 @@
 import React from "react";
-import { ButtonDownload } from "@/components/button-download/button-download";
-import Markdown from "react-markdown";
 
 interface ItemsProps {
   items: string[];
@@ -53,17 +51,10 @@ const HistoryItem = ({
 );
 
 interface ResumenContentProps {
-  location: string;
-  email: string;
-  resume_button_label: string;
-  summary: string;
-  email_label: string;
-  summary_label: string;
   work_label: string;
   skill_label: string;
   academic_label: string;
   skills: string;
-  pdf_link: string;
   history: {
     company: string;
     company_url: string;
@@ -74,37 +65,14 @@ interface ResumenContentProps {
 }
 
 export const ResumenContent = ({
-  location,
-  email,
-  resume_button_label,
-  summary,
-  email_label,
-  summary_label,
   work_label,
   skill_label,
   academic_label,
   skills,
-  pdf_link,
   history,
 }: ResumenContentProps) => {
   return (
     <div className="container text-[#3b3e48]">
-      <p className="text-bodysmall mb-6">
-        {location || "Santa Teresa, Costa Rica"} <br />
-        <b className="capitalize">{email_label || "Email"}:</b>{" "}
-        <a className="text-purple" target="_blank" href={`mailto:${email}`}>
-          {email}
-        </a>
-      </p>
-      <h2 className="text-h2 mb-4 uppercase">{summary_label}</h2>
-
-      <div className="mb-7 [&_p]:mb-2 [&_p]:text-bodysmall">
-        <Markdown>{summary}</Markdown>
-      </div>
-      {/* <p  className="mb-7 text-bodysmall">{summary}</p> */}
-
-      <ButtonDownload link={pdf_link} label={resume_button_label || "RESUME"} />
-
       <h2 className="text-h2 mb-4 uppercase">{skill_label || "SKILLS"}</h2>
 
       {skills && <List items={skills?.split("-")}></List>}

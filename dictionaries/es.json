@@ -16,5 +16,14 @@
   "work_cta_availability": "disponible para nuevas oportunidades",
   "work_cta_location": "remoto · costa rica",
   "work_cta_button": "hablemos",
-  "work_cta_tagline": "hagamos algo increíble juntos."
+  "work_cta_tagline": "hagamos algo increíble juntos.",
+  "resume_hero_eyebrow": "Ingeniero de Software Senior · Full Stack · IA",
+  "resume_hero_summary": "Ingeniero de Software Senior con más de 15 años de experiencia construyendo aplicaciones web escalables y liderando iniciativas de frontend. Especializado en React, Next.js, TypeScript y Node.js, con experiencia en arquitectura frontend, APIs, sistemas de diseño, plataformas headless y funcionalidades de producto con IA.",
+  "resume_hero_print_button": "Imprimir / Guardar CV",
+  "resume_hero_view_projects": "Ver Proyectos",
+  "resume_hero_linkedin": "LinkedIn",
+  "resume_expertise_frontend": "Ingeniería Frontend",
+  "resume_expertise_fullstack": "Desarrollo Full-Stack",
+  "resume_expertise_architecture": "Arquitectura y Sistemas de Diseño",
+  "resume_expertise_ai": "IA y Desarrollo Moderno"
 }

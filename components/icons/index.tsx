@@ -98,3 +98,42 @@ export const IconLocation = (props: IconProps) => (
     <path d="M12 2C6.48 2 2 6.48 2 12c0 4.84 3.94 8.75 8.75 8.75.36 0 .72-.02 1.07-.07 1.02-2.42 3.6-4.13 6.68-4.13s5.66 1.71 6.68 4.13c.35.05.71.07 1.07.07C22.06 20.75 22 20.68 22 20.65c0-5.52-4.48-10-10-10zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm0-14c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z" />
   </svg>
 );
+
+export const IconMail = (props: IconProps) => (
+  <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <rect x="3" y="5" width="18" height="14" rx="2" />
+    <path d="M3.5 6.5l8.5 6 8.5-6" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+export const IconCode = (props: IconProps) => (
+  <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <path d="M8.5 7L3.5 12l5 5M15.5 7l5 5-5 5" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+export const IconDatabase = (props: IconProps) => (
+  <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <ellipse cx="12" cy="5.5" rx="7.5" ry="2.5" />
+    <path d="M4.5 5.5V18c0 1.38 3.36 2.5 7.5 2.5s7.5-1.12 7.5-2.5V5.5" strokeLinecap="round" />
+    <path d="M4.5 11.83c0 1.38 3.36 2.5 7.5 2.5s7.5-1.12 7.5-2.5" strokeLinecap="round" />
+  </svg>
+);
+
+export const IconLayers = (props: IconProps) => (
+  <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <path d="M12 3l9 5-9 5-9-5 9-5z" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M3 13l9 5 9-5" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+export const IconSparkle = (props: IconProps) => (
+  <svg {...props} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <path
+      d="M12 3.5l1.7 4.8 4.8 1.7-4.8 1.7-1.7 4.8-1.7-4.8-4.8-1.7 4.8-1.7L12 3.5z"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path d="M19 15.5l.7 1.9 1.9.7-1.9.7-.7 1.9-.7-1.9-1.9-.7 1.9-.7.7-1.9z" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);

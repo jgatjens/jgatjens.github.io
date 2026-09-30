@@ -16,5 +16,14 @@
   "work_cta_availability": "available for new opportunities",
   "work_cta_location": "remote · costa rica",
   "work_cta_button": "let's talk",
-  "work_cta_tagline": "let's build something great together."
+  "work_cta_tagline": "let's build something great together.",
+  "resume_hero_eyebrow": "Senior Software Engineer · Full Stack · AI",
+  "resume_hero_summary": "Senior Software Engineer with 15+ years of experience building scalable web applications and leading frontend initiatives. Specialized in React, Next.js, TypeScript and Node.js, with experience across frontend architecture, APIs, design systems, headless platforms and AI-powered product features.",
+  "resume_hero_print_button": "Print / Save Resume",
+  "resume_hero_view_projects": "View Projects",
+  "resume_hero_linkedin": "LinkedIn",
+  "resume_expertise_frontend": "Frontend Engineering",
+  "resume_expertise_fullstack": "Full-Stack Development",
+  "resume_expertise_architecture": "Architecture & Design Systems",
+  "resume_expertise_ai": "AI & Modern Development"
 }
