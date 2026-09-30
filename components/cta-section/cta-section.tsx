@@ -86,7 +86,7 @@ export const CtaSection: React.FC<CtaSectionProps> = ({
                     </div>
 
                     {/* Main Heading */}
-                    <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-bluedark mb-2 md:mb-6 leading-tight">
+                    <h2 className="first-letter:capitalize text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-bluedark mb-2 md:mb-6 leading-tight">
                         {question}
                     </h2>
 
