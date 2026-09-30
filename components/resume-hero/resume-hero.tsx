@@ -12,7 +12,7 @@ interface ResumeHeroProps {
 }
 
 export const ResumeHero = ({ headline, location, email, lang, t }: ResumeHeroProps) => (
-    <section className="print:break-inside-avoid max-w-6xl m-auto px-6 xl:px-0 pt-28 lg:pt-32 pb-10 md:pb-14">
+    <section className="print:pt-8 print:pb-0 max-w-6xl m-auto px-6 xl:px-0 pt-28 lg:pt-32 pb-10 md:pb-14">
         <p className="text-xs md:text-sm font-semibold text-gray-500 uppercase tracking-widest mb-4">
             {t.resume_hero_eyebrow}
         </p>
