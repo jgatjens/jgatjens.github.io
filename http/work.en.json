@@ -5,7 +5,7 @@
       "headline": "Work",
       "description": "See Projects",
       "createdAt": "2023-10-07T16:35:14.941Z",
-      "updatedAt": "2026-09-22T17:38:57.367Z",
+      "updatedAt": "2026-10-01T12:56:35.356Z",
       "publishedAt": "2023-10-08T16:58:12.252Z",
       "locale": "en",
       "items": [
@@ -120,13 +120,343 @@
           }
         },
         {
+          "id": 35,
+          "headline": "Home | UConn Health",
+          "date": "Mar 2025",
+          "url": "https://health.uconn.edu/",
+          "slug": "uconn-health",
+          "color": "#000e2f",
+          "tech_stack": "- Sitecore XP\n- Next.js\n- React\n- Sass/SCSS\n- Storybook\n- REST APIs\n- Networking\n- Middlewares\n- Copilot",
+          "my_role": "I worked as a Full Stack Engeenier, contributing to the architecture and development of both the public website and the internal intranet.\n\nMy responsibilities included developing reusable Next.js components, integrating frontend applications with Sitecore XP, implementing responsive interfaces with Sass, and working on the custom integration required to restrict the intranet to users accessing it through the UConn Health private network.\n\nWorking across two separate applications also required maintaining a consistent frontend experience while supporting the different functional and security requirements of the public and internal platforms.",
+          "key_points": null,
+          "overview": "UConn Health is an academic healthcare organization providing clinical care, medical education, and research services.\n\nThe project involved the development of two separate web applications powered by Sitecore XP: a public-facing healthcare website and a private internal intranet. Both frontend applications were developed using Next.js and Sass, while Sitecore XP was used for content management and backend integration.\n\nA key architectural requirement was ensuring that the intranet remained accessible only from UConn Health's private network, requiring custom services and access-control logic to support the organization's internal security requirements.",
+          "categories": {
+            "id": 35,
+            "web": true,
+            "mobile": false,
+            "cms": false,
+            "design_systems": true,
+            "ai": false,
+            "backend": true,
+            "headless_cms": true,
+            "animations": false
+          },
+          "media": {
+            "data": {
+              "id": 28,
+              "attributes": {
+                "name": "ucconhealth-work.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1616,
+                "height": 910,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_ucconhealth-work.jpg",
+                    "hash": "thumbnail_ucconhealth_work_668673141d",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 245,
+                    "height": 138,
+                    "size": 6.84,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856067/thumbnail_ucconhealth_work_668673141d.jpg",
+                    "provider_metadata": {
+                      "public_id": "thumbnail_ucconhealth_work_668673141d",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "name": "small_ucconhealth-work.jpg",
+                    "hash": "small_ucconhealth_work_668673141d",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 500,
+                    "height": 282,
+                    "size": 21.85,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856072/small_ucconhealth_work_668673141d.jpg",
+                    "provider_metadata": {
+                      "public_id": "small_ucconhealth_work_668673141d",
+                      "resource_type": "image"
+                    }
+                  },
+                  "large": {
+                    "name": "large_ucconhealth-work.jpg",
+                    "hash": "large_ucconhealth_work_668673141d",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 1000,
+                    "height": 563,
+                    "size": 77.92,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856073/large_ucconhealth_work_668673141d.jpg",
+                    "provider_metadata": {
+                      "public_id": "large_ucconhealth_work_668673141d",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "name": "medium_ucconhealth-work.jpg",
+                    "hash": "medium_ucconhealth_work_668673141d",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 750,
+                    "height": 422,
+                    "size": 46.63,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856073/medium_ucconhealth_work_668673141d.jpg",
+                    "provider_metadata": {
+                      "public_id": "medium_ucconhealth_work_668673141d",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "ucconhealth_work_668673141d",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 176.41,
+                "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856074/ucconhealth_work_668673141d.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "ucconhealth_work_668673141d",
+                  "resource_type": "image"
+                },
+                "createdAt": "2026-10-01T12:01:14.952Z",
+                "updatedAt": "2026-10-01T12:01:14.952Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 33,
+          "headline": "Reid health - Exceptional Care",
+          "date": "Nov 2024",
+          "url": "https://reidhealth.org/",
+          "slug": "reidhealth",
+          "color": "#00000",
+          "tech_stack": "- Sitecore XM Cloud\n- Next.js\n- TypeScript\n- Vercel\n- Storybook\n- Tailwind CSS\n- Radix UI\n",
+          "my_role": "I worked as a Frontend Developer, helping translate designs into reusable frontend components and integrate them with Sitecore XM Cloud.\n\nMy work focused on building responsive and accessible interfaces, developing reusable components, and ensuring the frontend worked correctly both on the public website and within the Sitecore authoring experience.",
+          "key_points": "- Developed reusable components using Next.js and Sitecore XM Cloud.\n- Translated Figma designs into responsive production-ready interfaces.\n- Built and maintained components using a component-driven development approach.\n- Integrated frontend components with Sitecore XM Cloud content and authoring.\n- Ensured components behaved correctly in both the website and Sitecore editing environment.\n- Focused on responsive design, accessibility, consistency, and maintainability.\n- Collaborated with designers and developers throughout implementation and review.",
+          "overview": "Redesign and development of the Reid Health website, a large healthcare platform serving patients across Indiana and Ohio. I contributed to building the frontend experience and reusable component system using Sitecore XM Cloud and Next.js, with a focus on creating scalable, responsive, and accessible interfaces that could support a large amount of healthcare content. The project followed a component-driven development approach using Figma and Storybook, with Tailwind CSS and Radix UI for the interface and Vercel for deployment.",
+          "categories": {
+            "id": 33,
+            "web": true,
+            "mobile": false,
+            "cms": false,
+            "design_systems": false,
+            "ai": true,
+            "backend": false,
+            "headless_cms": true,
+            "animations": false
+          },
+          "media": {
+            "data": {
+              "id": 26,
+              "attributes": {
+                "name": "reidhealh-work.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1616,
+                "height": 910,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_reidhealh-work.jpg",
+                    "hash": "thumbnail_reidhealh_work_0e2e23f17c",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 245,
+                    "height": 138,
+                    "size": 4.6,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856067/thumbnail_reidhealh_work_0e2e23f17c.jpg",
+                    "provider_metadata": {
+                      "public_id": "thumbnail_reidhealh_work_0e2e23f17c",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "name": "small_reidhealh-work.jpg",
+                    "hash": "small_reidhealh_work_0e2e23f17c",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 500,
+                    "height": 282,
+                    "size": 14.18,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856068/small_reidhealh_work_0e2e23f17c.jpg",
+                    "provider_metadata": {
+                      "public_id": "small_reidhealh_work_0e2e23f17c",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "name": "medium_reidhealh-work.jpg",
+                    "hash": "medium_reidhealh_work_0e2e23f17c",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 750,
+                    "height": 422,
+                    "size": 27.54,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856068/medium_reidhealh_work_0e2e23f17c.jpg",
+                    "provider_metadata": {
+                      "public_id": "medium_reidhealh_work_0e2e23f17c",
+                      "resource_type": "image"
+                    }
+                  },
+                  "large": {
+                    "name": "large_reidhealh-work.jpg",
+                    "hash": "large_reidhealh_work_0e2e23f17c",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 1000,
+                    "height": 563,
+                    "size": 42.31,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856072/large_reidhealh_work_0e2e23f17c.jpg",
+                    "provider_metadata": {
+                      "public_id": "large_reidhealh_work_0e2e23f17c",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "reidhealh_work_0e2e23f17c",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 83.49,
+                "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856073/reidhealh_work_0e2e23f17c.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "reidhealh_work_0e2e23f17c",
+                  "resource_type": "image"
+                },
+                "createdAt": "2026-10-01T12:01:13.331Z",
+                "updatedAt": "2026-10-01T12:08:43.574Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 38,
+          "headline": "Broward Health - Health Starts Here",
+          "date": "Jul 2024",
+          "url": "https://www.browardhealth.org/",
+          "slug": "browardhealth",
+          "color": "#116dd3",
+          "tech_stack": "- Sitecore XP\n- Next.js\n- React\n- Sitecore JSS\n- Sass / SCSS Microsoft SharePoint\n- SharePoint Framework (SPFx)\n- React\n- Sass / SCSS\n- Gulp\n- Webpack",
+          "my_role": "I worked as a Full Stack Developer across both platforms, adapting the frontend architecture to the requirements and technical constraints of each environment.\n\nFor the public Broward Health website, I worked with Next.js, React, and Sitecore XP, developing reusable frontend components and integrating them with Sitecore-managed content.\n\nFor the private organizational platform, I worked with SharePoint and React, building frontend functionality specifically for the internal environment rather than attempting to replicate the Next.js architecture used by the public website.\n\nThis required working with two different frontend architectures within the same organization, while maintaining consistency in usability, responsive behavior, and overall user experience.",
+          "key_points": null,
+          "overview": "Broward Health is one of South Florida's major public healthcare systems, providing patients with access to medical services, physicians, locations, appointments, health records, and other healthcare resources. Broward Health.\n\nThe project involved developing two separate digital platforms with different architectures: a public-facing healthcare website powered by Sitecore XP, and a private organizational platform built with Microsoft SharePoint.\n\nThe internal platform required a different implementation. Instead of reusing the Next.js architecture, we developed the organizational experience within the SharePoint ecosystem, using its client-side development capabilities to create functionality and interfaces specifically for internal users.",
+          "categories": {
+            "id": 38,
+            "web": true,
+            "mobile": false,
+            "cms": true,
+            "design_systems": false,
+            "ai": false,
+            "backend": true,
+            "headless_cms": true,
+            "animations": false
+          },
+          "media": {
+            "data": {
+              "id": 27,
+              "attributes": {
+                "name": "browardhealth-work.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1616,
+                "height": 910,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_browardhealth-work.jpg",
+                    "hash": "thumbnail_browardhealth_work_42640758b4",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 245,
+                    "height": 138,
+                    "size": 6.46,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856067/thumbnail_browardhealth_work_42640758b4.jpg",
+                    "provider_metadata": {
+                      "public_id": "thumbnail_browardhealth_work_42640758b4",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "name": "medium_browardhealth-work.jpg",
+                    "hash": "medium_browardhealth_work_42640758b4",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 750,
+                    "height": 422,
+                    "size": 34.04,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856071/medium_browardhealth_work_42640758b4.jpg",
+                    "provider_metadata": {
+                      "public_id": "medium_browardhealth_work_42640758b4",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "name": "small_browardhealth-work.jpg",
+                    "hash": "small_browardhealth_work_42640758b4",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 500,
+                    "height": 282,
+                    "size": 18.48,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856072/small_browardhealth_work_42640758b4.jpg",
+                    "provider_metadata": {
+                      "public_id": "small_browardhealth_work_42640758b4",
+                      "resource_type": "image"
+                    }
+                  },
+                  "large": {
+                    "name": "large_browardhealth-work.jpg",
+                    "hash": "large_browardhealth_work_42640758b4",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 1000,
+                    "height": 563,
+                    "size": 54.31,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856073/large_browardhealth_work_42640758b4.jpg",
+                    "provider_metadata": {
+                      "public_id": "large_browardhealth_work_42640758b4",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "browardhealth_work_42640758b4",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 105.34,
+                "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856073/browardhealth_work_42640758b4.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "browardhealth_work_42640758b4",
+                  "resource_type": "image"
+                },
+                "createdAt": "2026-10-01T12:01:14.099Z",
+                "updatedAt": "2026-10-01T12:01:14.099Z"
+              }
+            }
+          }
+        },
+        {
           "id": 29,
           "headline": "Interwell health - Serving patients",
           "date": "Jun 2023",
           "url": "https://interwellhealth.com/",
           "slug": "interwellhealth",
           "color": "#fea480",
-          "tech_stack": "- Next.js\n- React\n- TypeScript\n- Sitecore XM Cloud\n- Sitecore JSS\n- Storybook\n- Tailwind CSS\n- shadcn/ui\n- Vercel\n- Figma\n- Vercel\n- Radix",
+          "tech_stack": "- Next.js\n- React\n- TypeScript\n- Sitecore XM Cloud\n- Sitecore JSS\n- Storybook\n- Tailwind CSS\n- shadcn/ui\n- Figma\n- Vercel\n- Radix",
           "my_role": "As a Full-Stack Developer, I helped define and implement the frontend architecture around Next.js and the emerging Sitecore XM Cloud platform.\n\nI worked closely with a dedicated Sitecore advocate to understand the new platform and adapted a custom Next.js boilerplate to work with XM Cloud. I also developed custom integrations and plugins to support Sitecore-specific requirements, including error page handling and content-driven page rendering.\n\nTo keep frontend development moving independently from the backend, I introduced Storybook and built reusable UI components that could later be connected to Sitecore \"components\".\n",
           "key_points": "Helped establish the frontend architecture for one of our team's early Sitecore XM Cloud implementations, working through evolving documentation and platform requirements.\n\nAdapted a custom Next.js architecture and developed plugins and integrations to ensure the application worked correctly with Sitecore XM Cloud, including custom error page handling.\n\nIntroduced Storybook to enable component-driven development, allowing the frontend team (me) to build and test UI components independently while the backend team worked on Sitecore schemas and content structures.\n\nBuilt reusable UI components and responsive experiences using Tailwind CSS and Radix/ui, accelerating development while maintaining consistency across pages and layouts.\n",
           "overview": "Redesign and development of the Interwell Health website using Next.js and Sitecore XM Cloud, with a strong focus on modern UI, animations, reusable components, and a flexible content-driven architecture.\n\nThe project was built during the early adoption of XM Cloud, when the platform and its documentation were still evolving, making the integration a significant technical challenge.\n",
@@ -451,7 +781,7 @@
         },
         {
           "id": 2,
-          "headline": "Criticalmass",
+          "headline": "Hangar Worldwide",
           "date": "Mar 2020",
           "url": " https://hangarworldwide.com/",
           "slug": "hangarworldwide",
@@ -459,7 +789,7 @@
           "tech_stack": "- React\n- Gatsby\n- JavaScript\n- Node.js\n- Contentful\n- CSS\n- Headless CMS\n- Design Systems",
           "my_role": "As a Frontend Developer, I worked closely with the design team to translate the visual direction into reusable React components and interactive web experiences.\n\nI implemented custom CSS and JavaScript animations, integrated Gatsby for content management, and helped establish frontend patterns that made components easier to reuse across different sections and projects.\n",
           "key_points": "Collaborated with the design team to create a small design system covering reusable components, typography, icons, branding, layouts, and frontend best practices.\n\nDeveloped reusable React components and custom CSS/JavaScript animations designed to work across multiple sections and digital experiences.\n\nFocused on creating a consistent relationship between design and development, establishing reusable patterns rather than implementing each page independently.\n",
-          "overview": "Criticalmass’s website was built as a modern, content-driven experience using React and Gatsby, with a strong focus on visual design, animations, and reusable frontend components.\n\nThe project was developed in close collaboration with the design team, creating a flexible foundation that could be reused and extended across different pages and future digital experiences.\n",
+          "overview": "Hangar Worldwide’s website was built as a modern, content-driven experience using React and Gatsby, with a strong focus on visual design, animations, and reusable frontend components.\n\nThe project was developed in close collaboration with the design team, creating a flexible foundation that could be reused and extended across different pages and future digital experiences.\n",
           "categories": {
             "id": 5,
             "web": true,
@@ -1774,7 +2104,7 @@
         "id": 5,
         "title": "jairo gätjens - work",
         "description": "CRITICALMASS was the company that gave me my first opportunity in the web world. Here I developed a lot of my knowledge such as: email development for important brands like Adidas, Internet 6, 7 and 8 (I mention these browsers that are no longer supported because they taught you very well how to work with the box model), first project in the app store with Cordoba, first headless project when the term was not even known and many others. I was also able to develop leadership skills and work in environments where there was a lot of pressure and with world-renowned clients.",
-        "keywords": "Work, Website, Profile, Github, HTML, CSS, JavaScript",
+        "keywords": "Work, Website, Profile, Github, HTML, CSS, JavaScript, FullStack, AI Development, Nodejs, C#",
         "username": "jgatjens",
         "media": {
           "data": {

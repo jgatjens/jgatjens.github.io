@@ -5,7 +5,7 @@
       "headline": "Projectos",
       "description": "Description",
       "createdAt": "2023-10-07T17:45:33.956Z",
-      "updatedAt": "2026-09-22T17:43:06.034Z",
+      "updatedAt": "2026-10-01T12:56:21.045Z",
       "publishedAt": "2023-12-11T18:38:47.410Z",
       "locale": "es",
       "items": [
@@ -120,13 +120,343 @@
           }
         },
         {
+          "id": 36,
+          "headline": "Home | UConn Health",
+          "date": "Mar 2025",
+          "url": "https://health.uconn.edu/",
+          "slug": "uconn-health",
+          "color": "#000e2f",
+          "tech_stack": "- Sitecore XP\n- Next.js\n- React\n- Sass/SCSS\n- Storybook\n- REST APIs\n- Networking\n- Middlewares\n- Copilot",
+          "my_role": "Trabajé como Full Stack Engeenier, participando en la arquitectura y desarrollo tanto del sitio web público como de la intranet.\n\nMis responsabilidades incluyeron el desarrollo de componentes reutilizables con Next.js, la integración del frontend con Sitecore XP, la implementación de interfaces responsivas utilizando Sass y el trabajo en las integraciones necesarias para restringir el acceso a la intranet exclusivamente a usuarios conectados a la red privada de UConn Health.\n\nTrabajar con dos aplicaciones independientes también implicó mantener una experiencia frontend consistente, mientras se atendían diferentes necesidades funcionales y de seguridad para las plataformas pública e interna.",
+          "key_points": "- Desarrollo de dos aplicaciones independientes con Next.js: el sitio público de UConn Health y una intranet privada.\n- Integración de ambas aplicaciones con Sitecore XP para la gestión de contenido y funcionalidades de backend.\n- Desarrollo de componentes frontend reutilizables utilizando Next.js y Sass.\n- Implementación de servicios personalizados y lógica de control de acceso para la aplicación interna.\n- Restricción del acceso a la intranet exclusivamente a usuarios conectados a la red privada de UConn Health.\n- Manejo de diferentes requerimientos de arquitectura y seguridad entre el sitio público y la plataforma interna.\n- Mantenimiento de patrones frontend reutilizables y consistentes entre ambas aplicaciones.\n- Desarrollo de interfaces responsivas para diferentes dispositivos y tamaños de pantalla.",
+          "overview": "UConn Health es una organización académica de salud que ofrece servicios de atención médica, educación e investigación.\n\nEl proyecto consistió en el desarrollo de dos aplicaciones web independientes utilizando Sitecore XP: el sitio web público de UConn Health y una intranet privada para uso interno. Ambos frontends fueron desarrollados con Next.js y Sass, utilizando Sitecore XP para la gestión de contenido y las integraciones con el backend.\n\nUno de los principales requerimientos técnicos fue garantizar que la intranet estuviera disponible únicamente desde la red privada de UConn Health, para lo cual desarrollamos servicios personalizados y lógica de control de acceso de acuerdo con los requerimientos internos de seguridad.",
+          "categories": {
+            "id": 36,
+            "web": true,
+            "mobile": false,
+            "cms": false,
+            "design_systems": false,
+            "ai": true,
+            "backend": true,
+            "headless_cms": true,
+            "animations": false
+          },
+          "media": {
+            "data": {
+              "id": 28,
+              "attributes": {
+                "name": "ucconhealth-work.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1616,
+                "height": 910,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_ucconhealth-work.jpg",
+                    "hash": "thumbnail_ucconhealth_work_668673141d",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 245,
+                    "height": 138,
+                    "size": 6.84,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856067/thumbnail_ucconhealth_work_668673141d.jpg",
+                    "provider_metadata": {
+                      "public_id": "thumbnail_ucconhealth_work_668673141d",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "name": "small_ucconhealth-work.jpg",
+                    "hash": "small_ucconhealth_work_668673141d",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 500,
+                    "height": 282,
+                    "size": 21.85,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856072/small_ucconhealth_work_668673141d.jpg",
+                    "provider_metadata": {
+                      "public_id": "small_ucconhealth_work_668673141d",
+                      "resource_type": "image"
+                    }
+                  },
+                  "large": {
+                    "name": "large_ucconhealth-work.jpg",
+                    "hash": "large_ucconhealth_work_668673141d",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 1000,
+                    "height": 563,
+                    "size": 77.92,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856073/large_ucconhealth_work_668673141d.jpg",
+                    "provider_metadata": {
+                      "public_id": "large_ucconhealth_work_668673141d",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "name": "medium_ucconhealth-work.jpg",
+                    "hash": "medium_ucconhealth_work_668673141d",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 750,
+                    "height": 422,
+                    "size": 46.63,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856073/medium_ucconhealth_work_668673141d.jpg",
+                    "provider_metadata": {
+                      "public_id": "medium_ucconhealth_work_668673141d",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "ucconhealth_work_668673141d",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 176.41,
+                "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856074/ucconhealth_work_668673141d.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "ucconhealth_work_668673141d",
+                  "resource_type": "image"
+                },
+                "createdAt": "2026-10-01T12:01:14.952Z",
+                "updatedAt": "2026-10-01T12:01:14.952Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 34,
+          "headline": "Reid health - Exceptional Care",
+          "date": "Nov 2024",
+          "url": "https://reidhealth.org/",
+          "slug": "reidhealth",
+          "color": "#00000",
+          "tech_stack": "- Sitecore XM Cloud\n- Sitecore JSS\n- Next.js\n- TypeScript\n- Vercel\n- Storybook\n- Tailwind CSS\n- Radix UI",
+          "my_role": "Trabajé como Frontend Developer, ayudando a transformar los diseños en componentes frontend reutilizables e integrándolos con Sitecore XM Cloud.\n\nMi trabajo se enfocó en desarrollar interfaces responsivas y accesibles, crear componentes reutilizables y asegurar que funcionaran correctamente tanto en el sitio público como dentro de la experiencia de edición de Sitecore.",
+          "key_points": "- Desarrollo de componentes reutilizables utilizando Next.js y Sitecore XM Cloud.\n- Implementación de diseños de Figma en interfaces responsivas listas para producción.\n- Desarrollo y mantenimiento de componentes siguiendo un enfoque basado en componentes.\n- Integración de componentes frontend con el contenido y las herramientas de edición de Sitecore XM Cloud.\n- Validación del funcionamiento de los componentes tanto en el sitio web como en el entorno de edición de Sitecore.\n- Enfoque en diseño responsivo, accesibilidad, consistencia y mantenibilidad.\n- Colaboración con diseñadores y desarrolladores durante las etapas de implementación y revisión.",
+          "overview": "Reid Health es una plataforma de salud diseñada para ayudar a los pacientes a encontrar servicios médicos, especialistas, ubicaciones y recursos para pacientes dentro de su red regional.\n\nEl sitio web fue desarrollado utilizando Sitecore XM Cloud y Next.js, siguiendo un enfoque basado en componentes para crear una experiencia escalable y consistente en un sitio de salud con una gran cantidad de contenido.",
+          "categories": {
+            "id": 34,
+            "web": true,
+            "mobile": false,
+            "cms": false,
+            "design_systems": false,
+            "ai": true,
+            "backend": false,
+            "headless_cms": true,
+            "animations": false
+          },
+          "media": {
+            "data": {
+              "id": 26,
+              "attributes": {
+                "name": "reidhealh-work.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1616,
+                "height": 910,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_reidhealh-work.jpg",
+                    "hash": "thumbnail_reidhealh_work_0e2e23f17c",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 245,
+                    "height": 138,
+                    "size": 4.6,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856067/thumbnail_reidhealh_work_0e2e23f17c.jpg",
+                    "provider_metadata": {
+                      "public_id": "thumbnail_reidhealh_work_0e2e23f17c",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "name": "small_reidhealh-work.jpg",
+                    "hash": "small_reidhealh_work_0e2e23f17c",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 500,
+                    "height": 282,
+                    "size": 14.18,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856068/small_reidhealh_work_0e2e23f17c.jpg",
+                    "provider_metadata": {
+                      "public_id": "small_reidhealh_work_0e2e23f17c",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "name": "medium_reidhealh-work.jpg",
+                    "hash": "medium_reidhealh_work_0e2e23f17c",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 750,
+                    "height": 422,
+                    "size": 27.54,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856068/medium_reidhealh_work_0e2e23f17c.jpg",
+                    "provider_metadata": {
+                      "public_id": "medium_reidhealh_work_0e2e23f17c",
+                      "resource_type": "image"
+                    }
+                  },
+                  "large": {
+                    "name": "large_reidhealh-work.jpg",
+                    "hash": "large_reidhealh_work_0e2e23f17c",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 1000,
+                    "height": 563,
+                    "size": 42.31,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856072/large_reidhealh_work_0e2e23f17c.jpg",
+                    "provider_metadata": {
+                      "public_id": "large_reidhealh_work_0e2e23f17c",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "reidhealh_work_0e2e23f17c",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 83.49,
+                "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856073/reidhealh_work_0e2e23f17c.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "reidhealh_work_0e2e23f17c",
+                  "resource_type": "image"
+                },
+                "createdAt": "2026-10-01T12:01:13.331Z",
+                "updatedAt": "2026-10-01T12:08:43.574Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 37,
+          "headline": "Broward Health - Health Starts Here",
+          "date": "Jul 2024",
+          "url": "https://www.browardhealth.org/",
+          "slug": "browardhealth",
+          "color": "#116dd3",
+          "tech_stack": "- Sitecore XP\n- Next.js\n- React\n- Sitecore JSS\n- Sass / SCSS Microsoft SharePoint\n- SharePoint Framework (SPFx)\n- React\n- Sass / SCSS\n- Gulp\n- Wepack",
+          "my_role": "Trabajé como Full Stack Developer en ambas plataformas, adaptando la arquitectura y el desarrollo frontend a las necesidades técnicas de cada entorno.\n\nPara el sitio público de Broward Health, trabajé con Next.js, React y Sitecore XP, desarrollando componentes reutilizables e integrándolos con el contenido administrado desde Sitecore.\n\nPara la plataforma privada de la organización, trabajé con SharePoint y React, desarrollando funcionalidades e interfaces específicamente para el entorno interno, utilizando una implementación diferente a la arquitectura Next.js utilizada en el sitio público.\nEsto implicó trabajar con dos arquitecturas frontend diferentes dentro de la misma organización, manteniendo consistencia en la experiencia de usuario y adaptándonos a las características de Sitecore y SharePoint.",
+          "key_points": null,
+          "overview": "Broward Health es un sistema de salud público del sur de Florida que ofrece acceso a servicios médicos, especialistas, centros de atención y diferentes recursos para pacientes.\n\nEl proyecto consistió en el desarrollo de dos plataformas digitales independientes con arquitecturas diferentes: un sitio web público desarrollado con Sitecore XP y una plataforma privada para la organización construida sobre Microsoft SharePoint.",
+          "categories": {
+            "id": 37,
+            "web": true,
+            "mobile": false,
+            "cms": true,
+            "design_systems": false,
+            "ai": false,
+            "backend": true,
+            "headless_cms": true,
+            "animations": false
+          },
+          "media": {
+            "data": {
+              "id": 27,
+              "attributes": {
+                "name": "browardhealth-work.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1616,
+                "height": 910,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_browardhealth-work.jpg",
+                    "hash": "thumbnail_browardhealth_work_42640758b4",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 245,
+                    "height": 138,
+                    "size": 6.46,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856067/thumbnail_browardhealth_work_42640758b4.jpg",
+                    "provider_metadata": {
+                      "public_id": "thumbnail_browardhealth_work_42640758b4",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "name": "medium_browardhealth-work.jpg",
+                    "hash": "medium_browardhealth_work_42640758b4",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 750,
+                    "height": 422,
+                    "size": 34.04,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856071/medium_browardhealth_work_42640758b4.jpg",
+                    "provider_metadata": {
+                      "public_id": "medium_browardhealth_work_42640758b4",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "name": "small_browardhealth-work.jpg",
+                    "hash": "small_browardhealth_work_42640758b4",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 500,
+                    "height": 282,
+                    "size": 18.48,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856072/small_browardhealth_work_42640758b4.jpg",
+                    "provider_metadata": {
+                      "public_id": "small_browardhealth_work_42640758b4",
+                      "resource_type": "image"
+                    }
+                  },
+                  "large": {
+                    "name": "large_browardhealth-work.jpg",
+                    "hash": "large_browardhealth_work_42640758b4",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 1000,
+                    "height": 563,
+                    "size": 54.31,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856073/large_browardhealth_work_42640758b4.jpg",
+                    "provider_metadata": {
+                      "public_id": "large_browardhealth_work_42640758b4",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "browardhealth_work_42640758b4",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 105.34,
+                "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790856073/browardhealth_work_42640758b4.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "browardhealth_work_42640758b4",
+                  "resource_type": "image"
+                },
+                "createdAt": "2026-10-01T12:01:14.099Z",
+                "updatedAt": "2026-10-01T12:01:14.099Z"
+              }
+            }
+          }
+        },
+        {
           "id": 30,
           "headline": "Interwell health - Sirviendo Pacientes",
           "date": "Junio 2023",
           "url": "https://interwellhealth.com/",
           "slug": "interwellhealth",
           "color": "#fea480",
-          "tech_stack": "- Next.js\n- React\n- TypeScript\n- Sitecore XM Cloud\n- Sitecore JSS\n- Storybook\n- Tailwind CSS\n- shadcn/ui\n- Vercel\n- Figma\n- Vercel\n- Radix",
+          "tech_stack": "- Next.js\n- React\n- TypeScript\n- Sitecore XM Cloud\n- Sitecore JSS\n- Storybook\n- Tailwind CSS\n- shadcn/ui\n- Figma\n- Vercel\n- Radix",
           "my_role": "Como Frontend Developer, participé en la definición e implementación de la arquitectura frontend utilizando Next.js y Sitecore XM Cloud.\n\nTrabajé directamente con un especialista de Sitecore para comprender la nueva plataforma y adapté un boilerplate personalizado de Next.js para integrarlo correctamente con XM Cloud. También desarrollé plugins e integraciones para cubrir requerimientos específicos de Sitecore, incluyendo el manejo personalizado de páginas de error.\n\nIncorporé Storybook al proyecto para desarrollar componentes de forma independiente mientras el equipo backend trabajaba en los schemas y estructuras de contenido de Sitecore.\n",
           "key_points": "Contribuí a establecer la arquitectura frontend para una de las primeras implementaciones de Sitecore XM Cloud del equipo, trabajando con una plataforma y documentación que todavía se encontraban en evolución.\n\nAdapté una arquitectura personalizada de Next.js y desarrollé plugins e integraciones para asegurar la compatibilidad de la aplicación con Sitecore XM Cloud, incluyendo el manejo personalizado de páginas de error.\n\nIncorporé Storybook para implementar un enfoque de desarrollo basado en componentes, permitiendo avanzar con el frontend de forma independiente mientras el equipo backend desarrollaba los schemas y estructuras de contenido.\n\nDesarrollé componentes reutilizables y experiencias responsive utilizando Tailwind CSS y shadcn/ui, acelerando el desarrollo y manteniendo consistencia entre las diferentes páginas y layouts.\n",
           "overview": "Rediseño y desarrollo del sitio web de Interwell Health utilizando Next.js y Sitecore XM Cloud, con un enfoque en una interfaz moderna, animaciones, componentes reutilizables y una arquitectura flexible basada en contenido.\n\nEl proyecto fue desarrollado durante una etapa temprana de adopción de XM Cloud, cuando la plataforma y su documentación todavía estaban evolucionando, lo que representó un reto técnico importante durante la implementación.\n",
@@ -451,7 +781,7 @@
         },
         {
           "id": 15,
-          "headline": "Criticalmass",
+          "headline": "Hangar Worldwide",
           "date": "Mar 2020",
           "url": " https://hangarworldwide.com/",
           "slug": "hangarworldwide",
@@ -459,7 +789,7 @@
           "tech_stack": "- React\n- Gatsby\n- JavaScript\n- Node.js\n- Contentful\n- CSS\n- Headless CMS\n- Design Systems",
           "my_role": "Como Frontend Developer, trabajé junto al equipo de diseño para transformar la identidad visual en componentes reutilizables y experiencias web interactivas utilizando Gatsby.\n\nImplementé animaciones personalizadas con CSS y JavaScript, integré Contentful para la gestión de contenido y contribuí a definir patrones de frontend que facilitaran la reutilización y consistencia de los componentes.\n",
           "key_points": "Colaboré con el equipo de diseño en la creación de un pequeño design system que incluía componentes reutilizables, tipografía, iconografía, branding, layouts y buenas prácticas de frontend.\n\nDesarrollé componentes reutilizables con Gatsby y animaciones personalizadas utilizando CSS y JavaScript para crear una experiencia visual más dinámica.\n\nIntegré Contentful como headless CMS, separando la gestión del contenido de la presentación y facilitando el mantenimiento y evolución del sitio.\n\nContribuí a establecer una relación consistente entre diseño y desarrollo, creando patrones reutilizables en lugar de desarrollar cada página de forma independiente.\n",
-          "overview": "El sitio web de Criticalmass fue desarrollado con Gatsby como una experiencia digital moderna y orientada al contenido, con un fuerte enfoque en diseño visual, animaciones y componentes reutilizables.\n\nEl proyecto se desarrolló en estrecha colaboración con el equipo de diseño, creando una base visual y técnica consistente que pudiera reutilizarse y evolucionar en diferentes secciones del sitio.\n",
+          "overview": "El sitio web de Hangar Worldwide fue desarrollado con Gatsby como una experiencia digital moderna y orientada al contenido, con un fuerte enfoque en diseño visual, animaciones y componentes reutilizables.\n\nEl proyecto se desarrolló en estrecha colaboración con el equipo de diseño, creando una base visual y técnica consistente que pudiera reutilizarse y evolucionar en diferentes secciones del sitio.\n",
           "categories": {
             "id": 21,
             "web": true,

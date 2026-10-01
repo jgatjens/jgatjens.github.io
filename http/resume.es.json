@@ -13,15 +13,15 @@
       "work_label": " historia de trabajo",
       "academic_label": " educación",
       "createdAt": "2023-10-07T16:18:22.347Z",
-      "updatedAt": "2026-07-18T12:48:39.744Z",
+      "updatedAt": "2026-10-01T11:11:07.272Z",
       "publishedAt": "2023-12-12T02:07:26.508Z",
       "locale": "es",
       "history": [
         {
           "id": 16,
           "company": "zondahome",
-          "job_name": "Senior Software AI Engineer",
-          "date": "Mayo 2025 - Sep 2026",
+          "job_name": "Senior Software Engineer",
+          "date": "Mayo 2025 - Sept 2026",
           "skills": "- Desarrollo y mejora de una plataforma CRM con un fuerte enfoque en ingeniería frontend, experiencia de usuario y arquitectura moderna de aplicaciones web.\n- Creación de funcionalidades frontend escalables y mantenibles utilizando React, Redux y RxJS, implementando patrones de programación reactiva y soluciones eficientes de manejo de estado.\n- Diseño y desarrollo de componentes UI reutilizables, mejorando la consistencia, rendimiento y mantenibilidad de la aplicación.\n- Implementación de nuevas funcionalidades orientadas al usuario basadas en requerimientos del negocio y necesidades de los clientes.\n- Integración y desarrollo de funcionalidades impulsadas por inteligencia artificial (IA) para mejorar las capacidades de la aplicación, automatizar procesos y aumentar la productividad de los usuarios.\n- Colaboración con equipos de producto, diseño e ingeniería para crear experiencias de usuario intuitivas y de alta calidad.\n- Optimización del rendimiento frontend, resolución de problemas complejos de interfaz y mejora de la estabilidad de la aplicación.\n- Participación en decisiones de arquitectura frontend, mejoras de calidad de código y adopción de mejores prácticas de desarrollo.\n- Integración con servicios backend desarrollados en .NET, consumo de APIs y soporte de funcionalidades completas de la aplicación.\n- Participación en todo el ciclo de desarrollo de software, incluyendo planificación, desarrollo, pruebas, despliegue y mejora continua."
         },
         {
@@ -29,7 +29,7 @@
           "company": "mergeworld.com",
           "job_name": "Full Stack Developer",
           "date": "Set 2021 - Apr 2025",
-          "skills": "- Trabajé con ingenieros senior y equipos de producto para construir aplicaciones escalables y centradas en el usuario.\n- Responsable de crear demos y productos completos para clientes.\n- Creación de prototipos de Figma.\n- Integración con sitios web de Sitecore XP y XMCloud.\n- Integración con Microsoft SharePoint.\n- Aplicaciones Ionic.\n- Creación de sistemas de diseño para la integración backend.\n- React, Next.js, Storybook, Node.js.\n- Entornos PC y macOS."
+          "skills": "- Trabajando con un equipo increíble.\n- Responsable de crear demos y productos completos para clientes.\n- Creación de prototipos de Figma.\n- Integración con sitios web de Sitecore XP y XMCloud.\n- Integración con Microsoft SharePoint.\n- Aplicaciones Ionic.\n- Creación de sistemas de diseño para la integración backend.\n- React, Next.js, Storybook, Node.js.\n- Entornos PC y macOS."
         },
         {
           "id": 9,
