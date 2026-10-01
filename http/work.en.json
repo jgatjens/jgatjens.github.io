@@ -5,7 +5,7 @@
       "headline": "Work",
       "description": "See Projects",
       "createdAt": "2023-10-07T16:35:14.941Z",
-      "updatedAt": "2026-10-01T12:56:35.356Z",
+      "updatedAt": "2026-10-01T13:44:24.312Z",
       "publishedAt": "2023-10-08T16:58:12.252Z",
       "locale": "en",
       "items": [
@@ -115,6 +115,116 @@
                 },
                 "createdAt": "2026-09-22T13:43:54.674Z",
                 "updatedAt": "2026-09-22T13:44:05.961Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 39,
+          "headline": "Minati App",
+          "date": "Feb 2026",
+          "url": "https://minatiapp.expo.app/timer",
+          "slug": "minati-gym",
+          "color": "#2E6A39",
+          "tech_stack": "- React Native\n- Expo\n- TypeScript/JavaScript\n- Expo Web\n- AI-Assisted Development",
+          "my_role": "I designed, developed, and deployed the complete application, taking ownership of the project from the initial idea to the finished product.\n\nI created the user experience and visual design, developed the application using React Native and Expo, and used AI-assisted development throughout the process to accelerate implementation, explore solutions, and iterate on the product.\n\nI also handled the cross-platform implementation and deployment, making the application available across web, iOS, and Android.",
+          "key_points": "- Designed and developed the application from concept to deployment.\n- Built with React Native and Expo using a shared cross-platform codebase.\n- Available as a web application and for iOS and Android.\n- Used AI-assisted development throughout the development workflow.\n- Created the complete UI/UX and visual design of the application.\n- Developed configurable timers for work intervals, rest periods, exercises, rounds, and round recovery. minatiapp.expo.app\n- Designed the experience specifically for functional and interval-based training.\n- Managed the application's deployment and release process.",
+          "overview": "Minati Gym Timer is a free cross-platform fitness application designed for functional training and interval-based workouts.\n\nThe app allows users to configure their workout by defining work and rest intervals, number of exercises, rounds, and recovery time between rounds, providing a simple timer experience that can adapt to different training routines. minatiapp.expo.app\n\nBuilt with React Native and Expo, Minati was developed as a cross-platform application that can be used on the web, iOS, and Android from a shared codebase. The project was built using an AI-assisted development workflow, from initial implementation and iteration through testing and refinement.",
+          "categories": {
+            "id": 39,
+            "web": true,
+            "mobile": true,
+            "cms": false,
+            "design_systems": false,
+            "ai": true,
+            "backend": false,
+            "headless_cms": false,
+            "animations": false
+          },
+          "media": {
+            "data": {
+              "id": 29,
+              "attributes": {
+                "name": "minati-gym-work.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1616,
+                "height": 910,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_minati-gym-work.jpg",
+                    "hash": "thumbnail_minati_gym_work_45bd4b0663",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 245,
+                    "height": 138,
+                    "size": 3.37,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790862025/thumbnail_minati_gym_work_45bd4b0663.jpg",
+                    "provider_metadata": {
+                      "public_id": "thumbnail_minati_gym_work_45bd4b0663",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "name": "small_minati-gym-work.jpg",
+                    "hash": "small_minati_gym_work_45bd4b0663",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 500,
+                    "height": 282,
+                    "size": 10.78,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790862025/small_minati_gym_work_45bd4b0663.jpg",
+                    "provider_metadata": {
+                      "public_id": "small_minati_gym_work_45bd4b0663",
+                      "resource_type": "image"
+                    }
+                  },
+                  "large": {
+                    "name": "large_minati-gym-work.jpg",
+                    "hash": "large_minati_gym_work_45bd4b0663",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 1000,
+                    "height": 563,
+                    "size": 43.41,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790862026/large_minati_gym_work_45bd4b0663.jpg",
+                    "provider_metadata": {
+                      "public_id": "large_minati_gym_work_45bd4b0663",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "name": "medium_minati-gym-work.jpg",
+                    "hash": "medium_minati_gym_work_45bd4b0663",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 750,
+                    "height": 422,
+                    "size": 24.24,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790862026/medium_minati_gym_work_45bd4b0663.jpg",
+                    "provider_metadata": {
+                      "public_id": "medium_minati_gym_work_45bd4b0663",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "minati_gym_work_45bd4b0663",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 110.58,
+                "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790862026/minati_gym_work_45bd4b0663.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "minati_gym_work_45bd4b0663",
+                  "resource_type": "image"
+                },
+                "createdAt": "2026-10-01T13:40:27.210Z",
+                "updatedAt": "2026-10-01T13:40:27.210Z"
               }
             }
           }
