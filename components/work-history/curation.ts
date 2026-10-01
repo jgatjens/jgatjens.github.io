@@ -20,12 +20,14 @@ export const jobCurations: JobCuration[] = [
   },
   {
     // mergeworld.com — Full-Stack Engineer
-    displayName: "Merge",
+    displayName: "Mergeworld",
     techTags: ["React", "Next.js", "Storybook", "Node.js", "XM Cloud", "Ionic"],
     relatedWork: [
-      { label: "Elanco Hub", slug: "elancohub" },
+      { label: "UConn Health", slug: "uconn-health" },
+      { label: "BroadHealth", slug: "browardhealth" },
       { label: "Interwell Health", slug: "interwellhealth" },
-      { label: "Raid Health", slug: "raidhelth" },
+      { label: "Reid Health", slug: "reidhealth" },
+      { label: "Elanco Hub", slug: "elancohub" },
     ],
     summaryKey: "work_history_summary_1",
   },
