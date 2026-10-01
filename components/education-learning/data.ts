@@ -24,8 +24,8 @@ export const formalEducation = [
 // Italian/Japanese verified via resume "skills" field ("Currently learning Italian and Japanese").
 // English/Spanish added as contextually-obvious (resume written in English, Costa Rica based) — no specific CEFR levels invented.
 export const languages: { flag: FlagType; nameKey: string; statusKey: string; levelKey: string }[] = [
-  { flag: "it", nameKey: "resume_education_lang_italian", statusKey: "resume_education_status_learning", levelKey: "resume_education_level_learning" },
-  { flag: "jp", nameKey: "resume_education_lang_japanese", statusKey: "resume_education_status_learning", levelKey: "resume_education_level_learning" },
   { flag: "gb", nameKey: "resume_education_lang_english", statusKey: "resume_education_status_working", levelKey: "resume_education_level_professional" },
   { flag: "cr", nameKey: "resume_education_lang_spanish", statusKey: "resume_education_status_native", levelKey: "resume_education_level_native" },
+  { flag: "it", nameKey: "resume_education_lang_italian", statusKey: "resume_education_status_learning", levelKey: "resume_education_level_learning" },
+  { flag: "jp", nameKey: "resume_education_lang_japanese", statusKey: "resume_education_status_learning", levelKey: "resume_education_level_learning" },
 ];

@@ -12,16 +12,20 @@ export const jobCurations: JobCuration[] = [
   {
     // zondahome — Senior Software Engineer
     displayName: "ZondaHome",
-    techTags: ["React", "Redux", "RxJS", ".NET", "AI"],
+    techTags: ["C#", "Redux", "RxJS", ".NET", "AI", "Copilot", "Claude"],
+    relatedWork: [
+      { label: "Search Home Builders", slug: "newhomesource" },
+    ],
     summaryKey: "work_history_summary_0",
   },
   {
     // mergeworld.com — Full-Stack Engineer
     displayName: "Merge",
-    techTags: ["React", "Next.js", "Storybook", "Node.js", "Sitecore XM Cloud", "Ionic"],
+    techTags: ["React", "Next.js", "Storybook", "Node.js", "XM Cloud", "Ionic"],
     relatedWork: [
       { label: "Elanco Hub", slug: "elancohub" },
       { label: "Interwell Health", slug: "interwellhealth" },
+      { label: "Raid Health", slug: "raidhelth" },
     ],
     summaryKey: "work_history_summary_1",
   },
@@ -29,20 +33,33 @@ export const jobCurations: JobCuration[] = [
     // hangarworldwide.com — Lead Frontend Engineer (2020-2021)
     displayName: "Criticalmass",
     techTags: ["Angular", "Storybook", "JavaScript", "Figma"],
-    relatedWork: [{ label: "NI - Solutions from Emerson", slug: "ni" }],
+    relatedWork: [
+      { label: "NI - Solutions from Emerson", slug: "ni" },
+      { label: "Organic - Crazy chicken", slug: "organic" }
+    ],
     summaryKey: "work_history_summary_2",
   },
   {
     // 18techs.com — Full-Stack Engineer
     displayName: "18Techs",
     techTags: ["React Native", "React", "Angular", "Node.js", "Express.js", "D3"],
-    relatedWork: [{ label: "OR Turnover Tracker App", slug: "ortracker-app" }],
+    relatedWork: [
+      { label: "OR Turnover Tracker App", slug: "ortracker-app" },
+      { label: "Land O Frost", slug: "landofrost" },
+    ],
     summaryKey: "work_history_summary_3",
   },
   {
     // hangarworldwide.com — Lead Frontend Engineer (2009-2016)
     displayName: "Criticalmass",
-    techTags: [],
+    techTags: ["SPA", "Wordpress", "PHP", "Drupal", "Jekyll", "Webpack"],
+    relatedWork: [
+      { label: "ArmorAll Redesign", slug: "armorall" },
+      { label: "Hangar Careers", slug: "hangar-careers" },
+      { label: "CafeBritt - Welcome", slug: "cafebritt" },
+      { label: "STP", slug: "stp" },
+      { label: "Criticalmass - The Beginning", slug: "criticalmass" }
+    ],
     summaryKey: "work_history_summary_4",
   },
   {
