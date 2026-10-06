@@ -5,10 +5,120 @@
       "headline": "Work",
       "description": "See Projects",
       "createdAt": "2023-10-07T16:35:14.941Z",
-      "updatedAt": "2026-10-01T13:44:24.312Z",
+      "updatedAt": "2026-10-06T17:07:44.088Z",
       "publishedAt": "2023-10-08T16:58:12.252Z",
       "locale": "en",
       "items": [
+        {
+          "id": 41,
+          "headline": "I Minati Parrucchieri",
+          "date": "Oct 2026",
+          "url": "https://iminatiparrucchieri.com/",
+          "slug": "iminatiparrucchieri",
+          "color": "#000000",
+          "tech_stack": "- React\n- Vite\n- TypeScript\n- Python\n- FastAPI\n- PostgreSQL\n- Supabase\n- Supabase Auth\n- SQLAlchemy\n- Alembic\n- REST APIs\n- AI-Assisted / Agentic Development",
+          "my_role": "I was responsible for the complete product lifecycle, including product definition, UX/UI design, frontend and backend architecture, development, database design, and deployment.\nI designed and developed the public website using React and Vite, with a strong focus on responsive design and the mobile experience.\n\nI also designed the administration platform specifically around how the salon operates day to day, with a mobile-first approach so it can be easily used from a phone.\nFor the backend, I developed a FastAPI/Python API connected to PostgreSQL and authentication through Supabase, keeping a clear separation between the frontend, API, and data layers.\nAI was integrated throughout the development workflow, not as a customer-facing feature, but as an engineering and product-development tool for planning, design exploration, implementation, testing, debugging, and rapid iteration.",
+          "key_points": "Took the project from concept to production in less than two days using an AI-assisted and agentic development workflow.\nDesigned and developed both the public website and custom administration platform.\nCreated the complete UI/UX and responsive design without an existing website or design system to start from.\nBuilt the public frontend using React + Vite.\nDeveloped a mobile-first admin experience for managing salon operations.\nBuilt the backend using Python and FastAPI with a clean API boundary between frontend and data.\nUsed Supabase PostgreSQL and Supabase Auth for application data and authentication.\nImplemented management functionality for clients, appointments, services, products, and inventory.\nDesigned appointment management around real salon workflows, including multiple barbers, multiple services per appointment, availability, and unassigned appointments.\nCreated client profiles that help the business keep track of appointment history, previous services, and products used.\nImplemented role-based access for the administration experience.\nBuilt the platform to work effectively across desktop, tablet, and mobile devices, with particular attention to mobile usage.\nHandled the complete deployment and production launch.",
+          "overview": "I Minati Parrucchieri is a complete digital platform designed and developed for a local hair salon in Italy.\nThe project started without an existing website, established content, or digital design system. I worked from the initial concept through design, development, and production launch, creating both a public-facing website and a mobile-first administration platform for managing the business.",
+          "categories": {
+            "id": 41,
+            "web": true,
+            "mobile": false,
+            "cms": false,
+            "design_systems": false,
+            "ai": true,
+            "backend": true,
+            "headless_cms": false,
+            "animations": false
+          },
+          "media": {
+            "data": {
+              "id": 30,
+              "attributes": {
+                "name": "work-iminatiparrucchieri.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1616,
+                "height": 910,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_work-iminatiparrucchieri.png",
+                    "hash": "thumbnail_work_iminatiparrucchieri_8980bb3ad8",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 138,
+                    "size": 47.02,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1791305628/thumbnail_work_iminatiparrucchieri_8980bb3ad8.png",
+                    "provider_metadata": {
+                      "public_id": "thumbnail_work_iminatiparrucchieri_8980bb3ad8",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "name": "small_work-iminatiparrucchieri.png",
+                    "hash": "small_work_iminatiparrucchieri_8980bb3ad8",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 282,
+                    "size": 167.8,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1791305630/small_work_iminatiparrucchieri_8980bb3ad8.png",
+                    "provider_metadata": {
+                      "public_id": "small_work_iminatiparrucchieri_8980bb3ad8",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "name": "medium_work-iminatiparrucchieri.png",
+                    "hash": "medium_work_iminatiparrucchieri_8980bb3ad8",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 422,
+                    "size": 351.66,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1791305630/medium_work_iminatiparrucchieri_8980bb3ad8.png",
+                    "provider_metadata": {
+                      "public_id": "medium_work_iminatiparrucchieri_8980bb3ad8",
+                      "resource_type": "image"
+                    }
+                  },
+                  "large": {
+                    "name": "large_work-iminatiparrucchieri.png",
+                    "hash": "large_work_iminatiparrucchieri_8980bb3ad8",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 563,
+                    "size": 599.89,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1791305631/large_work_iminatiparrucchieri_8980bb3ad8.png",
+                    "provider_metadata": {
+                      "public_id": "large_work_iminatiparrucchieri_8980bb3ad8",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "work_iminatiparrucchieri_8980bb3ad8",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 345.5,
+                "url": "https://res.cloudinary.com/jgatjens/image/upload/v1791305631/work_iminatiparrucchieri_8980bb3ad8.png",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "work_iminatiparrucchieri_8980bb3ad8",
+                  "resource_type": "image"
+                },
+                "createdAt": "2026-10-06T16:53:51.760Z",
+                "updatedAt": "2026-10-06T16:53:51.760Z"
+              }
+            }
+          }
+        },
         {
           "id": 31,
           "headline": "Search Home Builders",

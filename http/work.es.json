@@ -5,10 +5,120 @@
       "headline": "Projectos",
       "description": "Description",
       "createdAt": "2023-10-07T17:45:33.956Z",
-      "updatedAt": "2026-10-01T13:44:22.120Z",
+      "updatedAt": "2026-10-06T17:07:42.732Z",
       "publishedAt": "2023-12-11T18:38:47.410Z",
       "locale": "es",
       "items": [
+        {
+          "id": 42,
+          "headline": "I Minati Parrucchieri",
+          "date": "Oct 2026",
+          "url": "https://iminatiparrucchieri.com/",
+          "slug": "iminatiparrucchieri",
+          "color": "#000000",
+          "tech_stack": "- React\n- Vite\n- TypeScript\n- Python\n- FastAPI\n- PostgreSQL\n- Supabase\n- Supabase Auth\n- SQLAlchemy\n- Alembic\n- REST APIs\n- AI-Assisted / Agentic Development",
+          "my_role": "Estuve a cargo del ciclo completo del producto, incluyendo definición del producto, UX/UI, arquitectura frontend y backend, desarrollo, diseño de base de datos y despliegue.\nDiseñé y desarrollé el sitio público utilizando React y Vite, con especial atención al diseño responsivo y la experiencia en dispositivos móviles.\n\nTambién diseñé la plataforma administrativa alrededor de las necesidades reales del negocio, utilizando un enfoque mobile-first para que pudiera ser utilizada fácilmente desde un teléfono.\nPara el backend, desarrollé una API con Python y FastAPI, conectada a PostgreSQL y utilizando Supabase para autenticación, manteniendo una separación clara entre frontend, API y datos.\nLa IA fue utilizada durante todo el proceso como una herramienta de ingeniería y desarrollo de producto, ayudando en planificación, exploración de diseño, implementación, pruebas, debugging e iteración rápida.",
+          "key_points": null,
+          "overview": "I Minati Parrucchieri es una plataforma digital completa diseñada y desarrollada para una peluquería en Italia.\nEl proyecto comenzó sin un sitio web, contenido definido ni un sistema de diseño existente. Trabajé desde el concepto inicial hasta el diseño, desarrollo y lanzamiento en producción, creando tanto un sitio web público como una plataforma de administración mobile-first para gestionar el negocio.\n\nEl sitio público presenta el salón, servicios, horarios, ubicación, disponibilidad, preguntas frecuentes e información de contacto mediante una experiencia moderna y completamente responsiva.",
+          "categories": {
+            "id": 42,
+            "web": true,
+            "mobile": false,
+            "cms": false,
+            "design_systems": false,
+            "ai": false,
+            "backend": true,
+            "headless_cms": false,
+            "animations": false
+          },
+          "media": {
+            "data": {
+              "id": 30,
+              "attributes": {
+                "name": "work-iminatiparrucchieri.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1616,
+                "height": 910,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_work-iminatiparrucchieri.png",
+                    "hash": "thumbnail_work_iminatiparrucchieri_8980bb3ad8",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 138,
+                    "size": 47.02,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1791305628/thumbnail_work_iminatiparrucchieri_8980bb3ad8.png",
+                    "provider_metadata": {
+                      "public_id": "thumbnail_work_iminatiparrucchieri_8980bb3ad8",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "name": "small_work-iminatiparrucchieri.png",
+                    "hash": "small_work_iminatiparrucchieri_8980bb3ad8",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 282,
+                    "size": 167.8,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1791305630/small_work_iminatiparrucchieri_8980bb3ad8.png",
+                    "provider_metadata": {
+                      "public_id": "small_work_iminatiparrucchieri_8980bb3ad8",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "name": "medium_work-iminatiparrucchieri.png",
+                    "hash": "medium_work_iminatiparrucchieri_8980bb3ad8",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 422,
+                    "size": 351.66,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1791305630/medium_work_iminatiparrucchieri_8980bb3ad8.png",
+                    "provider_metadata": {
+                      "public_id": "medium_work_iminatiparrucchieri_8980bb3ad8",
+                      "resource_type": "image"
+                    }
+                  },
+                  "large": {
+                    "name": "large_work-iminatiparrucchieri.png",
+                    "hash": "large_work_iminatiparrucchieri_8980bb3ad8",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 563,
+                    "size": 599.89,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1791305631/large_work_iminatiparrucchieri_8980bb3ad8.png",
+                    "provider_metadata": {
+                      "public_id": "large_work_iminatiparrucchieri_8980bb3ad8",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "work_iminatiparrucchieri_8980bb3ad8",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 345.5,
+                "url": "https://res.cloudinary.com/jgatjens/image/upload/v1791305631/work_iminatiparrucchieri_8980bb3ad8.png",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "work_iminatiparrucchieri_8980bb3ad8",
+                  "resource_type": "image"
+                },
+                "createdAt": "2026-10-06T16:53:51.760Z",
+                "updatedAt": "2026-10-06T16:53:51.760Z"
+              }
+            }
+          }
+        },
         {
           "id": 32,
           "headline": "Search Home Builders",
@@ -115,6 +225,116 @@
                 },
                 "createdAt": "2026-09-22T13:43:54.674Z",
                 "updatedAt": "2026-09-22T13:44:05.961Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 40,
+          "headline": "Minati App",
+          "date": "Feb 2026",
+          "url": "https://minatiapp.expo.app/timer",
+          "slug": "minati-gym",
+          "color": "#2E6A39",
+          "tech_stack": "- React Native\n- Expo\n- TypeScript/JavaScript\n- Expo Web\n- AI-Assisted Development",
+          "my_role": "Me encargué del diseño, desarrollo y despliegue completo de la aplicación, llevando el proyecto desde la idea inicial hasta un producto funcional.\n\nDiseñé la experiencia de usuario y la interfaz visual, desarrollé la aplicación utilizando React Native y Expo, y utilicé herramientas de IA durante el proceso de desarrollo para acelerar la implementación, explorar soluciones y mejorar el producto de forma iterativa.\n\nTambién estuve a cargo de la implementación multiplataforma y del despliegue de la aplicación para Web, iOS y Android.",
+          "key_points": "- Diseño y desarrollo de la aplicación desde el concepto hasta su despliegue.\n- Desarrollo con React Native y Expo utilizando una base de código multiplataforma.\n- Aplicación disponible para Web, iOS y Android.\n- Uso de desarrollo asistido por IA durante todo el proceso.\n- Diseño completo de la experiencia de usuario e interfaz visual (UI/UX).\n- Desarrollo de temporizadores configurables para ejercicio, descanso, cantidad de ejercicios, rondas y recuperación entre rondas.\n- Experiencia diseñada específicamente para entrenamiento funcional y rutinas por intervalos.\n- Gestión del despliegue y publicación de la aplicación.",
+          "overview": "Minati Gym Timer es una aplicación gratuita y multiplataforma diseñada para entrenamientos funcionales y rutinas basadas en intervalos.\n\nLa aplicación permite configurar cada entrenamiento definiendo tiempos de ejercicio y descanso, cantidad de ejercicios, rondas y tiempo de recuperación entre rondas, ofreciendo una experiencia sencilla y adaptable a diferentes tipos de entrenamiento.\n\nDesarrollada con React Native y Expo, Minati utiliza una base de código compartida que permite utilizar la aplicación en Web, iOS y Android. El proyecto fue desarrollado utilizando un flujo de trabajo asistido por inteligencia artificial, desde la implementación inicial hasta las diferentes iteraciones y mejoras del producto.",
+          "categories": {
+            "id": 40,
+            "web": true,
+            "mobile": true,
+            "cms": false,
+            "design_systems": false,
+            "ai": true,
+            "backend": false,
+            "headless_cms": false,
+            "animations": false
+          },
+          "media": {
+            "data": {
+              "id": 29,
+              "attributes": {
+                "name": "minati-gym-work.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1616,
+                "height": 910,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_minati-gym-work.jpg",
+                    "hash": "thumbnail_minati_gym_work_45bd4b0663",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 245,
+                    "height": 138,
+                    "size": 3.37,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790862025/thumbnail_minati_gym_work_45bd4b0663.jpg",
+                    "provider_metadata": {
+                      "public_id": "thumbnail_minati_gym_work_45bd4b0663",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "name": "small_minati-gym-work.jpg",
+                    "hash": "small_minati_gym_work_45bd4b0663",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 500,
+                    "height": 282,
+                    "size": 10.78,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790862025/small_minati_gym_work_45bd4b0663.jpg",
+                    "provider_metadata": {
+                      "public_id": "small_minati_gym_work_45bd4b0663",
+                      "resource_type": "image"
+                    }
+                  },
+                  "large": {
+                    "name": "large_minati-gym-work.jpg",
+                    "hash": "large_minati_gym_work_45bd4b0663",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 1000,
+                    "height": 563,
+                    "size": 43.41,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790862026/large_minati_gym_work_45bd4b0663.jpg",
+                    "provider_metadata": {
+                      "public_id": "large_minati_gym_work_45bd4b0663",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "name": "medium_minati-gym-work.jpg",
+                    "hash": "medium_minati_gym_work_45bd4b0663",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 750,
+                    "height": 422,
+                    "size": 24.24,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790862026/medium_minati_gym_work_45bd4b0663.jpg",
+                    "provider_metadata": {
+                      "public_id": "medium_minati_gym_work_45bd4b0663",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "minati_gym_work_45bd4b0663",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 110.58,
+                "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790862026/minati_gym_work_45bd4b0663.jpg",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "minati_gym_work_45bd4b0663",
+                  "resource_type": "image"
+                },
+                "createdAt": "2026-10-01T13:40:27.210Z",
+                "updatedAt": "2026-10-01T13:40:27.210Z"
               }
             }
           }
@@ -2095,116 +2315,6 @@
                 },
                 "createdAt": "2023-10-07T15:49:12.025Z",
                 "updatedAt": "2023-10-07T17:31:18.134Z"
-              }
-            }
-          }
-        },
-        {
-          "id": 40,
-          "headline": "Minati App",
-          "date": "Feb 2026",
-          "url": "https://minatiapp.expo.app/timer",
-          "slug": "minati-gym",
-          "color": "#2E6A39",
-          "tech_stack": "- React Native\n- Expo\n- TypeScript/JavaScript\n- Expo Web\n- AI-Assisted Development",
-          "my_role": "Me encargué del diseño, desarrollo y despliegue completo de la aplicación, llevando el proyecto desde la idea inicial hasta un producto funcional.\n\nDiseñé la experiencia de usuario y la interfaz visual, desarrollé la aplicación utilizando React Native y Expo, y utilicé herramientas de IA durante el proceso de desarrollo para acelerar la implementación, explorar soluciones y mejorar el producto de forma iterativa.\n\nTambién estuve a cargo de la implementación multiplataforma y del despliegue de la aplicación para Web, iOS y Android.",
-          "key_points": "- Diseño y desarrollo de la aplicación desde el concepto hasta su despliegue.\n- Desarrollo con React Native y Expo utilizando una base de código multiplataforma.\n- Aplicación disponible para Web, iOS y Android.\n- Uso de desarrollo asistido por IA durante todo el proceso.\n- Diseño completo de la experiencia de usuario e interfaz visual (UI/UX).\n- Desarrollo de temporizadores configurables para ejercicio, descanso, cantidad de ejercicios, rondas y recuperación entre rondas.\n- Experiencia diseñada específicamente para entrenamiento funcional y rutinas por intervalos.\n- Gestión del despliegue y publicación de la aplicación.",
-          "overview": "Minati Gym Timer es una aplicación gratuita y multiplataforma diseñada para entrenamientos funcionales y rutinas basadas en intervalos.\n\nLa aplicación permite configurar cada entrenamiento definiendo tiempos de ejercicio y descanso, cantidad de ejercicios, rondas y tiempo de recuperación entre rondas, ofreciendo una experiencia sencilla y adaptable a diferentes tipos de entrenamiento.\n\nDesarrollada con React Native y Expo, Minati utiliza una base de código compartida que permite utilizar la aplicación en Web, iOS y Android. El proyecto fue desarrollado utilizando un flujo de trabajo asistido por inteligencia artificial, desde la implementación inicial hasta las diferentes iteraciones y mejoras del producto.",
-          "categories": {
-            "id": 40,
-            "web": true,
-            "mobile": true,
-            "cms": false,
-            "design_systems": false,
-            "ai": true,
-            "backend": false,
-            "headless_cms": false,
-            "animations": false
-          },
-          "media": {
-            "data": {
-              "id": 29,
-              "attributes": {
-                "name": "minati-gym-work.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 1616,
-                "height": 910,
-                "formats": {
-                  "thumbnail": {
-                    "name": "thumbnail_minati-gym-work.jpg",
-                    "hash": "thumbnail_minati_gym_work_45bd4b0663",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 245,
-                    "height": 138,
-                    "size": 3.37,
-                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790862025/thumbnail_minati_gym_work_45bd4b0663.jpg",
-                    "provider_metadata": {
-                      "public_id": "thumbnail_minati_gym_work_45bd4b0663",
-                      "resource_type": "image"
-                    }
-                  },
-                  "small": {
-                    "name": "small_minati-gym-work.jpg",
-                    "hash": "small_minati_gym_work_45bd4b0663",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 500,
-                    "height": 282,
-                    "size": 10.78,
-                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790862025/small_minati_gym_work_45bd4b0663.jpg",
-                    "provider_metadata": {
-                      "public_id": "small_minati_gym_work_45bd4b0663",
-                      "resource_type": "image"
-                    }
-                  },
-                  "large": {
-                    "name": "large_minati-gym-work.jpg",
-                    "hash": "large_minati_gym_work_45bd4b0663",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 1000,
-                    "height": 563,
-                    "size": 43.41,
-                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790862026/large_minati_gym_work_45bd4b0663.jpg",
-                    "provider_metadata": {
-                      "public_id": "large_minati_gym_work_45bd4b0663",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "name": "medium_minati-gym-work.jpg",
-                    "hash": "medium_minati_gym_work_45bd4b0663",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 750,
-                    "height": 422,
-                    "size": 24.24,
-                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790862026/medium_minati_gym_work_45bd4b0663.jpg",
-                    "provider_metadata": {
-                      "public_id": "medium_minati_gym_work_45bd4b0663",
-                      "resource_type": "image"
-                    }
-                  }
-                },
-                "hash": "minati_gym_work_45bd4b0663",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 110.58,
-                "url": "https://res.cloudinary.com/jgatjens/image/upload/v1790862026/minati_gym_work_45bd4b0663.jpg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": {
-                  "public_id": "minati_gym_work_45bd4b0663",
-                  "resource_type": "image"
-                },
-                "createdAt": "2026-10-01T13:40:27.210Z",
-                "updatedAt": "2026-10-01T13:40:27.210Z"
               }
             }
           }
