@@ -5,7 +5,7 @@
       "headline": "Work",
       "description": "See Projects",
       "createdAt": "2023-10-07T16:35:14.941Z",
-      "updatedAt": "2026-10-06T17:07:44.088Z",
+      "updatedAt": "2026-10-09T18:31:31.232Z",
       "publishedAt": "2023-10-08T16:58:12.252Z",
       "locale": "en",
       "items": [
@@ -115,6 +115,116 @@
                 },
                 "createdAt": "2026-10-06T16:53:51.760Z",
                 "updatedAt": "2026-10-06T16:53:51.760Z"
+              }
+            }
+          }
+        },
+        {
+          "id": 43,
+          "headline": "Bruno Gätjens Designer",
+          "date": "Oct 2026",
+          "url": "https://brunogatjens.vercel.app/",
+          "slug": "bruno-gatjens",
+          "color": "#00000",
+          "tech_stack": "- React\n- Next.js\n- TypeScript\n- Figma & Figma MCP\n- ChatGPT & Codex\n- AI-Assisted / Agentic Development\n- CI/CD & Deployment Automation",
+          "my_role": "I managed the entire technical lifecycle, including project architecture, environment setup, development, CI/CD pipeline configuration, and production deployment.\n\nI implemented the responsive interface, reusable components, and project pages while integrating Figma MCP, ChatGPT, and Codex to accelerate development, asset preparation, testing, and iteration.",
+          "key_points": null,
+          "overview": "Bruno Gatjens is a creative portfolio website built from an existing Figma design, featuring responsive layouts, interactive elements, and individual project pages. Developed using ChatGPT, Codex, and Figma MCP, the project demonstrates a rapid AI-assisted design-to-production workflow, with the initial homepage completed in approximately two hours.",
+          "categories": {
+            "id": 43,
+            "web": true,
+            "mobile": false,
+            "cms": false,
+            "design_systems": false,
+            "ai": true,
+            "backend": true,
+            "headless_cms": false,
+            "animations": false
+          },
+          "media": {
+            "data": {
+              "id": 31,
+              "attributes": {
+                "name": "jgatjens-portfolio-preview.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1672,
+                "height": 941,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_jgatjens-portfolio-preview.png",
+                    "hash": "thumbnail_jgatjens_portfolio_preview_f3e1344e46",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 138,
+                    "size": 41.53,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1791570617/thumbnail_jgatjens_portfolio_preview_f3e1344e46.png",
+                    "provider_metadata": {
+                      "public_id": "thumbnail_jgatjens_portfolio_preview_f3e1344e46",
+                      "resource_type": "image"
+                    }
+                  },
+                  "small": {
+                    "name": "small_jgatjens-portfolio-preview.png",
+                    "hash": "small_jgatjens_portfolio_preview_f3e1344e46",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 281,
+                    "size": 144.43,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1791570617/small_jgatjens_portfolio_preview_f3e1344e46.png",
+                    "provider_metadata": {
+                      "public_id": "small_jgatjens_portfolio_preview_f3e1344e46",
+                      "resource_type": "image"
+                    }
+                  },
+                  "medium": {
+                    "name": "medium_jgatjens-portfolio-preview.png",
+                    "hash": "medium_jgatjens_portfolio_preview_f3e1344e46",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 422,
+                    "size": 297.7,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1791570617/medium_jgatjens_portfolio_preview_f3e1344e46.png",
+                    "provider_metadata": {
+                      "public_id": "medium_jgatjens_portfolio_preview_f3e1344e46",
+                      "resource_type": "image"
+                    }
+                  },
+                  "large": {
+                    "name": "large_jgatjens-portfolio-preview.png",
+                    "hash": "large_jgatjens_portfolio_preview_f3e1344e46",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 563,
+                    "size": 501.17,
+                    "url": "https://res.cloudinary.com/jgatjens/image/upload/v1791570617/large_jgatjens_portfolio_preview_f3e1344e46.png",
+                    "provider_metadata": {
+                      "public_id": "large_jgatjens_portfolio_preview_f3e1344e46",
+                      "resource_type": "image"
+                    }
+                  }
+                },
+                "hash": "jgatjens_portfolio_preview_f3e1344e46",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 469.87,
+                "url": "https://res.cloudinary.com/jgatjens/image/upload/v1791570617/jgatjens_portfolio_preview_f3e1344e46.png",
+                "previewUrl": null,
+                "provider": "cloudinary",
+                "provider_metadata": {
+                  "public_id": "jgatjens_portfolio_preview_f3e1344e46",
+                  "resource_type": "image"
+                },
+                "createdAt": "2026-10-09T18:30:17.902Z",
+                "updatedAt": "2026-10-09T18:30:17.902Z"
               }
             }
           }
