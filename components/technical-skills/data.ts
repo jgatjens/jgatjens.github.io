@@ -40,7 +40,7 @@ export const expertiseGroups = [
     icon: IconSparkle,
     titleKey: "resume_skills_group_ai_title",
     descKey: "resume_skills_group_ai_desc",
-    tags: ["AI integration", "AI-powered applications", "Workflow automation", "AI-assisted development"],
+    tags: ["AI integration", "LLM workflows", "AI assistants", "Workflow automation", "AI-powered products"],
   },
   {
     icon: IconWrench,
