@@ -73,12 +73,12 @@ export const WorkHistory = ({ history, lang, t }: WorkHistoryProps) => {
                 <div className="space-y-4">
                     {history?.map((job, i) => {
                         const curation = jobCurations[i] || emptyCuration;
-                        const bullets = job.skills
+                        const bullets: string[] = t[`work_history_bullets_${i}`]?.split("\n") || (job.skills
                             ? job.skills
                                 .split(/\n-\s+/)
                                 .map((s) => s.replace(/^-\s+/, "").replace(/\n/g, " ").trim())
                                 .filter(Boolean)
-                            : [];
+                            : []);
                         const isCurrent = !/[-–]/.test(job.date);
                         const displayDate = isCurrent ? `${job.date} – ${t.work_history_present}` : job.date;
                         const displayName = curation.displayName || job.company;
@@ -88,7 +88,7 @@ export const WorkHistory = ({ history, lang, t }: WorkHistoryProps) => {
                                     {displayDate} — {displayName} — {job.job_name}
                                 </p>
                                 {bullets.length > 0 && (
-                                    <ul className="list-disc pl-4 mt-1 space-y-0.5 print:hidden">
+                                    <ul className="list-disc pl-4 mt-1 space-y-0.5">
                                         {bullets.map((bullet, b) => (
                                             <li key={b}>{bullet}</li>
                                         ))}

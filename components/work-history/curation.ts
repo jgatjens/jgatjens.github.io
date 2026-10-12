@@ -12,7 +12,7 @@ export const jobCurations: JobCuration[] = [
   {
     // zondahome — Senior Software Engineer
     displayName: "ZondaHome",
-    techTags: ["C#", "Redux", "RxJS", ".NET", "AI", "Copilot", "Claude"],
+    techTags: ["JavaScript", "Redux", "RxJS", ".NET APIs", "GitHub Copilot"],
     relatedWork: [
       { label: "Search Home Builders", slug: "newhomesource" },
     ],
@@ -21,10 +21,10 @@ export const jobCurations: JobCuration[] = [
   {
     // mergeworld.com — Full-Stack Engineer
     displayName: "Mergeworld",
-    techTags: ["React", "Next.js", "Storybook", "Node.js", "XM Cloud", "Ionic"],
+    techTags: ["React", "Node.js", "PostgreSQL", "Prisma", "AWS", "Next.js", "Storybook", "XM Cloud", "Ionic", "Contentful"],
     relatedWork: [
       { label: "UConn Health", slug: "uconn-health" },
-      { label: "BroadHealth", slug: "browardhealth" },
+      { label: "Broward Health", slug: "browardhealth" },
       { label: "Interwell Health", slug: "interwellhealth" },
       { label: "Reid Health", slug: "reidhealth" },
       { label: "Elanco Hub", slug: "elancohub" },
@@ -44,7 +44,7 @@ export const jobCurations: JobCuration[] = [
   {
     // 18techs.com — Full-Stack Engineer
     displayName: "18Techs",
-    techTags: ["React Native", "React", "Angular", "Node.js", "Express.js", "D3"],
+    techTags: ["React Native", "Node.js", "MySQL", "AWS", "React", "Angular", "Express.js", "Jasmine"],
     relatedWork: [
       { label: "OR Turnover Tracker App", slug: "ortracker-app" },
       { label: "Land O Frost", slug: "landofrost" },
@@ -54,7 +54,7 @@ export const jobCurations: JobCuration[] = [
   {
     // hangarworldwide.com — Lead Frontend Engineer (2009-2016)
     displayName: "Criticalmass",
-    techTags: ["SPA", "Wordpress", "PHP", "Drupal", "Jekyll", "Webpack"],
+    techTags: ["Node.js", "MongoDB", "WordPress", "Drupal", "Jekyll", "Webpack"],
     relatedWork: [
       { label: "ArmorAll Redesign", slug: "armorall" },
       { label: "Hangar Careers", slug: "hangar-careers" },

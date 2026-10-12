@@ -13,6 +13,18 @@ export const coreStack: { name: string; badge: TechBadgeType; descriptorKey: str
 
 export const expertiseGroups = [
   {
+    icon: IconDatabase,
+    titleKey: "resume_skills_group_auth_title",
+    descKey: "resume_skills_group_auth_desc",
+    tags: ["Supabase Auth", "NextAuth", "Supabase"],
+  },
+  {
+    icon: IconLayers,
+    titleKey: "resume_skills_group_cloud_title",
+    descKey: "resume_skills_group_cloud_desc",
+    tags: ["AWS", "Serverless", "Docker", "Vercel", "DigitalOcean", "CI/CD"],
+  },
+  {
     icon: IconCode,
     titleKey: "resume_skills_group_frontend_title",
     descKey: "resume_skills_group_frontend_desc",
@@ -22,7 +34,7 @@ export const expertiseGroups = [
     icon: IconDatabase,
     titleKey: "resume_skills_group_backend_title",
     descKey: "resume_skills_group_backend_desc",
-    tags: ["Node.js", ".NET", "GraphQL", "REST APIs", "PostgreSQL", "MySQL", "MongoDB"],
+    tags: ["Node.js", "REST APIs", "GraphQL", "PostgreSQL", "MySQL", "MongoDB", "Prisma", "Python", "FastAPI", "SQLAlchemy", "Alembic"],
   },
   {
     icon: IconLayers,
@@ -40,12 +52,12 @@ export const expertiseGroups = [
     icon: IconSparkle,
     titleKey: "resume_skills_group_ai_title",
     descKey: "resume_skills_group_ai_desc",
-    tags: ["AI integration", "LLM workflows", "AI assistants", "Workflow automation", "AI-powered products"],
+    tags: ["Codex", "ChatGPT", "GitHub Copilot", "Figma MCP"],
   },
   {
     icon: IconWrench,
     titleKey: "resume_skills_group_tooling_title",
     descKey: "resume_skills_group_tooling_desc",
-    tags: ["Vite", "Webpack", "Gulp", "Grunt", "Docker", "WCAG AA", "SEO", "Figma", "Adobe XD", "Sketch", "Photoshop"],
+    tags: ["Vite", "Webpack", "Jasmine", "WCAG AA", "SEO", "Figma", "Adobe XD", "Sketch", "Photoshop"],
   },
 ];

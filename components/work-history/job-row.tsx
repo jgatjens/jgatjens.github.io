@@ -32,12 +32,12 @@ export const JobRow = ({
     lang,
     t,
 }: JobRowProps) => {
-    const bullets = skills
+    const bullets: string[] = t[`work_history_bullets_${index}`]?.split("\n") || (skills
         ? skills
             .split(/\n-\s+/)
             .map((s) => s.replace(/^-\s+/, "").replace(/\n/g, " ").trim())
             .filter(Boolean)
-        : [];
+        : []);
     const isCurrent = !/[-–]/.test(date);
     const displayDate = isCurrent ? `${date} – ${t.work_history_present}` : date;
     const displayName = curation.displayName || company;

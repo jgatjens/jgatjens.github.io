@@ -20,7 +20,7 @@ export const Default: Story = {
     },
     headline: "Jairo Gätjens",
     location: "Santa Teresa, Costa Rica",
-    description: "Experienced Software Developer based in Costa Rica.",
+    description: "Senior Full Stack Engineer based in Costa Rica.",
     button: {
       label: "hire me",
       link: "mailto:jgatjens@gmail.com",
