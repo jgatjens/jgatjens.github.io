@@ -37,7 +37,7 @@ export default function BlogPage({ params: { lang } }: BlogPageProps) {
   const post = getPost(lang);
 
   return (
-    <article className="mx-auto max-w-[768px] px-6 pb-20 pt-28 md:pb-24 md:pt-36">
+    <article className="mx-auto max-w-5xl px-6 pb-20 pt-28 md:px-0 md:pb-24 md:pt-36">
       <header>
         <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-purple">
           Blog
@@ -52,7 +52,7 @@ export default function BlogPage({ params: { lang } }: BlogPageProps) {
       <Image
         src={cover}
         alt={post.imageAlt}
-        sizes="(max-width: 768px) calc(100vw - 48px), 720px"
+        sizes="(max-width: 767px) calc(100vw - 48px), (max-width: 1023px) 100vw, 1024px"
         className="mt-8 h-auto w-full rounded-lg"
         placeholder="blur"
       />
