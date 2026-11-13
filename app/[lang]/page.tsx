@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { aiWorkflowPath, aiWorkflowPost } from "@/utils/ai-workflow-post";
 import type { Locale } from "@/i18n-config";
 import { Suspense } from "react";
 import { getData } from "@/http/get-data";
@@ -40,7 +42,7 @@ export default async function Page({ params }: { params: { lang: Locale } }) {
   const media = profile.media?.data.attributes as MediaProps;
 
   return (
-    <section className="flex items-center justify-center h-full pt-20 md:pt-24">
+    <section className="flex items-center justify-center h-full flex-col pb-8 pt-20 md:pt-24">
       <Suspense>
         <Stars3D />
       </Suspense>
@@ -54,6 +56,12 @@ export default async function Page({ params }: { params: { lang: Locale } }) {
           button={{ label: hireMe.text, link: hireMe.url }}
         />
       )}
+      <Link
+        href={`/${params.lang}${aiWorkflowPath}`}
+        className="mx-6 mt-2 text-center text-sm font-semibold text-purple underline underline-offset-4"
+      >
+        {aiWorkflowPost[params.lang].title} <span aria-hidden="true">→</span>
+      </Link>
     </section>
   );
 }
